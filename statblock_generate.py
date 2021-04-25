@@ -1,6 +1,7 @@
 import csv
 from sys import argv
 import pyperclip
+from varname import nameof
 
 TEMPLATE = "___\n\
 > ## %s\n\
@@ -10,7 +11,7 @@ TEMPLATE = "___\n\
 > - **Hit Points** %s\n\
 > - **Speed** %s\n\
 >___\n\
->|STR|DEX|CON|INT|WIS|CHA|\n\
+>|STR|Dex|Con|INT|Wis|Cha|\n\
 >|:---:|:---:|:---:|:---:|:---:|:---:|\n\
 >|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|\n\
 >___\n\
@@ -19,7 +20,7 @@ TEMPLATE = "___\n\
 > - **Damage Vulnerabilities** damage_vulnerabilities\n\
 > - **Damage Resistances** Resistances\n\
 > - **Damage Immunities** Damage_Immunities\n\
-> - **Condition Immunities** condition_Immunities\n\
+> - **Condition Immunities** Condition_Immunities\n\
 > - **Senses** %s\n\
 > - **Languages** %s\n\
 > - **Challenge** %s (%s XP)\n\
@@ -75,6 +76,19 @@ XP_BY_CR = {
 def get_mod(stat: str) -> str:
     return (ABILITY_MODIFIERS[int(stat)])
 
+def get_saving_throw(nicename, value, proficiency):
+    print(locals())
+    return "%s +%s" % (nicename, int(get_mod(value)) + proficiency)
+
+def get_saving_throws(throws: str, Str, Dex, Con, Int, Wis, Cha) -> str:
+    modifiers = locals();
+    proficiency = 4
+    saving_throws = [];
+    for throw in throws.split(", "):
+        saving_throws.append(get_saving_throw(throw, modifiers[throw], proficiency))
+
+    return ", ".join(saving_throws)
+
 
 def main():
     target_monster = None
@@ -92,14 +106,15 @@ def main():
 
     for row in reader:
         if row[0] == target_monster:
-            name, size, monster_type, align, ac, hp, speeds, strength, dex, con, intel, wis, cha, saving_throws, skills, wri, senses, languages, cr, additional, font, additional_info, author = row
-            formatted_string = TEMPLATE % (name, size, monster_type, align, ac, hp, speeds, strength, get_mod(strength), dex, get_mod(dex), con, get_mod(
-                con), intel, get_mod(intel), wis, get_mod(wis), cha, get_mod(cha), saving_throws, skills, senses, languages, cr, XP_BY_CR[cr])
+            name, size, monster_type, align, ac, hp, speeds, Str, Dex, Con, Int, Wis, Cha, saving_throws, skills, wri, senses, languages, cr, additional, font, additional_info, author = row
+            formatted_string = TEMPLATE % (name, size, monster_type, align, ac, hp, speeds, 
+                Str, get_mod(Str), Dex, get_mod(Dex), Con, get_mod(Con), Int, get_mod(Int), Wis, get_mod(Wis), Cha, get_mod(Cha), 
+                get_saving_throws(saving_throws, Str, Dex, Con, Int, Wis, Cha),
+                skills, senses, languages, cr, XP_BY_CR[cr])
 
             print(formatted_string)
             pyperclip.copy(formatted_string)
-
-            exit()
+            return
 
 
 print("Monster not found.")
