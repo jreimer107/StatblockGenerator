@@ -4,6 +4,8 @@ from ctypes.wintypes import CHAR
 
 import pyperclip
 
+CSV_NAME = "monsterData.csv"
+
 TEMPLATE = """___
 > ## %s
 >*%s %s, %s*
@@ -51,10 +53,14 @@ CHARISMA = "CHA"
 SAVING_THROWS = "Sav. throws"
 SKILLS = "Skills"
 WRI = "WRI"
+WEAKNESSES = "Weaknesses"
+RESISTANCES = "Resistances"
+IMMUNITIES = "Immunities"
 SENSES = "Senses"
 LANGUAGES = "Languages"
 CHALLENGE_RATING = "CR"
 ADDITIONAL = "Additional"
+SOURCE = "Source"
 
 HEADERS = [
     NAME,
@@ -72,11 +78,14 @@ HEADERS = [
     CHARISMA,
     SAVING_THROWS,
     SKILLS,
-    WRI,
+    WEAKNESSES,
+    RESISTANCES,
+    IMMUNITIES,
     SENSES,
     LANGUAGES,
     CHALLENGE_RATING,
     ADDITIONAL,
+    SOURCE
 ]
 
 STATS = [STRENGTH, DEXTERITY, CONSTITUTION, INTELLIGENCE, WISDOM, CHARISMA]
@@ -229,13 +238,12 @@ def main():
 
     data_row = None
     try:
-        with open("monsterData.csv", "r") as file:
+        with open(CSV_NAME, "r") as file:
             reader = csv.DictReader(file)
             for row in reader:
                 if row[NAME] == target_monster:
                     data_row = row
                     break
-
     except FileNotFoundError:
         print("ERROR: CSV not found.")
         exit(1)
