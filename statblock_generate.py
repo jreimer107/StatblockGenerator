@@ -15,7 +15,7 @@ TEMPLATE = """___
 >|STR|Dex|Con|INT|Wis|Cha|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|
->___n
+>___
 > - **Saving Throws** %s
 > - **Skills** %s
 > - **Damage Vulnerabilities** damage_vulnerabilities
