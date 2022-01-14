@@ -1,5 +1,6 @@
 import csv
 from argparse import ArgumentParser
+from ctypes.wintypes import CHAR
 
 import pyperclip
 
@@ -77,6 +78,8 @@ HEADERS = [
     CHALLENGE_RATING,
     ADDITIONAL,
 ]
+
+STATS = [STRENGTH, DEXTERITY, CONSTITUTION, INTELLIGENCE, WISDOM, CHARISMA]
 
 ABILITY_MODIFIERS = [
     "-5",
@@ -163,8 +166,10 @@ def get_saving_throws(throws: str, modifiers: list) -> str:
     saving_throws = []
     if not throws:
         return ""
+
     for throw in throws.split(", "):
-        saving_throws.append(get_saving_throw(throw, modifiers[throw], proficiency))
+        modifier = modifiers[STATS.index(throw.upper())]
+        saving_throws.append(get_saving_throw(throw, modifier, proficiency))
 
     return ", ".join(saving_throws)
 
@@ -230,7 +235,7 @@ def main():
                 if row[NAME] == target_monster:
                     data_row = row
                     break
-            
+
     except FileNotFoundError:
         print("ERROR: CSV not found.")
         exit(1)
@@ -238,11 +243,10 @@ def main():
     if not data_row:
         print("Monster not found.")
         return
-    
+
     formatted_string = format_data(row)
     print(formatted_string)
     pyperclip.copy(formatted_string)
-
 
 
 if __name__ == "__main__":
