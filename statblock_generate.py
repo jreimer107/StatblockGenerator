@@ -1,40 +1,117 @@
 import csv
-from sys import argv
+from argparse import ArgumentParser
+
 import pyperclip
-from varname import nameof
 
-TEMPLATE = "___\n\
-> ## %s\n\
->*%s %s, %s*\n\
-> ___\n\
-> - **Armor Class** %s\n\
-> - **Hit Points** %s\n\
-> - **Speed** %s\n\
->___\n\
->|STR|Dex|Con|INT|Wis|Cha|\n\
->|:---:|:---:|:---:|:---:|:---:|:---:|\n\
->|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|\n\
->___\n\
-> - **Saving Throws** %s\n\
-> - **Skills** %s\n\
-> - **Damage Vulnerabilities** damage_vulnerabilities\n\
-> - **Damage Resistances** Resistances\n\
-> - **Damage Immunities** Damage_Immunities\n\
-> - **Condition Immunities** Condition_Immunities\n\
-> - **Senses** %s\n\
-> - **Languages** %s\n\
-> - **Challenge** %s (%s XP)\n\
-> ___\n\
->\n\
-> ### Actions\n\
-> ***Multiattack.*** The Creature Name makes Number and type of attacks\n\
->\n\
-> ***Ability Description.*** *Attack Style:* Attack Bonus to hit, Reach/Range, one target. *Hit:* Damage Damage Type damage\n\
->\n\
-> ***General Ability Description.*** General Attack Description"
+TEMPLATE = """___
+> ## %s
+>*%s %s, %s*
+> ___
+> - **Armor Class** %s
+> - **Hit Points** %s
+> - **Speed** %s
+>___n
+>|STR|Dex|Con|INT|Wis|Cha|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|
+>___n
+> - **Saving Throws** %s
+> - **Skills** %s
+> - **Damage Vulnerabilities** damage_vulnerabilities
+> - **Damage Resistances** Resistances
+> - **Damage Immunities** Damage_Immunities
+> - **Condition Immunities** Condition_Immunities
+> - **Senses** %s
+> - **Languages** %s
+> - **Challenge** %s (%s XP)
+> ___
+>
+> ### Actions
+> ***Multiattack.*** The Creature Name makes Number and type of attacks
+>
+> ***Ability Description.*** *Attack Style:* Attack Bonus to hit, Reach/Range, one target. *Hit:* Damage Damage Type damage
+>
+> ***General Ability Description.*** General Attack Description
+"""
 
-ABILITY_MODIFIERS = ["-5", "-5", "-4", "-4", "-3", "-3", "-2", "-2", "-1", "-1", "+0", "+0", "+1", "+1",
-                     "+2", "+2", "+3", "+3", "+4", "+4", "+5", "+5", "+6", "+6", "+7", "+7", "+8", "+8", "+9", "+9", "+10"]
+NAME = "Name"
+SIZE = "Size"
+TYPE = "Type"
+ALIGNMENT = "Align."
+ARMOR_CLASS = "AC"
+HIT_POINTS = "HP"
+SPEEDS = "Speeds"
+STRENGTH = "STR"
+DEXTERITY = "DEX"
+CONSTITUTION = "CON"
+INTELLIGENCE = "INT"
+WISDOM = "WIS"
+CHARISMA = "CHA"
+SAVING_THROWS = "Sav. throws"
+SKILLS = "Skills"
+WRI = "WRI"
+SENSES = "Senses"
+LANGUAGES = "Languages"
+CHALLENGE_RATING = "CR"
+ADDITIONAL = "Additional"
+
+HEADERS = [
+    NAME,
+    SIZE,
+    TYPE,
+    ALIGNMENT,
+    ARMOR_CLASS,
+    HIT_POINTS,
+    SPEEDS,
+    STRENGTH,
+    DEXTERITY,
+    CONSTITUTION,
+    INTELLIGENCE,
+    WISDOM,
+    CHARISMA,
+    SAVING_THROWS,
+    SKILLS,
+    WRI,
+    SENSES,
+    LANGUAGES,
+    CHALLENGE_RATING,
+    ADDITIONAL,
+]
+
+ABILITY_MODIFIERS = [
+    "-5",
+    "-5",
+    "-4",
+    "-4",
+    "-3",
+    "-3",
+    "-2",
+    "-2",
+    "-1",
+    "-1",
+    "+0",
+    "+0",
+    "+1",
+    "+1",
+    "+2",
+    "+2",
+    "+3",
+    "+3",
+    "+4",
+    "+4",
+    "+5",
+    "+5",
+    "+6",
+    "+6",
+    "+7",
+    "+7",
+    "+8",
+    "+8",
+    "+9",
+    "+9",
+    "+10",
+]
+
 XP_BY_CR = {
     "0": "10",
     "1/8": "25",
@@ -69,55 +146,104 @@ XP_BY_CR = {
     "27": "105,000",
     "28": "120,000",
     "29": "135,000",
-    "30": "155,000"
+    "30": "155,000",
 }
 
 
 def get_mod(stat: str) -> str:
-    return (ABILITY_MODIFIERS[int(stat)])
+    return ABILITY_MODIFIERS[int(stat)]
+
 
 def get_saving_throw(nicename, value, proficiency):
-    print(locals())
     return "%s +%s" % (nicename, int(get_mod(value)) + proficiency)
 
-def get_saving_throws(throws: str, Str, Dex, Con, Int, Wis, Cha) -> str:
-    modifiers = locals();
+
+def get_saving_throws(throws: str, modifiers: list) -> str:
     proficiency = 4
-    saving_throws = [];
+    saving_throws = []
+    if not throws:
+        return ""
     for throw in throws.split(", "):
         saving_throws.append(get_saving_throw(throw, modifiers[throw], proficiency))
 
     return ", ".join(saving_throws)
 
 
+def format_data(row):
+    strength = row[STRENGTH]
+    dexterity = row[DEXTERITY]
+    constitution = row[CONSTITUTION]
+    intelligence = row[INTELLIGENCE]
+    wisdom = row[WISDOM]
+    charisma = row[CHARISMA]
+
+    formatted_string = TEMPLATE % (
+        row[NAME],
+        row[SIZE],
+        row[TYPE],
+        row[ALIGNMENT],
+        row[ARMOR_CLASS],
+        row[HIT_POINTS],
+        row[SPEEDS],
+        strength,
+        get_mod(strength),
+        dexterity,
+        get_mod(dexterity),
+        constitution,
+        get_mod(constitution),
+        intelligence,
+        get_mod(intelligence),
+        wisdom,
+        get_mod(wisdom),
+        charisma,
+        get_mod(charisma),
+        get_saving_throws(
+            row[SAVING_THROWS],
+            [strength, dexterity, constitution, intelligence, wisdom, charisma],
+        ),
+        row[SKILLS],
+        row[SENSES],
+        row[LANGUAGES],
+        row[CHALLENGE_RATING],
+        XP_BY_CR[row[CHALLENGE_RATING]],
+    )
+    return formatted_string
+
+
 def main():
-    target_monster = None
-    if len(argv) >= 2:
-        target_monster = argv[1]
-    else:
+    parser = ArgumentParser(
+        prog="Generate Stat Block",
+        description="Given a monster/NPC name, generates a GMBinder stat block. Prints the stat block and copies it to clipboard.",
+    )
+    parser.add_argument("monster_name", type=str, help="The monster's name.")
+    args = parser.parse_args()
+
+    target_monster = args.monster_name
+    if not target_monster:
         target_monster = input("Enter a monster name: ")
 
-    reader = None
+    data_row = None
     try:
-        reader = csv.reader(open("monsterData.csv", "r"))
+        with open("monsterData.csv", "r") as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                if row[NAME] == target_monster:
+                    data_row = row
+                    break
+            
     except FileNotFoundError:
         print("ERROR: CSV not found.")
         exit(1)
 
-    for row in reader:
-        if row[0] == target_monster:
-            name, size, monster_type, align, ac, hp, speeds, Str, Dex, Con, Int, Wis, Cha, saving_throws, skills, wri, senses, languages, cr, additional, font, additional_info, author = row
-            formatted_string = TEMPLATE % (name, size, monster_type, align, ac, hp, speeds, 
-                Str, get_mod(Str), Dex, get_mod(Dex), Con, get_mod(Con), Int, get_mod(Int), Wis, get_mod(Wis), Cha, get_mod(Cha), 
-                get_saving_throws(saving_throws, Str, Dex, Con, Int, Wis, Cha),
-                skills, senses, languages, cr, XP_BY_CR[cr])
-
-            print(formatted_string)
-            pyperclip.copy(formatted_string)
-            return
+    if not data_row:
+        print("Monster not found.")
+        return
+    
+    formatted_string = format_data(row)
+    print(formatted_string)
+    pyperclip.copy(formatted_string)
 
 
-print("Monster not found.")
 
 if __name__ == "__main__":
     main()
