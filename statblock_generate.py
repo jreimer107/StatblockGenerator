@@ -13,7 +13,7 @@ TEMPLATE = """___
 > - **Armor Class** %s
 > - **Hit Points** %s
 > - **Speed** %s
->___n
+>___
 >|STR|Dex|Con|INT|Wis|Cha|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|
