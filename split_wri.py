@@ -3,7 +3,7 @@ import re
 
 from statblock_generate import *
 
-DELIMITER = ", "
+WRI = "WRI"
 
 
 def find_wri(wri, pattern):
@@ -13,7 +13,6 @@ def find_wri(wri, pattern):
     return match.group(1)
 
 
-reader = csv.DictReader(open(CSV_NAME, "r"))
 with open(CSV_NAME, "r") as file:
     reader = csv.DictReader(file)
     with open("new.csv", "w", newline="") as file:

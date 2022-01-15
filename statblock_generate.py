@@ -1,14 +1,14 @@
 import csv
 from argparse import ArgumentParser
-from ctypes.wintypes import CHAR
 
 import pyperclip
 
 CSV_NAME = "monsterData.csv"
+DELIMITER = ", "
 
 TEMPLATE = """___
 > ## %s
->*%s %s, %s*
+> *%s %s, %s*
 > ___
 > - **Armor Class** %s
 > - **Hit Points** %s
@@ -18,14 +18,7 @@ TEMPLATE = """___
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|
 >___
-> - **Saving Throws** %s
-> - **Skills** %s
-> - **Damage Vulnerabilities** damage_vulnerabilities
-> - **Damage Resistances** Resistances
-> - **Damage Immunities** Damage_Immunities
-> - **Condition Immunities** Condition_Immunities
-> - **Senses** %s
-> - **Languages** %s
+%s
 > - **Challenge** %s (%s XP)
 > ___
 >
@@ -52,10 +45,10 @@ WISDOM = "WIS"
 CHARISMA = "CHA"
 SAVING_THROWS = "Sav. throws"
 SKILLS = "Skills"
-WRI = "WRI"
 WEAKNESSES = "Weaknesses"
 RESISTANCES = "Resistances"
-IMMUNITIES = "Immunities"
+DAMAGE_IMMUNITIES = "Damage Immunities"
+CONDITION_IMMUNITIES = "Condition Immunities"
 SENSES = "Senses"
 LANGUAGES = "Languages"
 CHALLENGE_RATING = "CR"
@@ -80,12 +73,13 @@ HEADERS = [
     SKILLS,
     WEAKNESSES,
     RESISTANCES,
-    IMMUNITIES,
+    DAMAGE_IMMUNITIES,
+    CONDITION_IMMUNITIES,
     SENSES,
     LANGUAGES,
     CHALLENGE_RATING,
     ADDITIONAL,
-    SOURCE
+    SOURCE,
 ]
 
 STATS = [STRENGTH, DEXTERITY, CONSTITUTION, INTELLIGENCE, WISDOM, CHARISMA]
@@ -161,6 +155,8 @@ XP_BY_CR = {
     "30": "155,000",
 }
 
+proficiency = 4
+
 
 def get_mod(stat: str) -> str:
     return ABILITY_MODIFIERS[int(stat)]
@@ -170,17 +166,60 @@ def get_saving_throw(nicename, value, proficiency):
     return "%s +%s" % (nicename, int(get_mod(value)) + proficiency)
 
 
-def get_saving_throws(throws: str, modifiers: list) -> str:
-    proficiency = 4
-    saving_throws = []
+def get_saving_throws(data: dict) -> str:
+    throws = data[SAVING_THROWS]
     if not throws:
         return ""
 
+    saving_throws = []
     for throw in throws.split(", "):
-        modifier = modifiers[STATS.index(throw.upper())]
+        modifier = data[throw.upper()]
         saving_throws.append(get_saving_throw(throw, modifier, proficiency))
 
     return ", ".join(saving_throws)
+
+
+def get_detail_block(data: dict):
+    # > - **Saving Throws** %s
+    # > - **Skills** %s
+    # > - **Damage Vulnerabilities** damage_vulnerabilities
+    # > - **Damage Resistances** Resistances
+    # > - **Damage Immunities** Damage_Immunities
+    # > - **Condition Immunities** Condition_Immunities
+    # > - **Senses** %s
+    # > - **Languages** %s
+    ret = ""
+    saving_throws = get_saving_throws(data)
+    if saving_throws:
+        ret += f"> - **Saving Throws** {saving_throws}\n"
+
+    if data[WEAKNESSES]:
+        ret += f"> - **Damage Vulnerabilities** {data[WEAKNESSES]}\n"
+
+    resistances = data[RESISTANCES]
+    if resistances:
+        ret += f"> - **Damage Resistances** {resistances}\n"
+
+    damage_immunities = data[DAMAGE_IMMUNITIES]
+    if damage_immunities:
+        ret += f"> - **Damage Immunities** {damage_immunities}\n"
+
+    condition_immunitites = data[CONDITION_IMMUNITIES]
+    if condition_immunitites:
+        ret += f"> - **Condition Immunities** {condition_immunitites}\n"
+
+    passive_perception = f"passive Perception {10 + int(get_mod(data[WISDOM]))}"
+    senses = DELIMITER.join([data[SENSES], passive_perception])
+    ret += f"> - **Senses** {senses}\n"
+
+    languages = data[LANGUAGES]
+    ret += "> - **Languages** "
+    if languages:
+        ret += f"{languages}"
+    else:
+        ret += "--"
+
+    return ret
 
 
 def format_data(row):
@@ -211,13 +250,7 @@ def format_data(row):
         get_mod(wisdom),
         charisma,
         get_mod(charisma),
-        get_saving_throws(
-            row[SAVING_THROWS],
-            [strength, dexterity, constitution, intelligence, wisdom, charisma],
-        ),
-        row[SKILLS],
-        row[SENSES],
-        row[LANGUAGES],
+        get_detail_block(row),
         row[CHALLENGE_RATING],
         XP_BY_CR[row[CHALLENGE_RATING]],
     )
