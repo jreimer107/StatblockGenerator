@@ -13,10 +13,10 @@ def find_wri(wri, pattern):
     return match.group(1)
 
 
-with open(CSV_NAME, "r") as file:
+with open(DATA_CSV, "r") as file:
     reader = csv.DictReader(file)
     with open("new.csv", "w", newline="") as file:
-        writer = csv.DictWriter(file, HEADERS, quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writer = csv.DictWriter(file, DATA_HEADERS, quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writeheader()
         for row in reader:
             wri_col = row[WRI]

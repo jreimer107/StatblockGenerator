@@ -1,9 +1,11 @@
 import csv
 from argparse import ArgumentParser
+from pyexpat import features
 
 import pyperclip
 
-CSV_NAME = "monsterData.csv"
+DATA_CSV = "monsterData.csv"
+FEATURES_CSV = "Creature Features.csv"
 DELIMITER = ", "
 
 TEMPLATE = """___
@@ -14,7 +16,7 @@ TEMPLATE = """___
 > - **Hit Points** %s
 > - **Speed** %s
 >___
->|STR|Dex|Con|INT|Wis|Cha|
+>|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|%s (%s)|
 >___
@@ -22,6 +24,7 @@ TEMPLATE = """___
 > - **Challenge** %s (%s XP)
 > ___
 >
+%s
 > ### Actions
 > ***Multiattack.*** The Creature Name makes Number and type of attacks
 >
@@ -30,6 +33,7 @@ TEMPLATE = """___
 > ***General Ability Description.*** General Attack Description
 """
 
+# Data Headers
 NAME = "Name"
 SIZE = "Size"
 TYPE = "Type"
@@ -52,10 +56,10 @@ CONDITION_IMMUNITIES = "Condition Immunities"
 SENSES = "Senses"
 LANGUAGES = "Languages"
 CHALLENGE_RATING = "CR"
-ADDITIONAL = "Additional"
+FEATURES = "Features"
 SOURCE = "Source"
 
-HEADERS = [
+DATA_HEADERS = [
     NAME,
     SIZE,
     TYPE,
@@ -78,9 +82,12 @@ HEADERS = [
     SENSES,
     LANGUAGES,
     CHALLENGE_RATING,
-    ADDITIONAL,
+    FEATURES,
     SOURCE,
 ]
+
+# Feature headers
+DESCRIPTION = "Description"
 
 STATS = [STRENGTH, DEXTERITY, CONSTITUTION, INTELLIGENCE, WISDOM, CHARISMA]
 
@@ -156,6 +163,7 @@ XP_BY_CR = {
 }
 
 proficiency = 4
+FEATURES_LIST = {}
 
 
 def get_mod(stat: str) -> str:
@@ -222,6 +230,40 @@ def get_detail_block(data: dict):
     return ret
 
 
+def build_features_list():
+    global FEATURES_LIST
+
+    with open(FEATURES_CSV, "r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            FEATURES_LIST[row[NAME]] = row
+
+
+def get_feature_block(row: dict) -> str:
+    features = row[FEATURES]
+    if not features:
+        return ""
+
+    features = features.split(DELIMITER)
+    if not len(FEATURES_LIST):
+        build_features_list()
+        print(len(FEATURES_LIST))
+
+    ret = ""
+    creature_name = row[NAME]
+    for feature in features:
+        if feature not in FEATURES_LIST:
+            print(f"Feature {feature} not in feature table.")
+            ret += f"> ***{feature}.***\n>"
+            continue
+
+        description: str = FEATURES_LIST[feature][DESCRIPTION]
+        description = description.replace("$", creature_name.lower())
+        ret += f"> ***{feature}.*** {description}\n>"
+
+    return ret
+
+
 def format_data(row):
     strength = row[STRENGTH]
     dexterity = row[DEXTERITY]
@@ -253,6 +295,7 @@ def format_data(row):
         get_detail_block(row),
         row[CHALLENGE_RATING],
         XP_BY_CR[row[CHALLENGE_RATING]],
+        get_feature_block(row),
     )
     return formatted_string
 
@@ -271,7 +314,7 @@ def main():
 
     data_row = None
     try:
-        with open(CSV_NAME, "r") as file:
+        with open(DATA_CSV, "r") as file:
             reader = csv.DictReader(file)
             for row in reader:
                 if row[NAME] == target_monster:
@@ -279,7 +322,7 @@ def main():
                     break
     except FileNotFoundError:
         print("ERROR: CSV not found.")
-        exit(1)
+        return
 
     if not data_row:
         print("Monster not found.")

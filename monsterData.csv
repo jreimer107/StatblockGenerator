@@ -1,4 +1,4 @@
-Name,Size,Type,Align.,AC,HP,Speeds,STR,DEX,CON,INT,WIS,CHA,Sav. throws,Skills,Weaknesses,Resistances,Damage Immunities,Condition Immunities,Senses,Languages,CR,Additional,Source
+Name,Size,Type,Align.,AC,HP,Speeds,STR,DEX,CON,INT,WIS,CHA,Sav. throws,Skills,Weaknesses,Resistances,Damage Immunities,Condition Immunities,Senses,Languages,CR,Features,Source
 Aarakocra,Medium,humanoid,neutral good,12,13,"20 ft., fly 50 ft.",10,14,10,11,12,11,,Perception,,,,,,Auran,4-Jan,Dive Attack,Monster Manual
 Aboleth,Large,aberration,lawful evil,17,135,"10 ft., swim 40 ft.",21,9,15,18,15,18,"Con, Int, Wis","History, Perception",,,,,Darkvision 120,"Deep Speech, Telepathy 120",10,"Amphibious,  Mucous Cloud, Probing Telepathy, Legendary, Lair",Monster Manual
 Albino Dwarf Warrior,Medium,humanoid (dwarf),ANY,13,30,25 ft.,13,13,17,12,14,11,,"Perception, Stealth, Survival",,poison,,,Darkvision 60,"Common, Dwarvish",4-Jan,Dwarven Resilience,Tomb of Annihilation

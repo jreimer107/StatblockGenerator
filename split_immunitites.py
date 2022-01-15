@@ -42,10 +42,10 @@ DAMAGE_TYPES = [
 ]
 
 
-with open(CSV_NAME, "r") as file:
+with open(DATA_CSV, "r") as file:
     reader = csv.DictReader(file)
     with open("new.csv", "w", newline="") as new_file:
-        writer = csv.DictWriter(new_file, HEADERS, quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writer = csv.DictWriter(new_file, DATA_HEADERS, quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writeheader()
         for row in reader:
             immunities = row[IMMUNITIES].strip().split(DELIMITER)
