@@ -21,6 +21,7 @@ TEMPLATE = """___
 > ___
 >
 %s
+>
 > ### Actions
 > ***Multiattack.*** The Creature Name makes Number and type of attacks
 >
@@ -160,6 +161,7 @@ XP_BY_CR = {
     30: "155,000",
 }
 
+PROFICIENCY_BONUS = "Proficiency"
 PROFICIENCY_BY_CR = {
     0: 2,
     1 / 8: 2,
@@ -195,4 +197,26 @@ PROFICIENCY_BY_CR = {
     28: 8,
     29: 9,
     30: 9,
+}
+
+PERCEPTION = "Perception"
+SKILL_MAP = {
+    "Athletics": STRENGTH,
+    "Acrobatics": DEXTERITY,
+    "Slight of Hand": DEXTERITY,
+    "Stealth": DEXTERITY,
+    "Arcana": INTELLIGENCE,
+    "History": INTELLIGENCE,
+    "Investigation": INTELLIGENCE,
+    "Nature": INTELLIGENCE,
+    "Religion": INTELLIGENCE,
+    "Animal Handling": WISDOM,
+    "Insight": WISDOM,
+    "Medicine": WISDOM,
+    PERCEPTION: WISDOM,
+    "Survival": WISDOM,
+    "Deception": CHARISMA,
+    "Intimidation": CHARISMA,
+    "Performance": CHARISMA,
+    "Persuasion": CHARISMA
 }

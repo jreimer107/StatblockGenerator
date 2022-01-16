@@ -12,6 +12,11 @@ def fix_cr(data: dict):
     data[CHALLENGE_RATING] = Fraction(data[CHALLENGE_RATING])
 
 
+def set_proficiency(data):
+    cr = data[CHALLENGE_RATING]
+    data[PROFICIENCY_BONUS] = PROFICIENCY_BY_CR[cr]
+
+
 def get_mod(stat: str) -> str:
     return ABILITY_MODIFIERS[int(stat)]
 
@@ -48,6 +53,18 @@ def get_detail_block(data: dict):
     if saving_throws:
         ret += f"> - **Saving Throws** {saving_throws}\n"
 
+    skills = None
+    if data[SKILLS]:
+        skills = data[SKILLS].split(DELIMITER)
+        proficiency = data[PROFICIENCY_BONUS]
+        formatted_skills = []
+        for skill in skills:
+            stat = SKILL_MAP[skill]
+            modifier = int(get_mod(data[stat]))
+            formatted_skills.append(f"{skill} +{modifier + proficiency}")
+
+        ret += f"> - **Skills** {DELIMITER.join(formatted_skills)}\n"
+
     if data[WEAKNESSES]:
         ret += f"> - **Damage Vulnerabilities** {data[WEAKNESSES]}\n"
 
@@ -63,8 +80,15 @@ def get_detail_block(data: dict):
     if condition_immunitites:
         ret += f"> - **Condition Immunities** {condition_immunitites}\n"
 
-    passive_perception = f"passive Perception {10 + int(get_mod(data[WISDOM]))}"
-    senses = DELIMITER.join([data[SENSES], passive_perception])
+    passive_perception = 10 + int(get_mod(data[WISDOM]))
+    if skills and PERCEPTION in skills:
+        passive_perception += proficiency
+    passive_perception = f"passive Perception {passive_perception}"
+    senses = data[SENSES]
+    if senses:
+        senses = DELIMITER.join([senses, passive_perception])
+    else:
+        senses = passive_perception
     ret += f"> - **Senses** {senses}\n"
 
     languages = data[LANGUAGES]
@@ -96,19 +120,18 @@ def get_feature_block(row: dict) -> str:
         build_features_list()
         print(len(FEATURES_LIST))
 
-    ret = ""
     creature_name = row[NAME]
+    formatted_features = []
     for feature in features:
         if feature not in FEATURES_LIST:
             print(f"Feature {feature} not in feature table.")
-            ret += f"> ***{feature}.***\n>"
+            formatted_features.append(f"> ***{feature}.***")
             continue
 
         description: str = FEATURES_LIST[feature][DESCRIPTION]
         description = description.replace("$", creature_name.lower())
-        ret += f"> ***{feature}.*** {description}\n>"
-
-    return ret
+        formatted_features.append(f"> ***{feature}.*** {description}")
+    return "\n>\n".join(formatted_features)
 
 
 def format_data(row):
@@ -176,6 +199,7 @@ def main():
         return
 
     fix_cr(row)
+    set_proficiency(row)
     formatted_string = format_data(row)
     print(formatted_string)
     pyperclip.copy(formatted_string)
