@@ -1,11 +1,15 @@
 import csv
 from argparse import ArgumentParser
+from fractions import Fraction
 from constants import *
 
 import pyperclip
 
-proficiency = 4
 FEATURES_LIST = {}
+
+
+def fix_cr(data: dict):
+    data[CHALLENGE_RATING] = Fraction(data[CHALLENGE_RATING])
 
 
 def get_mod(stat: str) -> str:
@@ -22,6 +26,7 @@ def get_saving_throws(data: dict) -> str:
         return ""
 
     saving_throws = []
+    proficiency = PROFICIENCY_BY_CR[data[CHALLENGE_RATING]]
     for throw in throws.split(", "):
         modifier = data[throw.upper()]
         saving_throws.append(get_saving_throw(throw, modifier, proficiency))
@@ -170,6 +175,7 @@ def main():
         print("Monster not found.")
         return
 
+    fix_cr(row)
     formatted_string = format_data(row)
     print(formatted_string)
     pyperclip.copy(formatted_string)
