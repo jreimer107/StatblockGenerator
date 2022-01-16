@@ -8,6 +8,7 @@ import pyperclip
 FEATURES_LIST = {}
 
 args = None
+monster_data = {}
 
 def fix_cr(data: dict):
     data[CHALLENGE_RATING] = Fraction(data[CHALLENGE_RATING])
@@ -77,9 +78,9 @@ def get_detail_block(data: dict):
     if damage_immunities:
         ret += f"> - **Damage Immunities** {damage_immunities}\n"
 
-    condition_immunitites = data[CONDITION_IMMUNITIES]
-    if condition_immunitites:
-        ret += f"> - **Condition Immunities** {condition_immunitites}\n"
+    condition_immunities = data[CONDITION_IMMUNITIES]
+    if condition_immunities:
+        ret += f"> - **Condition Immunities** {condition_immunities}\n"
 
     passive_perception = 10 + int(get_mod(data[WISDOM]))
     if skills and PERCEPTION in skills:
@@ -182,9 +183,55 @@ def parse_args():
         prog="Generate Stat Block",
         description="Given a monster/NPC name, generates a GMBinder stat block. Prints the stat block and copies it to clipboard.",
     )
-    parser.add_argument("monster_name", type=str, help="The monster's name.")
+    parser.add_argument("monster_name", type=str, help="The monster's name.", nargs="?")
     args = parser.parse_args()
 
+
+def fuzzy_monster_search(query: str):
+    query_parts = query.split()
+    close_results = []
+    best_matching = 0
+    for monster_name in monster_data:
+        # Find the number of words matching the query
+        monster_parts = monster_name.split()
+        matching_parts = 0
+        for query_part in query_parts:
+            if query_part in monster_parts:
+                matching_parts += 1
+        
+        # If the number of matching words is equal to or better than our best, record it.
+        if matching_parts == 0:
+            continue
+        elif matching_parts == best_matching:
+            close_results.append(monster_name)
+        elif matching_parts > best_matching:
+            close_results = [monster_name]
+            best_matching = matching_parts
+    
+    if not len(close_results):
+        print("No similar monsters found, try again.")
+        return
+
+    print("Similar monsters found:")
+    for i in range(len(close_results)):
+        print(f"{i}\t{close_results[i]}")
+
+    try:
+        selection = int(input("Select a monster index. "))
+    except ValueError:
+        print("Bad input.")
+        return
+
+    if not selection:
+        print("Nothing selected.")
+        return
+
+    if selection not in range(len(close_results)):
+        print("Bad input.")
+        return
+
+    selected_monster = close_results[selection]
+    return selected_monster
 
 def get_target_monster():
     # Consume arg
@@ -194,33 +241,44 @@ def get_target_monster():
     if not target_monster:
         target_monster = input("Enter a monster name: ")
 
+    if not target_monster:
+        print("Nothing entered, exiting.")
+        exit()
+    elif target_monster not in monster_data:
+        target_monster = fuzzy_monster_search(target_monster)
+
     return target_monster
 
 
-def get_monster_data(target_monster: str) -> dict:
+def load_moster_data():
     try:
         with open(DATA_CSV, "r") as file:
             reader = csv.DictReader(file)
             for row in reader:
-                if row[NAME] == target_monster:
-                    return row
+                monster_data[row[NAME]] = row
     except FileNotFoundError:
         print("ERROR: CSV not found.")
-        return
+        exit()
 
+def get_monster_data(target_monster: str) -> dict:
+    global monster_data
+
+    if target_monster in monster_data:
+        return monster_data[target_monster]
     print("Monster not found.")
 
 
 def main():
     parse_args()
+    load_moster_data()
 
-    monster_data = None
-    while not monster_data:
+    target_monster_data = None
+    while not target_monster_data:
         target_monster = get_target_monster()
-        monster_data = get_monster_data(target_monster)
+        target_monster_data = get_monster_data(target_monster)
 
-    preprocess_data(monster_data)
-    formatted_string = format_data(monster_data)
+    preprocess_data(target_monster_data)
+    formatted_string = format_data(target_monster_data)
     print(formatted_string)
     pyperclip.copy(formatted_string)
 
