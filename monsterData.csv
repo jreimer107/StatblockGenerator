@@ -1,25 +1,25 @@
 Name,Family,Size,Type,Align.,AC,HP,Speeds,STR,DEX,CON,INT,WIS,CHA,Sav. throws,Skills,Weaknesses,Resistances,Damage Immunities,Condition Immunities,Senses,Languages,CR,Features,Source
-Aarakocra,,Medium,humanoid,neutral good,12,13,"20 ft., fly 50 ft.",10,14,10,11,12,11,,Perception,,,,,,Auran,4-Jan,Dive Attack,Monster Manual
+Aarakocra,,Medium,humanoid,neutral good,12,13,"20 ft., fly 50 ft.",10,14,10,11,12,11,,Perception,,,,,,Auran,1/4,Dive Attack,Monster Manual
 Aboleth,,Large,aberration,lawful evil,17,135,"10 ft., swim 40 ft.",21,9,15,18,15,18,"Con, Int, Wis","History, Perception",,,,,darkvision 120 ft.,"Deep Speech, Telepathy 120",10,"Amphibious,  Mucous Cloud, Probing Telepathy, Legendary, Lair",Monster Manual
-Albino Dwarf Warrior,,Medium,humanoid (dwarf),ANY,13,30,25 ft.,13,13,17,12,14,11,,"Perception, Stealth, Survival",,poison,,,darkvision 60 ft.,"Common, Dwarvish",4-Jan,Dwarven Resilience,Tomb of Annihilation
+Albino Dwarf Warrior,,Medium,humanoid (dwarf),ANY,13,30,25 ft.,13,13,17,12,14,11,,"Perception, Stealth, Survival",,poison,,,darkvision 60 ft.,"Common, Dwarvish",1/4,Dwarven Resilience,Tomb of Annihilation
 Aldani (Lobsterfolk),,Medium,monstrosity,lawful neutral,14,49,"20 ft., swim 30 ft.",13,8,12,10,14,10,,"Perception, Survival",,,,,darkvision 60 ft.,Common,1,Amphibious,Tomb of Annihilation
 Allip,,Medium,undead,neutral evil,13,40,fly 40 ft.,6,17,10,17,15,16,"Int, Wis","Perception, Stealth",,"acid, fire, lightning, thunder, nonmagical","cold, necrotic, poison","charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",darkvision 60 ft.,Any,5,Incorporeal Movement,Mordenkainen's Tome of Foes
 Almiraj,,Small,beast,unaligned,13,3,50 ft.,2,16,10,2,14,10,,"Perception, Stealth",,,,,"darkvision 30 ft., tremorsense 60 ft.",,0,"Keen Hearing, Keen Sight",Tomb of Annihilation
-Ambush Drake,,Medium,dragon,unaligned,13,22,30 ft.,13,15,14,4,11,6,,"Perception, Stealth",,poison,,,darkvision 60 ft.,Draconic,2-Jan,"Pack Tactics, Surprise Attack",Hoard of the Dragon Queen
+Ambush Drake,,Medium,dragon,unaligned,13,22,30 ft.,13,15,14,4,11,6,,"Perception, Stealth",,poison,,,darkvision 60 ft.,Draconic,1/2,"Pack Tactics, Surprise Attack",Hoard of the Dragon Queen
 Deva,Angel,Medium,celestial,lawful good,17,136,"30 ft., fly 90 ft.",18,18,18,17,20,20,"Wis, Cha","Insight, Perception",,"radiant, nonmagical",,"charmed, exhaustion, frightened",darkvision 120 ft.,"All, Telepathy 120",10,"Angelic Weapons, Innate Spellcasting, Magic Resistance",Monster Manual
 Planetar,Angel,Large,celestial,lawful good,19,200,"40 ft., fly 120 ft.",24,20,24,19,22,25,"Con, Wis, Cha",Perception,,"radiant, nonmagical",,"charmed, exhaustion, frightened",truesight 120 ft.,"All, telepathy 120",16,"Angelic Weapons, Divine Awareness, Innate Spellcasting, Magic Resistance",Monster Manual
 Solar,Angel,Large,celestial,lawful good,21,243,"50 ft., fly 150 ft.",26,22,26,25,25,30,"Int, Wis, Cha",Perception,,"radiant, nonmagical","necrotic, poison, poison","charmed, exhaustion, frightened",truesight 120 ft.,"All, telepathy 120",21,"Angelic Weapons, Divine Awareness, Innate Spellcasting, Magic Resistance, Legendary",Monster Manual
 Animated Armor,Animated Object,Medium,construct,unaligned,18,33,25 ft.,14,11,13,1,3,1,,,,,"poison, psychic, poison","blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified",blindsight 60 ft.,,1,"Antimagic, False",Monster Manual
-Broom of Animated Attack,Animated Object,Small,construct,unaligned,15,17,fly 50 ft.,10,17,10,1,5,1,,,,,"poison, psychic, poison","blinded, exhaustion, frightened, paralyzed, petrified, prone",blindsight 30 ft.,,4-Jan,"False, ",Curse of Strahd
-Flying Sword,Animated Object,Small,construct,unaligned,17,17,fly 50 ft.,12,15,11,1,5,1,Dex,,,"cold, fire",poison,"blinded, charmed, deafened, exhaustion, petrified",blindsight 60 ft.,,4-Jan,"Antimagic, False",Monster Manual
+Broom of Animated Attack,Animated Object,Small,construct,unaligned,15,17,fly 50 ft.,10,17,10,1,5,1,,,,,"poison, psychic, poison","blinded, exhaustion, frightened, paralyzed, petrified, prone",blindsight 30 ft.,,1/4,"False, ",Curse of Strahd
+Flying Sword,Animated Object,Small,construct,unaligned,17,17,fly 50 ft.,12,15,11,1,5,1,Dex,,,"cold, fire",poison,"blinded, charmed, deafened, exhaustion, petrified",blindsight 60 ft.,,1/4,"Antimagic, False",Monster Manual
 Rug of Smothering,Animated Object,Large,construct,unaligned,12,33,10 ft.,17,14,10,1,3,1,,,,,"poison, psychic, poison","blinded, charmed, deafened, frightened, paralyzed, petrified",blindsight 60 ft.,,2,"Antimagic, Damage Transfer, False",Monster Manual
 Animated Table,Animated Object,Large,construct,unaligned,15,39,40 ft.,18,8,13,1,3,1,,,,,"poison, psychic","blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",blindsight 60 ft.,,2,"Antimagic Susceptibility, False Appearance, Charge",Tales from the Yawning Portal
 Ankheg,,Large,monstrosity,unaligned,14,39,"30 ft., burrow 10 ft.",17,11,13,1,13,6,,,,,,,"darkvision 60 ft., tremorsense 60 ft.",,2,,Monster Manual
 Assassin Vine,,Large,plant,unaligned,13,85,"5 ft., climb 5 ft.",18,10,16,1,10,1,,,,"cold, fire",,"blinded, deafened, exhaustion, prone",blindsight 30 ft.,,3,False Appearance,Tomb of Annihilation
 Aurochs,Assorted Beast,Large,beast,unaligned,11,38,50 ft.,20,10,19,2,12,5,,,,,,,,,2,Charge,Volo's Guide to Monsters
-Cow,Assorted Beast,Large,beast,unaligned,10,15,30 ft.,18,10,14,2,10,4,,,,,,,,,4-Jan,Charge,Volo's Guide to Monsters
-Dolphin,Assorted Beast,Medium,beast,unaligned,12,11,swim 60 ft.,14,13,13,6,12,7,,Perception,,,,,blindsight 60 ft.,,8-Jan,"Charge, Hold Breath",Volo's Guide to Monsters
-Swarm of Rot Grubs,Assorted Beast,Medium,beast,unaligned,8,22,"5 ft., climb 5 ft.",2,7,10,1,2,1,,,,"piercing, slashing",,"charmed, paralyzed, petrified, prone, restrained",blindsight 10 ft.,,2-Jan,Swarm,Volo's Guide to Monsters
+Cow,Assorted Beast,Large,beast,unaligned,10,15,30 ft.,18,10,14,2,10,4,,,,,,,,,1/4,Charge,Volo's Guide to Monsters
+Dolphin,Assorted Beast,Medium,beast,unaligned,12,11,swim 60 ft.,14,13,13,6,12,7,,Perception,,,,,blindsight 60 ft.,,1/8,"Charge, Hold Breath",Volo's Guide to Monsters
+Swarm of Rot Grubs,Assorted Beast,Medium,beast,unaligned,8,22,"5 ft., climb 5 ft.",2,7,10,1,2,1,,,,"piercing, slashing",,"charmed, paralyzed, petrified, prone, restrained",blindsight 10 ft.,,1/2,Swarm,Volo's Guide to Monsters
 Astral Dreadnought,,Gargantuan,monstrosity,unaligned,20,297,"15 ft., fly 80 ft.",28,7,25,5,14,18,"Dex, Wis",Perception,,nonmagical,,"charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned",darkvision 120 ft.,,21,"Antimagic Cone, Astral Entity, Demiplanar Donjon, Legendary, Magic Weapons, Sever Silver Cord",Mordenkainen's Tome of Foes
 Atropal,,Huge,undead (titan),neutral evil,7,225,fly 50 ft.,19,5,22,25,19,24,"Con, Wis",,radiant,,"cold, necrotic, nonmagical","exhaustion, frightened, paralyzed, poisoned, prone","darkvision 120 ft., truesight 120 ft.",Celestial,13,"Magic Resistance, Negative Energy Aura, Turn Resistance Aura, Legendary",Tomb of Annihilation
 Avatar of Death,,Medium,undead,neutral evil,20,VARIES,"60 ft., fly 60 ft.",16,16,16,16,16,16,,,,,"necrotic, poison","charmed, frightened, paralyzed, petrified, poisoned, unconscious","darkvision 60 ft., truesight 60 ft.",Creator,VARIES,"Incorporeal Movement, Turning Immunity",Dungeon Master's Guide
@@ -36,25 +36,25 @@ Beholder,,Large,aberration,lawful evil,18,180,30 ft.,10,14,18,17,15,17,"Str, Con
 Death Kiss,Beholder,Large,aberration,neutral evil,16,161,fly 30 ft.,18,14,18,10,12,10,"Con, Wis",Perception,,,lightning,prone,darkvision 120 ft.,"Deep Speech, Undercommon",10,Lightning Blood,Volo's Guide to Monsters
 Death Tyrant,Beholder,Large,undead,lawful evil,19,187,"50 ft., climb 40 ft.",10,14,14,19,15,19,,"Perception, Stealth",,,lightning,,darkvision 90 ft.,Draconic,14,,Monster Manual
 Gauth,Beholder,Medium,aberration,lawful evil,15,67,fly 20 ft.,10,14,16,15,15,13,"Int, Wis, Cha",Perception,,,,prone,darkvision 120 ft.,"Deep Speech, Undercommon",6,"Stunning Gaze, Death Throes",Volo's Guide to Monsters
-Gazer,Beholder,Tiny,aberration,neutral evil,13,13,fly 30 ft.,3,17,14,3,10,7,Wis,"Perception, Stealth",,,,prone,darkvision 60 ft.,,2-Jan,"Aggressive, Mimicry",Volo's Guide to Monsters
+Gazer,Beholder,Tiny,aberration,neutral evil,13,13,fly 30 ft.,3,17,14,3,10,7,Wis,"Perception, Stealth",,,,prone,darkvision 60 ft.,,1/2,"Aggressive, Mimicry",Volo's Guide to Monsters
 Spectator,Beholder,Medium,aberration,lawful neutral,14,39,fly 20 ft.,8,14,14,13,14,11,"Int, Wis, Cha",Perception,,,,prone,darkvision 120 ft.,"Deep Speech, Undercommon",3,"Antimagic Cone, Lair, Legendary",Monster Manual
 Berbalang,,Medium,aberration,neutral evil,14,38,"30 ft., fly 40 ft.",9,16,9,17,11,10,,"Arcana, History, Insight, Perception, Religion",,,,,truesight 120 ft.,All,2,"Spectral Duplicate, Innate Spellcasting",Mordenkainen's Tome of Foes
 Black Earth Guard,,Medium,humanoid (human),neutral evil,18,39,30 ft.,17,11,14,10,10,9,,"Intimidation, Perception",,,,,,Common,2,,Princes of the Apocalypse
 Black Earth Priest,,Medium,humanoid (human),neutral evil,17,45,30 ft.,15,11,14,12,10,16,,"Intimidation, Religion, Persuasion",,,,,,"Common, Terran",3,Normal Spellcasting,Princes of the Apocalypse
 Burrowshark,Black Earth,Medium,humanoid (human),neutral evil,18,82,30 ft.,18,12,16,10,11,13,,"Animal Handling, Athletics, Intimidation, Perception",,,,,,Common,4,Bond of the Black Earth,Princes of the Apocalypse
-Sacred Stone Monk,Black Earth,Medium,humanoid (human),lawful evil,14,22,40 ft.,13,15,12,10,14,9,,"Acrobatics, Athletics, Perception",,,,,tremorsense 10 ft.,Common,2-Jan,"Unarmored Defense, Unarmored Movement",Princes of the Apocalypse
+Sacred Stone Monk,Black Earth,Medium,humanoid (human),lawful evil,14,22,40 ft.,13,15,12,10,14,9,,"Acrobatics, Athletics, Perception",,,,,tremorsense 10 ft.,Common,1/2,"Unarmored Defense, Unarmored Movement",Princes of the Apocalypse
 Stonemelder,Black Earth,Medium,humanoid (human),neutral evil,17,75,30 ft.,15,10,16,12,11,17,,"Intimidation, Perception",,,,,tremorsense 30 ft.,"Common, Terran",4,"Death Burst, Normal Spellcasting",Princes of the Apocalypse
-Needle Blight,Blight,Medium,plant,neutral evil,12,11,30 ft.,12,12,13,4,8,3,,,,,,"blinded, deafened",blindsight 60 ft.,Common,4-Jan,,Monster Manual
+Needle Blight,Blight,Medium,plant,neutral evil,12,11,30 ft.,12,12,13,4,8,3,,,,,,"blinded, deafened",blindsight 60 ft.,Common,1/4,,Monster Manual
 Tree Blight,Blight,Huge,plant,neutral evil,15,149,30 ft.,23,10,20,6,10,3,,,,,,"blinded, deafened",blindsight 60 ft.,"Common, Druidic",7,"False, Siege",Curse of Strahd
-Twig Blight,Blight,Small,plant,neutral evil,13,4,20 ft.,6,13,12,4,8,3,,Stealth,fire,,,"blinded, deafened",blindsight 60 ft.,Common,8-Jan,False Appearance,Monster Manual
-Vine Blight,Blight,Medium,plant,neutral evil,12,26,30 ft.,15,8,14,5,10,3,,,,,,"blinded, deafened",blindsight 60 ft.,Common,2-Jan,False Appearance,Monster Manual
+Twig Blight,Blight,Small,plant,neutral evil,13,4,20 ft.,6,13,12,4,8,3,,Stealth,fire,,,"blinded, deafened",blindsight 60 ft.,Common,1/8,False Appearance,Monster Manual
+Vine Blight,Blight,Medium,plant,neutral evil,12,26,30 ft.,15,8,14,5,10,3,,,,,,"blinded, deafened",blindsight 60 ft.,Common,1/2,False Appearance,Monster Manual
 Bodak,,Medium,undead,chotic evil,15,58,30 ft.,15,16,15,7,12,12,,"Perception, Stealth",,"cold, fire, necrotic, nonmagical","lightning, poison","charmed, frightened, poisoned",darkvision 120 ft.,"Abyssal, Any",6,"Aura of Annihilation, Death Gazer, Sunlight Hypersensitivity",Volo's Guide to Monsters
-Boggle,,Small,fey,chaotic neutral,14,18,"30 ft., climb 30 ft.",8,18,13,6,12,7,,"Perception, Sleight of Hand, Stealth",,fire,,,darkvision 60 ft.,Sylvan,8-Jan,"Boggle Oil, Dimensional Rift, Uncanny Smell",Volo's Guide to Monsters
+Boggle,,Small,fey,chaotic neutral,14,18,"30 ft., climb 30 ft.",8,18,13,6,12,7,,"Perception, Sleight of Hand, Stealth",,fire,,,darkvision 60 ft.,Sylvan,1/8,"Boggle Oil, Dimensional Rift, Uncanny Smell",Volo's Guide to Monsters
 Boneclaw,,Large,undead,chotic evil,16,127,40 ft.,19,16,15,13,15,9,"Dex, Con, Wis","Perception, Stealth",,"cold, necrotic, nonmagical",,"charmed, exhaustion, frightened, paralyzed, poisoned",darkvision 60 ft.,"Common, Any",12,"Rejuvenation, Shadow Stealth",Mordenkainen's Tome of Foes
 Bugbear,,Medium,humanoid,chotic evil,16,27,30 ft.,15,14,13,8,11,9,,"Stealth, Survival",,,,,darkvision 60 ft.,"Common, Goblin",1,"Brute, Surprise Attack",Monster Manual
 Bugbear Chief,,Medium,humanoid,chotic evil,17,65,30 ft.,17,14,14,11,12,11,,"Intimidation, Stealth, Survival",,,,,darkvision 60 ft.,"Common, Goblin",3,"Brute, Hearth of Hruggek, Surprise Attack",Monster Manual
 Bulette,,Large,monstrosity,unaligned,17,94,"40 ft., burrow 40 ft.",19,11,21,2,10,5,,Perception,,,,,"darkvision 60 ft., tremorsense 60 ft.",,5,Standing Leap,Monster Manual
-Bullywug,,Medium,humanoid,neutral evil,15,11,"20 ft., swim 40 ft.",12,12,13,7,10,7,,Stealth,,,,,,Own,4-Jan,"Amphibious, Speak with Frogs, Speak with Toads, Swamp Camouflage, Standing Leap",Monster Manual
+Bullywug,,Medium,humanoid,neutral evil,15,11,"20 ft., swim 40 ft.",12,12,13,7,10,7,,Stealth,,,,,,Own,1/4,"Amphibious, Speak with Frogs, Speak with Toads, Swamp Camouflage, Standing Leap",Monster Manual
 Cadaver Collector,,Large,construct,lawful evil,17,189,30 ft.,21,14,20,5,11,8,,,,,"necrotic, poison, psychic, nonmagical, nonadamantine","charmed, exhaustion, frightened, paralyzed, petrified, poisoned",darkvision 60 ft.,All,14,"Magic Resistance, Summon Specters",Mordenkainen's Tome of Foes
 Cambion,,Medium,fiend,ANY EVIL,19,82,"30 ft., fly 60 ft.",18,18,16,14,12,16,"Str, Con, Int, Cha","Deception, Intimidation, Perception, Stealth",,"cold, fire, lightning, poison, nonmagical",,,darkvision 60 ft.,"Abyssal, Common, Infernal",5,"Fiendish Blessing, Innate Spellcasting",Monster Manual
 Carrion Crawler,,Large,monstrosity,unaligned,13,51,"30 ft., climb 30 ft.",14,13,16,1,12,5,,Perception,,,,,darkvision 60 ft.,,2,"Keen Smell, Spider Climb",Monster Manual
@@ -63,7 +63,7 @@ Cave Fisher,,Medium,monstrosity,unaligned,16,58,"20 ft., climb 20 ft.",16,13,14,
 Centaur,,Large,monstrosity,neutral good,12,45,50 ft.,18,14,14,9,13,11,,"Athletics, Perception, Survival",,,,,,"Elvish, Sylvan",2,Charge,Monster Manual
 Centaur Mummy,,Large,undead,lawful evil,13,85,30 ft.,20,12,16,5,14,12,Wis,,fire,nonmagical,"necrotic, poison","charmed, exhaustion, frightened, paralyzed, poisoned",darkvision 60 ft.,"Common, Sylvan",6,Charge,Tales from the Yawning Portal
 Chimera,,Large,monstrosity,chotic evil,14,114,"30 ft., fly 60 ft.",19,11,19,3,14,10,,Perception,,,,,darkvision 60 ft.,Draconic,6,,Monster Manual
-Chitine,,Small,monstrosity,chotic evil,14,18,"30 ft., climb 30 ft.",10,14,12,10,10,7,,"Athletics, Stealth",,,,,darkvision 60 ft.,Undercommon,2-Jan,"Fey Ancestry, Sunlight Sensitivity, Web Sense,  Web Walker",Volo's Guide to Monsters
+Chitine,,Small,monstrosity,chotic evil,14,18,"30 ft., climb 30 ft.",10,14,12,10,10,7,,"Athletics, Stealth",,,,,darkvision 60 ft.,Undercommon,1/2,"Fey Ancestry, Sunlight Sensitivity, Web Sense,  Web Walker",Volo's Guide to Monsters
 Choldrith,Chitine,Medium,monstrosity,chotic evil,15,66,"30 ft., climb 30 ft.",12,16,12,11,14,10,,"Athletics, Religion, Stealth",,,,,darkvision 60 ft.,Undercommon,3,"Fey Ancestry, Normal Spellcasting, Spider Climb, Sunlight Sensitivity, Web Sense, Web Walker",Volo's Guide to Monsters
 Choker,,Small,aberration,chotic evil,16,13,30 ft.,16,14,13,4,12,7,,Stealth,,,,,darkvision 60 ft.,Deep Speech,1,"Aberrant Quickness, Boneless, Spider Climb",Mordenkainen's Tome of Foes
 Chuul,,Large,aberration,chotic evil,16,93,"30 ft., swim 30 ft.",19,10,16,5,11,5,,Perception,,,poison,poisoned,darkvision 60 ft.,Deep Speech,4,"Amphibious, Sense Magic",Monster Manual
@@ -73,7 +73,7 @@ Bronze Scout,Clockwork,Medium,construct,unaligned,13,18,"30 ft., burrow 30 ft.",
 Iron Cobra,Clockwork,Medium,construct,unaligned,13,45,30 ft.,12,16,14,3,10,1,,Stealth,,,"poison, nonmagical, nonadamantine","charmed, exhaustion, frightened, paralyzed, petrified, poisoned",darkvision 60 ft.,Creator,4,Magic Resistance,Mordenkainen's Tome of Foes
 Oaken Bolter,Clockwork,Medium,construct,unaligned,16,58,30 ft.,12,18,15,3,10,1,,,,,"poison, nonmagical, nonadamantine","charmed, exhaustion, frightened, paralyzed, petrified, poisoned",darkvision 60 ft.,Creator,5,Magic Resistance,Mordenkainen's Tome of Foes
 Stone Defender,Clockwork,Medium,construct,unaligned,16,52,30 ft.,19,10,17,3,10,1,,,,,nonadamantine,"charmed, exhaustion, frightened, paralyzed, petrified, poisoned",darkvision 60 ft.,Creator,4,"False Appearance, Magic Resistance",Mordenkainen's Tome of Foes
-Cockatrice,,Small,monstrosity,unaligned,11,27,"20 ft., fly 40 ft.",6,12,12,2,13,5,,,,,,,darkvision 60 ft.,,2-Jan,,Monster Manual
+Cockatrice,,Small,monstrosity,unaligned,11,27,"20 ft., fly 40 ft.",6,12,12,2,13,5,,,,,,,darkvision 60 ft.,,1/2,,Monster Manual
 Corpse Flower,,Large,plant,chotic evil,12,127,"20 ft., climb 20 ft.",14,14,16,7,15,3,,,,,,"blinded, deafened",blindsight 120 ft.,,8,"Corpses, Spider Climb, Stench of Death",Mordenkainen's Tome of Foes
 Couatl,,Medium,celestial,lawful good,19,97,"30 ft., fly 90 ft.",16,20,17,18,20,18,"Con, Wis, Cha",,,radiant,"psychic, nonmagical",,truesight 120 ft.,"All, telepathy 120",4,"Innate Spellcasting, Magic Weapons, Shielded Mind",Monster Manual
 Crag Cat,,Large,beast,unaligned,13,34,40 ft.,16,17,16,4,14,8,,"Perception, Stealth",,,,,darkvision 60 ft.,,1,"Nondetection, Pounce, Spell Turning",Storm King's Thunder
@@ -81,14 +81,14 @@ Cranium Rat,,Tiny,beast,lawful evil,12,2,30 ft.,2,14,10,4,11,8,,,,,,,"darkvision
 Swarm of Cranium Rats,Cranium Rat,Medium,beast,lawful evil,12,36,30 ft.,9,14,10,15,11,14,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned","darkvision 30 ft., tremorsense 60 ft.",Telepathy 30,5,"Illumination, Innate Spellcasting, Swarm, Telepathic Shroud",Volo's Guide to Monsters
 Crawling Claw,,Tiny,undead,neutral evil,12,2,"20 ft., climb 20 ft.",13,14,11,5,10,4,,,,,poison,"charmed, exhaustion, poisoned",blindsight 30 ft.,Common,0,Turn Immunity,Monster Manual
 Crushing Wave Priest,,Medium,humanoid (human),neutral evil,13,52,30 ft.,15,11,14,10,11,16,,"Deception, Religion, Stealth",,,,,,"Aquan, Common",2,Normal Spellcasting,Princes of the Apocalypse
-Crushing Wave Reaver,,Medium,humanoid (human),neutral evil,14,22,30 ft.,15,14,13,10,11,8,,"Athletics, Stealth",,,,,,Common,2-Jan,,Princes of the Apocalypse
+Crushing Wave Reaver,,Medium,humanoid (human),neutral evil,14,22,30 ft.,15,14,13,10,11,8,,"Athletics, Stealth",,,,,,Common,1/2,,Princes of the Apocalypse
 Dark Tide Knight,Crushing Wave,Medium,humanoid (human),lawful evil,13,58,30 ft.,17,16,14,10,11,11,,"Athletics, Stealth",,,,,,Common,3,Bonded Mount,Princes of the Apocalypse
 Fathomer,Crushing Wave,Medium,humanoid (human),neutral evil,10,52,30 ft.,14,11,14,11,11,15,,"Arcana, Perception, Stealth",,,,,,"Aquan, Common",2,"Shapechanger, Olhydra's Armor, Normal Spellcasting",Princes of the Apocalypse
 One-Eyed Shiver,Crushing Wave,Medium,humanoid (human),chotic evil,12,49,30 ft.,10,14,12,13,13,17,,"Arcana, Perception, Intimidation",,,cold,,,Common,3,Chilling Mist,Princes of the Apocalypse
 Cyclops,,Huge,giant,chaotic neutral,14,138,30 ft.,22,11,20,8,6,10,,,,,,,,Giant,6,Poor Depth Perception,Monster Manual
-Darkling,,Small,fey,chaotic neutral,14,13,30 ft.,9,16,12,10,12,10,,"Acrobatics, Deception, Perception, Stealth",,,,,"blindsight 30 ft., darkvision 120 ft.","Elvish, Sylvan",2-Jan,"Death Flash, Light Sensitivity",Volo's Guide to Monsters
+Darkling,,Small,fey,chaotic neutral,14,13,30 ft.,9,16,12,10,12,10,,"Acrobatics, Deception, Perception, Stealth",,,,,"blindsight 30 ft., darkvision 120 ft.","Elvish, Sylvan",1/2,"Death Flash, Light Sensitivity",Volo's Guide to Monsters
 Darkling Elder,,Medium,fey,chaotic neutral,15,27,30 ft.,13,17,12,10,14,13,,"Acrobatics, Deception, Perception, Stealth",,,,,"blindsight 30 ft., darkvision 120 ft.","Elvish, Sylvan",2,Death Burn,Volo's Guide to Monsters
-Darkmantle,,Small,monstrosity,unaligned,11,22,"10 ft., fly 30 ft.",16,12,13,2,10,5,,Stealth,,,,,blindsight 60 ft.,,2-Jan,"Echolocation,  False Appearance",Monster Manual
+Darkmantle,,Small,monstrosity,unaligned,11,22,"10 ft., fly 30 ft.",16,12,13,2,10,5,,Stealth,,,,,blindsight 60 ft.,,1/2,"Echolocation,  False Appearance",Monster Manual
 Death Knight,,Medium,undead,chotic evil,20,180,30 ft.,20,11,20,12,16,18,"Dex, Wis, Cha",,,,"necrotic, poison","exhaustion, frightened, poisoned",darkvision 120 ft.,"Abyssal, Common",17,"Magic Resistance, Marshal Undead, Spellcasting",Monster Manual
 Deathlock,,Medium,undead,neutral evil,12,36,30 ft.,11,15,10,14,12,16,"Int, Cha","Arcana, History",,"necrotic, nonmagical, nonsilvered",poison,"exhaustion, poisoned",darkvision 60 ft.,Any,4,"Innate Spellcasting, Normal Spellcasting, Turn Resistance",Mordenkainen's Tome of Foes
 Deathlock Mastermind,,Medium,undead,neutral evil,13,110,30 ft.,11,16,12,15,12,17,"Int, Cha","Arcana, History, Perception",,"necrotic, nonmagical, nonsilvered",poison,"exhaustion, poisoned",darkvision 120 ft.,Any,8,"Innate Spellcasting, Normal Spellcasting, Turn Resistance",Mordenkainen's Tome of Foes
@@ -104,7 +104,7 @@ Juiblex,Demon Lord,Huge,fiend (demon),chotic evil,18,350,30 ft.,24,10,23,20,20,1
 Orcus,Demon Lord,Huge,fiend (demon),chotic evil,20,405,"40 ft., fly 40 ft.",27,14,25,20,20,25,"Dex, Con, Wis","Arcana, Perception",,"cold, fire, lightning","necrotic, poison, nonmagical","charmed, exhaustion, frightened, poisoned",truesight 120 ft.,"All, telepathy 120",26,"Wand of Orcus, Innate Spellcasting, Legendary, Lair, Magic Resistance, Magic Weapons, Master of Undeath",Mordenkainen's Tome of Foes
 Yeenoghu,Demon Lord,Huge,fiend (demon),chotic evil,20,333,50 ft.,29,16,23,15,24,15,"Dex, Con, Wis","Intimidation, Perception",,"cold, fire, lightning","poison, nonmagical","charmed, exhaustion, frightened, poisoned",truesight 120 ft.,"All, telepathy 120",24,"Innate Spellcasting, Legendary, Lair, Magic Resistance, Magic Weapons, Rampage",Mordenkainen's Tome of Foes
 Zuggtmoy,Demon Lord,Large,fiend (demon),chotic evil,18,304,30 ft.,22,15,18,20,19,24,"Dex, Con, Wis",Perception,,"cold, fire, lightning","poison, nonmagical","charmed, exhaustion, frightened, poisoned",truesight 120 ft.,"All, telepathy 120",23,"Innate Spellcasting, Legendary, Lair, Magic Resistance, Magic Weapons",Mordenkainen's Tome of Foes
-Abyssal Wretch,Demon,Medium,fiend (demon),chotic evil,11,18,20 ft.,9,12,11,5,8,5,,,,"cold, fire, lightning",poison,"charmed, frightened, poisoned",darkvision 120 ft.,Abyssal,4-Jan,,Mordenkainen's Tome of Foes
+Abyssal Wretch,Demon,Medium,fiend (demon),chotic evil,11,18,20 ft.,9,12,11,5,8,5,,,,"cold, fire, lightning",poison,"charmed, frightened, poisoned",darkvision 120 ft.,Abyssal,1/4,,Mordenkainen's Tome of Foes
 Alkilith,Demon,Medium,fiend (demon),chotic evil,17,157,40 ft.,12,19,22,6,11,7,"Dex, Con",Stealth,,"acid, cold, fire, nonmagical",poison,"charmed, frightened, poisoned",darkvision 120 ft.,Abyssal,11,"Amorphous, False Appearance, Foment Madness, Magic Resistance",Mordenkainen's Tome of Foes
 Armanite,Demon,Large,fiend (demon),chotic evil,16,84,60 ft.,21,18,21,8,12,13,,,,"cold, fire, lightning",poison,poisoned,darkvision 120 ft.,"Abyssal, telepathy 120",7,"Magic Resistance, Magic Weapons",Mordenkainen's Tome of Foes
 Babau,Demon,Medium,fiend (demon),chotic evil,16,82,40 ft.,19,16,16,11,12,13,,"Perception, Stealth",,"cold, fire, lightning, nonmagical",poison,poisoned,darkvision 120 ft.,Abyssal,4,Innate Spellcasting,Volo's Guide to Monsters
@@ -113,12 +113,12 @@ Barlgura,Demon,Large,fiend (demon),chotic evil,15,68,"30 ft., climb 30 ft.",18,1
 Bulezau,Demon,Medium,fiend (demon),chotic evil,14,52,40 ft.,15,14,17,8,9,6,,,,"cold, fire, lightning",poison,"charmed, frightened, poisoned",darkvision 120 ft.,"Abyssal, telepathy 60",3,"Rotting Presence, Standing Leap, Sure-Footed",Mordenkainen's Tome of Foes
 Chasme,Demon,Large,fiend (demon),chotic evil,15,84,"20 ft., fly 60 ft.",15,15,12,11,14,10,"Dex, Wis",Perception,,"cold, fire, lightning",poison,poisoned,"blindsight 10 ft., darkvision 120 ft.","Abyssal, telepathy 120",6,"Drone, Magic Resistance, Spider Climb",Monster Manual
 Draegloth,Demon,Large,fiend (demon),chotic evil,15,123,30 ft.,20,15,18,13,11,11,,"Perception, Stealth",,"cold, fire, lightning",poison,poisoned,darkvision 120 ft.,"Abyssal, Elvish, Undercommon",7,"Fey Ancestry, Innate Spellcasting",Volo's Guide to Monsters
-Dretch,Demon,small,fiend (demon),chotic evil,11,18,20 ft.,11,11,12,5,8,3,,,,"cold, fire, lightning",poison,poisoned,darkvision 60 ft.,"Abyssal, telepathy 60",4-Jan,,Monster Manual
+Dretch,Demon,small,fiend (demon),chotic evil,11,18,20 ft.,11,11,12,5,8,3,,,,"cold, fire, lightning",poison,poisoned,darkvision 60 ft.,"Abyssal, telepathy 60",1/4,,Monster Manual
 Dybbuk,Demon,Medium,fiend (demon),chotic evil,14,37,fly 40 ft.,6,19,16,16,15,14,,"Deception, Intimidation, Perception",,"acid, cold, fire, lightning, thunder, nonmagical",poison,"charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",darkvision 120 ft.,"Abyssal, Common, telepathy 120",4,"Incorporeal Movement, Innate Spellcasting, Magic Resistance, Violate Corpse",Mordenkainen's Tome of Foes
 Glabrezu,Demon,Large,fiend (demon),chotic evil,17,157,40 ft.,20,15,21,19,17,16,"Str, Con, Wis, Cha",,,"cold, fire, lightning, nonmagical",poison,poisoned,truesight 120 ft.,"Abyssal, telepathy 120",9,"Innate Spellcasting, Magic Resistance",Monster Manual
 Goristro,Demon,Huge,fiend (demon),chotic evil,19,310,40 ft.,25,11,25,6,13,14,"Str, Dex, Con, Wis",Perception,,"cold, fire, lightning, nonmagical",poison,poisoned,darkvision 120 ft.,Abyssal,17,"Charge, Labyrinthine Recall, Magic Resistance, Siege",Monster Manual
 Hezrou,Demon,Large,fiend (demon),chotic evil,16,136,30 ft.,19,17,20,5,12,13,"Str, Con, Wis",,,"cold, fire, lightning, nonmagical",poison,poisoned,darkvision 120 ft.,"Abyssal, telepathy 120",8,"Magic Resistance, Stench",Monster Manual
-Manes,Demon,Small,fiend (demon),chotic evil,9,9,20 ft.,10,9,13,3,8,4,,,,"cold, fire, lightning",poison,"charmed, frightened, poisoned",darkvision 60 ft.,Abyssal,8-Jan,,Monster Manual
+Manes,Demon,Small,fiend (demon),chotic evil,9,9,20 ft.,10,9,13,3,8,4,,,,"cold, fire, lightning",poison,"charmed, frightened, poisoned",darkvision 60 ft.,Abyssal,1/8,,Monster Manual
 Marilith,Demon,Large,fiend (demon),chotic evil,18,189,40 ft.,18,20,20,18,16,20,"Str, Con, Wis, Cha",,,"cold, fire, lightning, nonmagical",poison,poisoned,truesight 120 ft.,"Abyssal, telepathy 120",16,"Magic Resistance, Magic Weapons, Reactive",Monster Manual
 Maurezhi,Demon,Medium,fiend (demon),chotic evil,15,88,30 ft.,14,17,12,11,12,15,,Deception,,"cold, fire, lightning, necrotic, nonmagical",poison,"charmed, exhaustion, poisoned",darkvision 120 ft.,"Abyssal, Elvish, telepathy 120",7,"Assume Form, Magic Resistance",Mordenkainen's Tome of Foes
 Maw,Demon,Medium,fiend (demon),chotic evil,13,33,30 ft.,14,8,13,5,8,5,,,,"cold, fire, lightning",poison,"charmed, frightened, poisoned",darkvision 60 ft.,Abyssal,1,Rampage,Volo's Guide to Monsters
@@ -133,7 +133,7 @@ Sibriex,Demon,Huge,fiend (demon),chotic evil,19,150,fly 20 ft.,10,3,23,25,24,25,
 Vrock,Demon,Large,fiend (demon),chotic evil,15,104,"40 ft., fly 60 ft.",17,15,18,8,13,8,"Dex, Wis, Cha",,,"cold, fire, lightning, nonmagical",poison,poisoned,darkvision 120 ft.,"Abyssal, telepathy 120",6,Magic Resistance,Monster Manual
 Wastrilith,Demon,Large,fiend (demon),chotic evil,18,157,"30 ft., swim 80 ft.",19,18,21,19,12,14,"Str, Con",,,"cold, fire, lightning, nonmagical, poison, poisoned",,,darkvision 120 ft.,"Abyssal, telepathy 120",13,"Amphibious, Corrupt Water, Magic Resistance, Undertow",Mordenkainen's Tome of Foes
 Yochlol,Demon,Medium,fiend (demon),chotic evil,15,136,"30 ft., climb 30 ft.",15,14,18,13,15,15,"Dex, Int, Wis, Cha","Deception, Insight",,"cold, fire, lightning, nonmagical",poison,poisoned,darkvision 120 ft.,"Abyssal, Elvish, Undercommon",10,"Shapechanger, Magic Resistance, Spider Climb, Innate Spellcasting, Web Walker",Monster Manual
-Derro,,Small,humanoid (derro),chotic evil,13,13,30 ft.,10,14,12,11,5,9,,Stealth,,,,,darkvision 120 ft.,"Dwarvish, Undercommon",4-Jan,"Magic Resistance, Sunlight Sensitivity",Mordenkainen's Tome of Foes
+Derro,,Small,humanoid (derro),chotic evil,13,13,30 ft.,10,14,12,11,5,9,,Stealth,,,,,darkvision 120 ft.,"Dwarvish, Undercommon",1/4,"Magic Resistance, Sunlight Sensitivity",Mordenkainen's Tome of Foes
 Derro Savant,,Small,humanoid (derro),chotic evil,13,36,30 ft.,9,14,12,11,5,14,,Stealth,,,,,darkvision 120 ft.,"Dwarvish, Undercommon",3,"Magic Resistance, Normal Spellcasting, Sunlight Sensitivity",Mordenkainen's Tome of Foes
 Black Abishai,Devil,Medium,fiend (devil),lawful evil,15,58,"30 ft., fly 40 ft.",14,17,14,13,16,11,"Dex, Wis","Perception, Stealth",,"cold, nonmagical, nonsilvered","acid, fire, poison",poisoned,darkvision 120 ft.,"Draconic, Infernal, telepathy 120",7,"Devil's Sight, Magic Resistance, Magic Weapons, Shadow Stealth",Mordenkainen's Tome of Foes
 Blue Abishai,Devil,Medium,fiend (devil),lawful evil,19,195,"30 ft., fly 50 ft.",15,14,17,22,23,18,"Int, Wis",Arcana,,"cold, nonmagical, nonsilvered","fire, lightning, poison",poisoned,darkvision 120 ft.,"Draconic, Infernal, telepathy 120",17,"Devil's Sight, Magic Resistance, Magic Weapons, Normal Spellcasting",Mordenkainen's Tome of Foes
@@ -159,7 +159,7 @@ Imp,Devil,Tiny,fiend (devil),lawful evil,13,10,"20 ft., fly 40 ft.",6,17,13,11,1
 Lemure,Devil,Medium,fiend (devil),lawful evil,7,13,15 ft.,10,5,11,1,11,3,,,,cold,"fire, poison","charmed, frightened, poisoned",darkvision 120 ft.,Infernal,0,"Devil's Sight, Hellish Rejuvenation",Monster Manual
 Merregon,Devil,Medium,fiend (devil),lawful evil,16,45,30 ft.,18,14,17,6,12,8,,,,"cold, nonmagical, nonsilvered","fire, poison","frightened, poisoned",darkvision 60 ft.,"Infernal, telepathy 120",4,"Devil's Sight, Magic Resistance",Mordenkainen's Tome of Foes
 Narzugon,Devil,Medium,fiend (devil),lawful evil,20,112,30 ft.,20,10,17,16,14,19,"Dex, Con, Cha",Perception,,"acid, cold, nonmagical, nonsilvered","fire, poison","charmed, frightened, poisoned",darkvision 120 ft.,"Common, Infernal, telepathy 120",13,"Diabolical Sense, Infernal Tack, Magic Resistance",Mordenkainen's Tome of Foes
-Nupperibo,Devil,Medium,fiend (devil),lawful evil,13,11,20 ft.,16,11,13,3,8,1,,Perception,,"acid, cold, nonmagical, nonsilvered","fire, poison","blinded, charmed, frightened, poisoned",blindsight 10 ft.,Infernal,2-Jan,"Cloud of Vermin, Hunger-Driven",Mordenkainen's Tome of Foes
+Nupperibo,Devil,Medium,fiend (devil),lawful evil,13,11,20 ft.,16,11,13,3,8,1,,Perception,,"acid, cold, nonmagical, nonsilvered","fire, poison","blinded, charmed, frightened, poisoned",blindsight 10 ft.,Infernal,1/2,"Cloud of Vermin, Hunger-Driven",Mordenkainen's Tome of Foes
 Orthon,Devil,Large,fiend (devil),lawful evil,17,105,"30 ft., climb 30 ft.",22,16,21,15,15,16,"Dex, Con, Wis","Perception, Stealth, Survival",,"cold, nonmagical, nonsilvered","fire, poison","charmed, exhaustion, poisoned","darkvision 120 ft., truesight 30 ft.","Common, INfernal, telepathy 120",10,"Invisibility Field, Magic Resistance",Mordenkainen's Tome of Foes
 Pit Fiend,Devil,Large,fiend (devil),lawful evil,19,300,"30 ft., fly 60 ft.",26,14,24,22,18,24,"Dex, Con, Wis",,,"cold, nonmagical, nonsilvered, fire, poison, poisoned",,,truesight 120 ft.,"Infernal, telepathy 120",20,"Fear Aura, Magic Resistance, Magic Weapon, Innate Spellcasting",Monster Manual
 Spined,Devil,Small,fiend (devil),lawful evil,15,22,"20 ft., fly 40 ft.",10,15,12,11,14,8,,,,"cold, nonmagical, nonsilvered","fire, poison",poisoned,darkvision 120 ft.,"Infernal, telepathy 120",2,"Devil's Sight, Flyby, Limited Spines, Magic Resistance",Monster Manual
@@ -168,15 +168,15 @@ Allosaurus,Dinosaur,Large,beast,unaligned,13,51,60 ft.,19,13,17,2,12,5,,Percepti
 Ankylosaurus,Dinosaur,Huge,beast,unaligned,15,68,30 ft.,19,11,15,2,12,5,,,,,,,,,3,,Monster Manual
 Brontosaurus,Dinosaur,Gargantuan,beast,unaligned,15,121,30 ft.,21,9,17,2,10,7,Con,,,,,,,,5,,Volo's Guide to Monsters
 Deinonychus,Dinosaur,Medium,beast,unaligned,13,26,40 ft.,15,15,14,4,12,6,,Perception,,,,,,,1,Pounce,Volo's Guide to Monsters
-Dimetrodon,Dinosaur,Medium,beast,unaligned,12,19,"30 ft., swim 20 ft.",14,10,15,2,10,5,,Perception,,,,,,,4-Jan,,Volo's Guide to Monsters
-Hadrosaurus,Dinosaur,Large,beast,unaligned,11,19,40 ft.,15,10,13,2,10,5,,Perception,,,,,,,4-Jan,,Volo's Guide to Monsters
+Dimetrodon,Dinosaur,Medium,beast,unaligned,12,19,"30 ft., swim 20 ft.",14,10,15,2,10,5,,Perception,,,,,,,1/4,,Volo's Guide to Monsters
+Hadrosaurus,Dinosaur,Large,beast,unaligned,11,19,40 ft.,15,10,13,2,10,5,,Perception,,,,,,,1/4,,Volo's Guide to Monsters
 Plesiosaurus,Dinosaur,Large,beast,unaligned,13,68,"20 ft., swim 40 ft.",18,15,16,2,12,5,,"Perception, Stealth",,,,,,,2,Hold Breath,Monster Manual
-Pteranodon,Dinosaur,Medium,beast,unaligned,13,13,"10 ft., fly 60 ft.",12,15,10,2,9,5,,Perception,,,,,,,4-Jan,Flyby,Monster Manual
+Pteranodon,Dinosaur,Medium,beast,unaligned,13,13,"10 ft., fly 60 ft.",12,15,10,2,9,5,,Perception,,,,,,,1/4,Flyby,Monster Manual
 Quetzalcoatlus,Dinosaur,Huge,beast,unaligned,13,30,"10 ft., fly 80 ft.",15,13,13,2,10,5,,Perception,,,,,,,2,"Dive Attack, FLyby",Volo's Guide to Monsters
 Stegosaurus,Dinosaur,Huge,beast,unaligned,13,76,40 ft.,20,9,17,2,11,5,,,,,,,,,4,,Volo's Guide to Monsters
 Triceratops,Dinosaur,Huge,beast,unaligned,13,95,50 ft.,22,9,17,2,11,5,,,,,,,,,5,Trampling Charge,Monster Manual
 Tyrannosaurus Rex,Dinosaur,Huge,beast,unaligned,13,136,50 ft.,25,10,19,2,12,9,,Perception,,,,,,,8,,Monster Manual
-Velociraptor,Dinosaur,Tiny,beast,unaligned,13,10,30 ft.,6,14,13,4,12,6,,Perception,,,,,,,4-Jan,Pack Tactics,Volo's Guide to Monsters
+Velociraptor,Dinosaur,Tiny,beast,unaligned,13,10,30 ft.,6,14,13,4,12,6,,Perception,,,,,,,1/4,Pack Tactics,Volo's Guide to Monsters
 Displacer Beast,,Large,monstrosity,lawful evil,13,85,40 ft.,18,15,16,6,12,8,,,,,,,darkvision 60 ft.,,3,"Avoidance, Displacement",Monster Manual
 Doppelganger,,Medium,monstrosity,neutral,14,52,30 ft.,11,18,14,11,12,14,,"Deception, Insight",,,,charmed,darkvision 60 ft.,Common,3,"Shapechanger, Ambusher, Surprise Attack",Monster Manual
 Dracolich Template,,TEMP,undead,lawful evil,TEMP,TEMP,TEMP ft.,TEMP,TEMP,TEMP,TEMP,TEMP,TEMP,Temp,TEMP,,necrotic,poison,"charmed, frightened, paralyzed, poisoned, exhaustion",temp ft.,TEMP,TEMP,"TEMP, Magic Resistance",Monster Manual
@@ -227,7 +227,7 @@ Dragonsoul,,Medium,humanoid (human),neutral evil,16,110,30 ft.,11,18,14,13,12,16
 Dragonwing,,Medium,humanoid (human),neutral evil,14,32,30 ft.,9,16,13,11,10,12,Wis,"Deception, Stealth",,,,,,"Common, Draconic",2,"Dragon Fanatic, Fanatical Advantage, Pack Tactics",Hoard of the Dragon Queen
 Dread Warrior,,Medium,undead,neutral evil,18,37,30 ft.,15,11,16,10,12,10,Wis,"Athletics, Perception",,,poison,"exhaustion, poisoned",darkvision 60 ft.,Common,1,Undead Fortitude,Tales from the Yawning Portal
 Drider,,Large,monstrosity,chotic evil,19,123,"30 ft., climb 30 ft.",16,16,18,13,14,12,,"Perception, Stealth",,,,,darkvision 120 ft.,"Elvish, Undercommon",6,"Fey Ancestry, Innate Spellcasting, Spider Climb, Sunlight Sensitivity, Web Walker",Monster Manual
-Drow,,Medium,humanoid,neutral evil,15,13,30 ft.,10,14,10,11,11,12,,"Perception, Stealth",,,,,darkvision 120 ft.,"Elvish, Undercommon",4-Jan,"Fey Ancestry, Innate Spellcasting, Sunlight Sensitivity",Monster Manual
+Drow,,Medium,humanoid,neutral evil,15,13,30 ft.,10,14,10,11,11,12,,"Perception, Stealth",,,,,darkvision 120 ft.,"Elvish, Undercommon",1/4,"Fey Ancestry, Innate Spellcasting, Sunlight Sensitivity",Monster Manual
 Drow Arachnomancer,,Medium,humanoid (elf),chotic evil,15,162,"30 ft., climb 30 ft.",11,17,14,19,14,16,"Con, Int, Cha","Arcana, Nature, Perception, Stealth",,poison,,,"blindsight 10 ft., darkvision 120 ft.","Elvish, Undercommon, spiders",13,"Change Shape, Fey Ancestry, Innate Spellcasting, Normal Spellcasting, Spider Climb, Sunlight Sensitivity",Mordenkainen's Tome of Foes
 Drow Elite Warrior,,Medium,humanoid,neutral evil,18,71,30 ft.,13,18,14,11,13,12,"Dex, Con, Wis","Perception, Stealth",,,,,darkvision 120 ft.,"Elvish, Undercommon",5,"Fey Ancestry, Innate Spellcasting, Sunlight Sensitivity",Monster Manual
 Drow Favored Consort,,Medium,humanoid (elf),neutral evil,15,225,30 ft.,15,20,16,18,15,18,"Dex, Con, Cha","Acrobatics, Athletics, Perception, Stealth",,,,,darkvision 120 ft.,"Elvish, Undercommon",18,"Fey Ancestry, Innate Spellcasting, Normal Spellcasting, Sunlight Sensitivity, War Magic",Mordenkainen's Tome of Foes
@@ -279,16 +279,16 @@ Ettercap,,Medium,monstrosity,neutral evil,13,44,"30 ft., climb 30 ft.",14,15,13,
 Ettin,,large,giant,chotic evil,12,85,40' ft.,21,8,17,6,10,8,,Perception,,,,,darkvision 60 ft.,"Giant, Orc",4,"Two Heads, Wakeful",Monster Manual
 Faerie Dragon,,Tiny,dragon,chaotic good,15,14,"10 ft., fly 60 ft.",3,20,13,14,12,16,,"Arcana, Perception, Stealth",,,,,darkvision 60 ft.,"Draconic, Sylvan",1,"Superior Invisibility, Limited Telepathy, Magic Resistance, Innate Spellcasting",Monster Manual
 Firenewt Warlock of Imix,,Medium,humanoid (firenewt),neutral evil,10,33,30 ft.,13,11,12,9,11,14,,,,,fire,,darkvision 120 ft.,"Draconic, Ignan",1,"Amphibious, Innate Spellcasting, Normal Spellcasting, Imix's Blessing",Volo's Guide to Monsters
-Firenewt Warrior,,Medium,humanoid (firenewt),neutral evil,16,22,30 ft.,10,13,12,7,11,8,,,,,fire,,,"Draconic, Ignan",2-Jan,Amphibious,Volo's Guide to Monsters
+Firenewt Warrior,,Medium,humanoid (firenewt),neutral evil,16,22,30 ft.,10,13,12,7,11,8,,,,,fire,,,"Draconic, Ignan",1/2,Amphibious,Volo's Guide to Monsters
 Flail Snail,,Large,elemental,unaligned,16,52,10 ft.,17,5,20,3,10,5,,,,,"fire, poison",poisoned,"darkvision 60 ft., tremorsense 60 ft.",,3,"Antimagic Shell, Flail Tentacles",Volo's Guide to Monsters
 Flameskull,,Tiny,undead,neutral evil,13,40,fly 40 ft.,1,17,14,16,10,11,,"Arcana, Perception",,"lightning, necrotic, piercing","cold, fire, poison","charmed, frightened, paralyzed, poisoned",darkvision 60 ft.,Common,4,"Illumination, Magic Resistance, Rejuvenation, Normal Spellcasting",Monster Manual
-Flumph,,Small,aberration,lawful good,12,7,"5 ft., fly 30 ft.",6,15,10,14,14,11,,"Arcana, History, Religion",psychic,,,,darkvision 60 ft.,"Undercommon, telepathy 60",8-Jan,"Advanced Telepathy, Prone Deficiency, Telepathic Shroud",Monster Manual
+Flumph,,Small,aberration,lawful good,12,7,"5 ft., fly 30 ft.",6,15,10,14,14,11,,"Arcana, History, Religion",psychic,,,,darkvision 60 ft.,"Undercommon, telepathy 60",1/8,"Advanced Telepathy, Prone Deficiency, Telepathic Shroud",Monster Manual
 Flying Monkey,,Small,beast,unaligned,12,3,"20 ft., climb 20 ft., fly 30 ft.",8,14,11,5,12,6,,,,,,,,,0,Pack Tactics,Tomb of Annihilation
 Fomorian,,Huge,giant,chotic evil,14,149,30 ft.,23,10,20,9,14,6,,"Perception, Stealth",,,,,darkvision 120 ft.,"Giant, Undercommon",8,,Monster Manual
 Froghemoth,,Huge,monstrosity,unaligned,14,184,"30 ft., swim 30 ft.",23,13,20,2,12,5,"Con, Wis","Perception, Stealth",,"fire, lightning",,,darkvision 60 ft.,,10,"Amphibious, Shock SUsceptibility",Volo's Guide to Monsters
-Gas Spore,Fungus,Large,plant,unaligned,5,1,fly 10 ft.,5,1,3,1,1,1,,,,,poison,"blinded, deafened, frightened, paralyzed, poisoned, prone",blindsight 30 ft.,,2-Jan,"Death Burst, Eerie Resemblance",Monster Manual
+Gas Spore,Fungus,Large,plant,unaligned,5,1,fly 10 ft.,5,1,3,1,1,1,,,,,poison,"blinded, deafened, frightened, paralyzed, poisoned, prone",blindsight 30 ft.,,1/2,"Death Burst, Eerie Resemblance",Monster Manual
 Shrieker,Fungus,Medium,plant,unaligned,5,13,ft.,1,1,10,1,10,3,,,,,,"blinded, deafened, frightened",blindsight 30 ft.,,0,False Appearance,Monster Manual
-Violet,Fungus,Medium,plant,unaligned,5,18,5 ft.,3,1,10,1,3,1,,,,,,"blinded, deafened, frightened",blindsight 30 ft.,,4-Jan,False Appearance,Monster Manual
+Violet,Fungus,Medium,plant,unaligned,5,18,5 ft.,3,1,10,1,3,1,,,,,,"blinded, deafened, frightened",blindsight 30 ft.,,1/4,False Appearance,Monster Manual
 Galeb Duhr,,Medium,elemental,neutral,16,85,"15 ft., rolling ft.",20,14,20,11,12,11,,,,nonmagical,poison,"exhaustion, paralyzed, poisoned, petrified","darkvision 60 ft., tremorsense 60 ft.",Terran,6,"False Appearance, Rolling Charge",Monster Manual
 Gargoyle,,Medium,elemental,chotic evil,15,52,"30 ft., fly 60 ft.",15,11,16,6,11,7,,,,nonadamantine,poison,"exhaustion, petrified, poisoned",darkvision 60 ft.,Terran,2,False Appearance,Monster Manual
 Giant Four-Armed Gargoyle,Gargoyle,Large,elemental,chotic evil,17,147,"30 ft., fly 60 ft.",19,11,20,6,11,9,Wis,Perception,,"nonmagical, nonadamantine",poison,"exhaustion, petrified, poisoned",darkvision 60 ft.,Terran,10,False Appearance,Tomb of Annihilation
@@ -296,7 +296,7 @@ Dao,Genie,Large,elemental,neutral evil,18,187,"30 ft., burrow 30 ft., fly 30 ft.
 Djinni,Genie,Large,elemental,chaotic good,17,161,"30 ft., fly 90 ft.",21,15,22,15,16,20,"Dex, Wis, Cha",,,,"lightning, thunder",,darkvision 120 ft.,Auran,11,"Elemental Demise, Innate Spellcasting",Monster Manual
 Efreeti,Genie,Large,elemental,lawful evil,17,200,"40 ft., fly 60 ft.",22,12,24,16,15,16,"Int, Wis, Cha",,,,fire,,darkvision 120 ft.,Ignan,11,"Elemental Demise, Innate Spellcasting",Monster Manual
 Marid,Genie,Large,elemental,chaotic neutral,17,229,"30 ft., fly 60 ft., swim 90 ft.",22,12,26,18,17,18,"Dex, Wis, Cha",,,,"acid, cold, lightning",,"blindsight 30 ft., darkvision 120 ft.",Aquan,11,"Amphibious, Elemental Demise, Innate Spellcasting",Monster Manual
-Geonid,,Small,elemental,neutral,17,26,30 ft.,12,10,16,9,14,11,,"Perception, Stealth",,,,,"darkvision 60 ft., tremorsense 30 ft.",Terran,4-Jan,Boulder Guise,The Tortle Package
+Geonid,,Small,elemental,neutral,17,26,30 ft.,12,10,16,9,14,11,,"Perception, Stealth",,,,,"darkvision 60 ft., tremorsense 30 ft.",Terran,1/4,Boulder Guise,The Tortle Package
 Ghost,,Medium,undead,ANY,11,45,fly 40 ft.,7,13,10,10,12,17,,,,"acid, fire, lightning, thunder, nonmagical","cold, necrotic, poison","charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",darkvision 60 ft.,Any,4,"Ethereal Sight, Incorporeal Movement",Monster Manual
 Ghoul,,Medium,undead,chotic evil,12,22,30 ft.,13,15,10,7,10,6,,,,,poison,"charmed, exhaustion, poisoned",darkvision 60 ft.,Common,1,,Monster Manual
 Ghast,Ghoul,Medium,undead,chotic evil,13,36,30 ft.,16,17,10,11,10,8,,,,necrotic,poison,"charmed, exhaustion, poisoned",darkvision 60 ft.,Common,2,"Stench, Turning Defiance",Monster Manual
@@ -331,15 +331,15 @@ Githzerai Anarch,,Medium,humanoid (gith),lawful neutral,20,144,30 ft.,16,21,18,1
 Githzerai Enlightened,,Medium,humanoid (gith),lawful neutral,18,112,30 ft.,14,19,16,17,19,13,"Str, Dex, Int, Wis","Arcana, Insight, Perception",,,,,,Own,10,"Innate Spellcasting (Psionics), Psychic Defense",Mordenkainen's Tome of Foes
 Githzerai Monk,,Medium,humanoid,lawful neutral,14,38,30 ft.,12,15,12,13,14,10,"Str, Dex, Int, Wis","Insight, Perception",,,,,,Own,2,"Innate Spellcasting (Psionics), Psychic Defense",Monster Manual
 Githzerai Zerth,,Medium,humanoid,lawful neutral,17,84,30 ft.,13,18,15,16,17,12,"Str, Dex, Int, Wis","Arcana, Insight, Perception",,,,,,Own,6,"Innate Spellcasting, Psychic Defense",Monster Manual
-Gnoll,,Medium,humanoid,chotic evil,15,22,30 ft.,14,12,11,6,10,7,,,,,,,darkvision 60 ft.,Gnoll,2-Jan,Rampage,Monster Manual
+Gnoll,,Medium,humanoid,chotic evil,15,22,30 ft.,14,12,11,6,10,7,,,,,,,darkvision 60 ft.,Gnoll,1/2,Rampage,Monster Manual
 Gnoll Fang of Yeenoghu,,Medium,humanoid,chotic evil,14,65,30 ft.,17,15,15,10,11,13,"Con, Wis, Cha",,,,,,darkvision 60 ft.,"Abyssal, Gnoll",4,Rampage,Monster Manual
 Gnoll Flesh Gnawer,,Medium,humanoid (gnoll),chotic evil,14,22,30 ft.,12,14,12,8,10,8,Dex,,,,,,darkvision 60 ft.,Gnoll,1,Rampage,Volo's Guide to Monsters
-Gnoll Hunter,,Medium,humanoid (gnoll),chotic evil,13,22,30 ft.,14,14,12,8,12,8,,"Perception, Stealth",,,,,darkvision 60 ft.,GNoll,2-Jan,Rampage,Volo's Guide to Monsters
+Gnoll Hunter,,Medium,humanoid (gnoll),chotic evil,13,22,30 ft.,14,14,12,8,12,8,,"Perception, Stealth",,,,,darkvision 60 ft.,GNoll,1/2,Rampage,Volo's Guide to Monsters
 Gnoll Pack Lord,,Medium,humanoid,chotic evil,15,49,30 ft.,16,14,13,8,11,9,,,,,,,darkvision 60 ft.,Gnoll,2,Rampage,Monster Manual
-Gnoll Witherling,,Medium,undead,chotic evil,12,11,30 ft.,14,8,12,5,5,5,,,,,poison,"exhaustion, poisoned",darkvision 60 ft.,Gnoll,4-Jan,Rampage,Volo's Guide to Monsters
+Gnoll Witherling,,Medium,undead,chotic evil,12,11,30 ft.,14,8,12,5,5,5,,,,,poison,"exhaustion, poisoned",darkvision 60 ft.,Gnoll,1/4,Rampage,Volo's Guide to Monsters
 Flind,Gnoll,Medium,humanoid (gnoll),chotic evil,16,127,30 ft.,20,10,19,11,13,12,"Con, Wis","Intimation, Perception",,,,,darkvision 60 ft.,"Gnoll, Abyssal",9,Aura of Blood Thirst,Volo's Guide to Monsters
-Deep Gnome (Svirfneblin),Gnome,Small,humanoid,neutral good,15,16,20 ft.,15,14,14,12,10,9,,"Investigation, Perception, Stealth",,,,,darkvision 120 ft.,"Gnomish, Terran, Undercommon",2-Jan,"Stone Camouflage, Gnome Cunning, Innate Spellcasting",Monster Manual
-Goblin,,small,humanoid,neutral evil,15,7,30 ft.,8,14,10,10,8,8,,Stealth,,,,,darkvision 60 ft.,"Common, Goblin",4-Jan,Nimble Escape,Monster Manual
+Deep Gnome (Svirfneblin),Gnome,Small,humanoid,neutral good,15,16,20 ft.,15,14,14,12,10,9,,"Investigation, Perception, Stealth",,,,,darkvision 120 ft.,"Gnomish, Terran, Undercommon",1/2,"Stone Camouflage, Gnome Cunning, Innate Spellcasting",Monster Manual
+Goblin,,small,humanoid,neutral evil,15,7,30 ft.,8,14,10,10,8,8,,Stealth,,,,,darkvision 60 ft.,"Common, Goblin",1/4,Nimble Escape,Monster Manual
 Goblin Boss,,small,humanoid,neutral evil,17,21,30 ft.,10,14,10,10,8,10,,Stealth,,,,,darkvision 60 ft.,"Common, Goblin",1,Nimble Escape,Monster Manual
 Clay Golem,Golem,Large,construct,unaligned,14,133,20 ft.,20,9,18,3,8,1,,,,,"acid, poison, psychic, nonadamantine","charmed, exhaustion, frightened, paralyzed, petrified, poisoned",darkvision 60 ft.,Creator,9,"Acid Absorption, Berserk, Immutable Form, Magic Resistance, Magic Weapons",Monster Manual
 Flesh Golem,Golem,Medium,construct,neutral,9,93,30 ft.,19,9,18,6,10,5,,,,,"lightning, poison, nonadamantine","charmed, exhaustion, frightened, paralyzed, petrified, poisoned",darkvision 60 ft.,Creator,5,"Berserk, Aversion of Fire, Immutable Form, Lightning Absorption, Magic Resistance, Magic Weapons",Monster Manual
@@ -351,8 +351,8 @@ Grell,,Medium,aberration,neutral evil,12,55,"10 ft., fly 30 ft.",15,14,13,12,11,
 Grick,,Medium,monstrosity,neutral,14,27,"30 ft., climb 30 ft.",14,14,11,3,14,5,,,,nonmagical,,,darkvision 60 ft.,,2,Stone Camouflage,Monster Manual
 Grick Alpha,,Medium,monstrosity,neutral,18,75,"30 ft., climb 30 ft.",18,16,15,4,14,9,,,,nonmagical,,,darkvision 60 ft.,,7,Stone Camouflage,Monster Manual
 Griffon,,Large,monstrosity,unaligned,12,59,"30 ft., fly 80 ft.",18,15,16,2,13,8,,Perception,,,,,darkvision 60 ft.,,2,Keen Sight,Monster Manual
-Grimlock,,Medium,humanoid,neutral evil,11,11,30 ft.,16,12,12,9,8,6,,"Athletics, Perception, Stealth",,,,blinded,blindsight 30 ft.,Undercommon,4-Jan,"Blind Senses, Keen Hearing, Keen Smell, Stone Camouflage",Monster Manual
-Grung,,Small,humanoid (grung),lawful evil,12,11,"25 ft., climb 25 ft.",7,14,15,10,11,10,Dex,"Athletics, Perception, Stealth, Survival",,,poison,poisoned,,Own,4-Jan,"Amphibious, Poisonous Skin, Standing Leap",Volo's Guide to Monsters
+Grimlock,,Medium,humanoid,neutral evil,11,11,30 ft.,16,12,12,9,8,6,,"Athletics, Perception, Stealth",,,,blinded,blindsight 30 ft.,Undercommon,1/4,"Blind Senses, Keen Hearing, Keen Smell, Stone Camouflage",Monster Manual
+Grung,,Small,humanoid (grung),lawful evil,12,11,"25 ft., climb 25 ft.",7,14,15,10,11,10,Dex,"Athletics, Perception, Stealth, Survival",,,poison,poisoned,,Own,1/4,"Amphibious, Poisonous Skin, Standing Leap",Volo's Guide to Monsters
 Grung Elite Warrior,,Small,humanoid (grung),lawful evil,13,49,"25 ft., climb 25 ft.",7,16,15,10,11,12,Dex,"Athletics, Perception, Stealth, Survival",,,poison,poisoned,,Own,2,"Amphibious, Poisonous Skin, Standing Leap",Volo's Guide to Monsters
 Grung Wildling,,Small,humanoid (grung),lawful evil,13,27,"25 ft., climb 25 ft.",7,16,15,10,15,11,Dex,"Athletics, Perception, Stealth, Survival",,,poison,poisoned,,Own,1,"Amphibious, Poisonous SKin, Normal Spellcasting, Standing Leap",Volo's Guide to Monsters
 Guard Drake,,Medium,dragon,unaligned,14,52,30 ft.,16,11,16,4,10,7,,Perception,,,,,darkvision 60 ft.,"Draconic, Ignan",2,,Volo's Guide to Monsters
@@ -367,7 +367,7 @@ Harpy,,Medium,monstrosity,chotic evil,11,38,"20 ft., fly 40 ft.",12,13,12,7,10,1
 Hell Hound,,Medium,fiend,lawful evil,15,45,50 ft.,17,12,14,6,13,6,,Perception,,,fire,,darkvision 60 ft.,Infernal,3,"Keen Hearing, Keen Smell, Pack Tactics",Monster Manual
 Helmed Horror,,Medium,construct,neutral,20,60,"30 ft., fly 30 ft.",18,13,16,10,10,10,,Perception,,nonadamantine,"force, necrotic, poison","blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned",blindsight 60 ft.,Creator,4,"Magic Resistance, Spell Immunity",Monster Manual
 Hippogriff,,Large,monstrosity,unaligned,11,19,"40 ft., fly 60 ft.",17,13,13,2,12,8,,Perception,,,,,,,1,Keen Sight,Monster Manual
-Hobgoblin,,Medium,humanoid,lawful evil,18,11,30 ft.,13,12,12,10,10,9,,,,,,,darkvision 60 ft.,"Common, Goblin",2-Jan,Martial Advantage,Monster Manual
+Hobgoblin,,Medium,humanoid,lawful evil,18,11,30 ft.,13,12,12,10,10,9,,,,,,,darkvision 60 ft.,"Common, Goblin",1/2,Martial Advantage,Monster Manual
 Hobgoblin Captain,,Medium,humanoid,lawful evil,17,39,30 ft.,15,14,14,12,10,13,,,,,,,darkvision 60 ft.,"Common, Goblin",3,Martial Advantage,Monster Manual
 Hobgoblin Devastator,,Medium,humanoid (goblinoid),lawful evil,13,45,30 ft.,13,12,14,16,13,11,,Arcana,,,,,darkvision 60 ft.,"Common, Goblin",4,"Arcane Advantage, Army Arcana, Normal Spellcasting",Volo's Guide to Monsters
 Hobgoblin Iron Shadow,,Medium,humanoid (goblinoid),lawful evil,15,32,40 ft.,14,16,15,14,15,11,,"Acrobatics, Athletics, Stealth",,,,,darkvision 60 ft.,"Common, Goblin",2,"Normal Spellcasting, Unarmored Defense",Volo's Guide to Monsters
@@ -375,7 +375,7 @@ Hobgoblin Warlord,,Medium,humanoid,lawful evil,20,97,30 ft.,16,14,16,14,11,15,"I
 Homunculus,,Tiny,construct,neutral,13,5,"20 ft., fly 40 ft.",4,15,11,10,10,7,,,,,poison,"charmed, poisoned",darkvision 60 ft.,Creator,0,Telepathic Bond,Monster Manual
 Hook Horror,,Large,monstrosity,neutral,15,75,"30 ft., climb 30 ft.",18,10,15,6,12,7,,Perception,,,,,"blindsight 60 ft., darkvision 10 ft.",,3,"Echolocation, Keen Hearing",Monster Manual
 Howler,,Large,fiend,chotic evil,16,90,40 ft.,17,16,15,5,20,6,,Perception,,"cold, fire, lightning, nonmagical",,frightened,darkvision 60 ft.,Abyssal,8,Pack Tactics,Mordenkainen's Tome of Foes
-Howling Hatred Initiate,,Medium,humanoid (human),neutral evil,13,9,30 ft.,10,15,10,10,9,11,,"Deception, Religion, Stealth",,,,,,Common,8-Jan,"Guiding Wind, Hold Breath",Princes of the Apocalypse
+Howling Hatred Initiate,,Medium,humanoid (human),neutral evil,13,9,30 ft.,10,15,10,10,9,11,,"Deception, Religion, Stealth",,,,,,Common,1/8,"Guiding Wind, Hold Breath",Princes of the Apocalypse
 Howling Hatred Priest,,Medium,humanoid (human),neutral evil,15,45,30 ft.,12,16,10,14,10,14,,"Acrobatics, Intimidation, Religion",,,,,,"Auran, Common",2,"Hold Breath, Normal Spellcasting",Princes of the Apocalypse
 Feathergale Knight,Howling Hatred,Medium,humanoid (human),lawful evil,16,33,30 ft.,14,14,12,11,10,14,,"Animal Handling, History",,,,,,"Auran, Common",1,Normal Spellcasting,Princes of the Apocalypse
 Hurricane,Howling Hatred,Medium,humanoid (human),lawful evil,14,33,45 ft.,12,16,13,10,12,10,,Acrobatics,,,,,,"Auran, Common",2,"Normal Spellcasting, Unarmored Defense, Unarmored Movement",Princes of the Apocalypse
@@ -386,34 +386,34 @@ Ice Toad,,Medium,monstrosity,neutral,12,32,"30 ft., swim 30 ft.",13,10,14,8,10,6
 Marut,Inevitable,Large,construct,lawful neutral,22,432,"40 ft., fly 30 ft.",28,12,26,19,15,18,"Int, Wis, Cha","Insight, Intimidation, Perception",,"thunder, nonmagical",poison,"charmed, frightened, paralyzed, poisoned, unconscious",darkvision 60 ft.,All,25,"Immutable Form, Innate Spellcasting, Legendary Resistance, Magic Resistance",Mordenkainen's Tome of Foes
 Intellect Devourer,,Tiny,aberration,lawful evil,12,21,40 ft.,6,14,13,12,11,10,,"Perception, Stealth",,nonmagical,,blinded,blindsight 60 ft.,"Deep Speech, telepathy 60",2,Detect Sentience,Monster Manual
 Invisible Stalker,,Medium,elemental,neutral,14,104,"50 ft., fly 50 ft.",16,19,14,10,15,11,,"Perception, Stealth",,nonmagical,poison,"exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",darkvision 60 ft.,"Auran, Common",6,"Invisibility, Faultless Tracker",Monster Manual
-Ixitxachitl,,Small,aberration,chotic evil,15,18,swim 30 ft.,12,16,13,12,13,7,,,,,,,darkvision 60 ft.,"Abyssal, Own",4-Jan,,Out of the Abyss
+Ixitxachitl,,Small,aberration,chotic evil,15,18,swim 30 ft.,12,16,13,12,13,7,,,,,,,darkvision 60 ft.,"Abyssal, Own",1/4,,Out of the Abyss
 Vampiric Ixitxachitl,Ixitxachitl,Medium,aberration,chotic evil,16,44,swim 30 ft.,14,18,13,12,13,7,,,,,,,darkvision 60 ft.,"Abyssal, Own",2,Regeneration,Out of the Abyss
-Jackalwere,,Medium,humanoid,chotic evil,12,18,40 ft.,11,15,11,13,11,10,,"Deception, Perception, Stealth",,,"nonmagical, nonsilvered",,,Common,2-Jan,"Shapechanger, Keen Hearing, Keen Smell, Pack Tactics",Monster Manual
-Jaculi,,Large,beast,unaligned,14,16,"30 ft., climb 20 ft.",15,14,11,2,8,3,,"Athletics, Perception, Stealth",,,,,blindsight 30 ft.,,2-Jan,"Camouflage, Keen Smell",Tomb of Annihilation
+Jackalwere,,Medium,humanoid,chotic evil,12,18,40 ft.,11,15,11,13,11,10,,"Deception, Perception, Stealth",,,"nonmagical, nonsilvered",,,Common,1/2,"Shapechanger, Keen Hearing, Keen Smell, Pack Tactics",Monster Manual
+Jaculi,,Large,beast,unaligned,14,16,"30 ft., climb 20 ft.",15,14,11,2,8,3,,"Athletics, Perception, Stealth",,,,,blindsight 30 ft.,,1/2,"Camouflage, Keen Smell",Tomb of Annihilation
 Kalka-Kylla,,Large,monstrosity,neutral,15,85,"30 ft., swim 30 ft.",17,12,16,15,16,12,,"Deception, Insight, Stealth",,,,,blindsight 30 ft.,Olman,3,"Amphibious, False Appearance, Shell",Tales from the Yawning Portal
 Kamadan,,Large,monstrosity,unaligned,13,67,30 ft.,16,16,14,3,14,10,,"Perception, Stealth",,,,,,,4,"Keen Smell, Pounce",Tomb of Annihilation
 Kelpie,,Medium,plant,neutral evil,14,67,"10 ft., swim 30 ft.",14,14,16,7,12,10,,"Perception, Stealth",,"bludgeoning, fire, piercing",,"blinded, deafened, exhaustion",blindsight 60 ft.,"Common, Sylvan",4,"Amphibious, Seaweed Shape, False Appearance",Tales from the Yawning Portal
-Kenku,,Medium,humanoid,chaotic neutral,13,13,30 ft.,10,16,10,11,10,10,,"Deception, Perception, Stealth",,,,,,"Auran, Common",4-Jan,"Ambusher, Mimicry",Monster Manual
+Kenku,,Medium,humanoid,chaotic neutral,13,13,30 ft.,10,16,10,11,10,10,,"Deception, Perception, Stealth",,,,,,"Auran, Common",1/4,"Ambusher, Mimicry",Monster Manual
 Ki-Rin,,Huge,celestial,lawful good,20,152,"60 ft., fly 120 ft.",21,16,16,19,20,20,,"Perception, Insight, Religion",,,poison,poisoned,"blindsight 30 ft., darkvision 120 ft.","All, telepathy 120",12,"Innate Spellcasting, Legendary Resistance, lair, Magic Resistance, Magic Weapons, Normal Spellcasting",Volo's Guide to Monsters
-Kobold,,Small,humanoid,lawful evil,12,5,30 ft.,7,15,9,8,7,8,,,,,,,darkvision 60 ft.,"Common, Draconic",8-Jan,"Sunlight Sensitivity, Pack Tactics",Monster Manual
+Kobold,,Small,humanoid,lawful evil,12,5,30 ft.,7,15,9,8,7,8,,,,,,,darkvision 60 ft.,"Common, Draconic",1/8,"Sunlight Sensitivity, Pack Tactics",Monster Manual
 Kobold Dragonshield,,Small,humanoid (kobold),lawful evil,15,44,20 ft.,12,15,14,8,9,10,,Perception,,"acid, cold, fire, lightning, poison",,,darkvision 60 ft.,"Common, Draconic",1,"Dragon's Resistance, Heart of the Dragon, Pack Tactics, Sunlight Sensitivity",Volo's Guide to Monsters
-Kobold Inventor,,Small,humanoid (kobold),lawful evil,12,13,30 ft.,7,15,12,8,7,8,,Perception,,,,,darkvision 60 ft.,"Common, Draconic",4-Jan,"Pack Tactics, Sunlight Sensitivity",Volo's Guide to Monsters
+Kobold Inventor,,Small,humanoid (kobold),lawful evil,12,13,30 ft.,7,15,12,8,7,8,,Perception,,,,,darkvision 60 ft.,"Common, Draconic",1/4,"Pack Tactics, Sunlight Sensitivity",Volo's Guide to Monsters
 Kobold Scale Sorcerer,,Small,humanoid (kobold),lawful evil,15,27,30 ft.,7,15,14,10,9,14,,"Arcana, Medicine",,,,,darkvision 60 ft.,"COmmon, Draconic",1,"Normal Spellcasting, Sorcery Points, Pack Tactics, Sunlight Sensitivity",Volo's Guide to Monsters
-Winged Kobold,Kobold,Small,humanoid,lawful evil,13,7,"30 ft., fly 30 ft.",7,16,9,8,7,8,,,,,,,darkvision 60 ft.,"Common, Draconic",4-Jan,"Sunlight Sensitivity, Pack Tactics",Monster Manual
+Winged Kobold,Kobold,Small,humanoid,lawful evil,13,7,"30 ft., fly 30 ft.",7,16,9,8,7,8,,,,,,,darkvision 60 ft.,"Common, Draconic",1/4,"Sunlight Sensitivity, Pack Tactics",Monster Manual
 Korred,,Small,fey,chaotic neutral,17,102,"30 ft., burrow 30 ft.",23,14,20,10,15,9,,"Athletics, Perception, Stealth",,nonmagical,,,"darkvision 120 ft., tremorsense 120 ft.","Dwarvish, Gnomish, Sylvan, Terran, Undercommon",7,"Command Hair, Innate Spellcasting, Stone Camouflage, Stone's Strength",Volo's Guide to Monsters
 Kraken,,Gargantuan,monstrosity,chotic evil,18,472,"20 ft., swim 60 ft.",30,11,25,22,18,20,"Str, Dex, Con, Int, Wis",,,,"lightning, nonmagical","frightened, paralyzed",truesight 120 ft.,"Abyssal, Celestial, Infernal, Primordial, telepathy 120",23,"Amphibious, Freedom of Movement, Siege Monster, Lair, Legendary",Monster Manual
 Malformed Kraken,Kraken,Huge,monstrosity,chotic evil,17,172,"20 ft., swim 40 ft.",25,11,20,11,15,15,"Str, Con, Int, Wis, Cha",,,nonmagical,lightning,"frightened, paralyzed",truesight 60 ft.,"Common, telepathy 60",10,"Amphibious, Siege Monster",Tales from the Yawning Portal
 Kruthik Hive Lord,,Large,monstrosity,unaligned,20,102,"40 ft., burrow 20 ft., climb 40 ft.",19,16,17,10,14,10,,,,,,,"darkvision 60 ft., tremorsense 60 ft.",Own,5,"Keen Smell, Pack Tactics, Tunneler",Mordenkainen's Tome of Foes
 Adult Kruthik,Kruthik,Medium,monstrosity,unaligned,18,39,"40 ft., burrow 20 ft., climb 40 ft.",15,16,15,7,12,8,,,,,,,"darkvision 60 ft., tremorsense 60 ft.",Own,2,"Keen Smell, Pack Tactics, Tunneler",Mordenkainen's Tome of Foes
-Young Kruthik,Kruthik,Small,monstrosity,unaligned,16,9,"30 ft., burrow 10 ft., climb 30 ft.",13,16,13,4,10,6,,,,,,,"darkvision 30 ft., tremorsense 60 ft.",Own,8-Jan,"Keen Smell, Pack Tactics, Tunneler",Mordenkainen's Tome of Foes
-Kuo-Toa,,Medium,humanoid,neutral evil,13,13,"30 ft., swim 30 ft.",13,10,11,11,10,8,,Perception,,,,,darkvision 120 ft.,Undercommon,4-Jan,"Amphibious, Otherworldly Perception, Slippery, Sunlight Sensitivity",Monster Manual
+Young Kruthik,Kruthik,Small,monstrosity,unaligned,16,9,"30 ft., burrow 10 ft., climb 30 ft.",13,16,13,4,10,6,,,,,,,"darkvision 30 ft., tremorsense 60 ft.",Own,1/8,"Keen Smell, Pack Tactics, Tunneler",Mordenkainen's Tome of Foes
+Kuo-Toa,,Medium,humanoid,neutral evil,13,13,"30 ft., swim 30 ft.",13,10,11,11,10,8,,Perception,,,,,darkvision 120 ft.,Undercommon,1/4,"Amphibious, Otherworldly Perception, Slippery, Sunlight Sensitivity",Monster Manual
 Kuo-Toa Archpriest,,Medium,humanoid,neutral evil,13,97,"30 ft., swim 30 ft.",16,14,16,13,16,14,,"Perception, Religion",,,,,darkvision 120 ft.,Undercommon,6,"Amphibious, Otherworldly Perception, Slippery, Sunlight Sensitivity, Normal Spellcasting",Monster Manual
 Kuo-Toa Whip,,Medium,humanoid,neutral evil,11,65,"30 ft., swim 30 ft.",14,10,14,12,14,11,,"Perception, Religion",,,,,darkvision 120 ft.,Undercommon,1,"Amphibious, Otherworldly Perception, Slippery, Sunlight Sensitivity, Normal Spellcasting",Monster Manual
 Lamia,,Large,monstrosity,chotic evil,13,97,30 ft.,16,13,15,14,15,16,,"Deception, Insight, Stealth",,,,,darkvision 60 ft.,"Abyssal, Common",4,Innate Spellcasting,Monster Manual
 Leucrotta,,Large,monstrosity,chotic evil,14,67,50 ft.,18,14,15,9,12,6,,"Deception, Perception",,,,,darkvision 60 ft.,"Abyssal, Gnoll",3,"Keen Smell, Kicking Retreat, Mimicry, Rampage",Volo's Guide to Monsters
 Lich,,Medium,undead,ANY EVIL,17,135,30 ft.,11,16,16,20,14,16,"Con, Int, Wis","Arcana, History, Insight, Perception",,"cold, lightning, necrotic","poison, nonmagical","charmed, exhaustion, frightened, paralyzed, poisoned",truesight 120 ft.,"Common, Any",21,"Legendary, Rejuvenation, Normal Spellcasting, Turn Resistance, Lair",Monster Manual
 Lizard King/Queen,,Medium,humanoid,chotic evil,15,78,"30 ft., swim 30 ft.",17,12,15,11,11,15,"Con, Wis","Perception, Stealth, Survival",,,,frightened,darkvision 60 ft.,"Abyssal, Draconic",4,"Hold Breath, Skewer",Monster Manual
-Lizardfolk,,Medium,humanoid,neutral,15,22,"30 ft., swim 30 ft.",15,10,13,7,12,7,,"Perception, Stealth, Survival",,,,,,Draconic,2-Jan,Hold Breath,Monster Manual
+Lizardfolk,,Medium,humanoid,neutral,15,22,"30 ft., swim 30 ft.",15,10,13,7,12,7,,"Perception, Stealth, Survival",,,,,,Draconic,1/2,Hold Breath,Monster Manual
 Lizardfolk Shaman,,Medium,humanoid,neutral,13,27,"30 ft., swim 30 ft.",15,10,13,10,15,8,,"Perception, Stealth, Survival",,,,,,Draconic,2,"Hold Breath, Normal Spellcasting",Monster Manual
 Werebear,Lycanthrope,Medium,humanoid,neutral good,11,135,"40 ft., climb 30 ft.",19,10,17,11,12,12,,Perception,,,"nonmagical, nonsilvered",,,Common,5,"Shapechanger, Keen Smell",Monster Manual
 Wereboar,Lycanthrope,Medium,humanoid,neutral evil,11,78,40 ft.,17,10,15,10,11,8,,Perception,,,"nonmagical, nonsilvered",,,Common,4,"Shapechanger, Charge, Relentless",Monster Manual
@@ -421,19 +421,19 @@ Wererat,Lycanthrope,Medium,humanoid,lawful evil,12,33,30 ft.,10,15,12,11,10,8,,"
 Wereraven,Lycanthrope,Medium,"humanoid (human, shapechanger)",lawful good,12,31,30 ft.,10,15,11,13,15,14,,"Insight, Perception",,,"nonmagical, nonsilvered",,,Common,2,"Shapechanger, Mimicry",Curse of Strahd
 Weretiger,Lycanthrope,Medium,humanoid,neutral,12,120,40 ft.,17,15,16,10,13,11,,"Perception, Stealth",,,"nonmagical, nonsilvered",,darkvision 60 ft.,Common,4,"Shapechanger, Keen Hearing, Keen Smell, Pounce",Monster Manual
 Werewolf,Lycanthrope,Medium,humanoid,chotic evil,12,58,40 ft.,15,13,14,10,11,10,,"Perception, Stealth",,,"nonmagical, nonsilvered",,,Common,3,"Shapechanger, Keen Hearing, Keen Smell",Monster Manual
-Magmin,,Small,elemental,chaotic neutral,14,9,30 ft.,7,15,12,8,11,10,,,,nonmagical,fire,,darkvision 60 ft.,Ignan,2-Jan,"Death Burst, Ignited Illumination",Monster Manual
+Magmin,,Small,elemental,chaotic neutral,14,9,30 ft.,7,15,12,8,11,10,,,,nonmagical,fire,,darkvision 60 ft.,Ignan,1/2,"Death Burst, Ignited Illumination",Monster Manual
 Manticore,,Large,monstrosity,lawful evil,14,68,"30 ft., fly 50 ft.",17,16,17,7,12,8,,,,,,,darkvision 60 ft.,Common,3,Tail Spike Regrowth,Monster Manual
 Mantrap,,Large,plant,unaligned,12,45,5 ft.,15,14,12,1,10,2,,,,,,"blinded, deafened, exhaustion, prone",tremorsense 30 ft.,,1,"Attractive Pollen, False Appearance",Tomb of Annihilation
 Meazel,,Medium,humanoid (meazel),neutral evil,13,35,30 ft.,8,17,9,14,13,10,,"Perception, Stealth",,,,,darkvision 120 ft.,Common,1,Shadow Stealth,Mordenkainen's Tome of Foes
 Medusa,,Medium,monstrosity,lawful evil,15,127,30 ft.,10,15,16,12,13,15,,"Deception, Insight, Perception, Stealth",,,,,darkvision 60 ft.,Common,6,Petrifying Gaze,Monster Manual
 Meenlock,,Small,fey,neutral evil,15,31,30 ft.,7,15,12,11,10,8,,"Perception, Stealth, Survival",,,,frightened,darkvision 120 ft.,Telepathy 120,2,"Fear Aura, Light Sensitivity, Shadow Teleport",Volo's Guide to Monsters
-Dust Mephit,Mephit,Small,elemental,neutral evil,12,17,"30 ft., fly 30 ft.",5,14,10,9,11,10,,"Perception, Stealth",fire,,poison,poisoned,darkvision 60 ft.,"Auran, Terran",2-Jan,"Death Burst, Innate Spellcasting",Monster Manual
-Ice Mephit,Mephit,Small,elemental,neutral evil,11,21,"30 ft., fly 30 ft.",7,13,10,9,11,12,,"Perception, Stealth","bludgeoning, fire",,"cold, poison",poisoned,darkvision 60 ft.,"Aquan, Auran",2-Jan,"Death Burst, False Appearance, Innate Spellcasting",Monster Manual
-Magma Mephit,Mephit,Small,elemental,neutral evil,11,22,"30 ft., fly 30 ft.",8,12,12,7,10,10,,Stealth,cold,,"fire, poison",,darkvision 60 ft.,"Ignan, Terran",2-Jan,"Death Burst, False Appearance, Innate Spellcasting",Monster Manual
-Mud Mephit,Mephit,Small,elemental,neutral evil,11,27,"20 ft., fly 20 ft., swim 20 ft.",8,12,12,9,11,7,,Stealth,,,poison,poisoned,darkivision 60 ft.,"Aquan, Terran",4-Jan,"Death Burst, False Appearance",Monster Manual
-Smoke Mephit,Mephit,Small,elemental,neutral evil,12,22,"30 ft., fly 30 ft.",6,14,12,10,10,11,,"Perception, Stealth",,,"fire, poison",poisoned,darkvision 60 ft.,"Auran, Ignan",4-Jan,"Death Burst, Innate Spellcasting",Monster Manual
-Steam Mephit,Mephit,Small,elemental,neutral evil,10,21,"30 ft., fly 30 ft.",5,11,10,11,10,12,,,,,"fire, poison",poisoned,darkvision 60 ft.,"Aquan, Ignan",4-Jan,"Death Burst, Innate Spellcasting",Monster Manual
-Merfolk,,Medium,humanoid,neutral,11,11,"10 ft., swim 40 ft.",10,13,12,11,11,12,,Perception,,,,,,"Aquan, Common",8-Jan,Amphibious,Monster Manual
+Dust Mephit,Mephit,Small,elemental,neutral evil,12,17,"30 ft., fly 30 ft.",5,14,10,9,11,10,,"Perception, Stealth",fire,,poison,poisoned,darkvision 60 ft.,"Auran, Terran",1/2,"Death Burst, Innate Spellcasting",Monster Manual
+Ice Mephit,Mephit,Small,elemental,neutral evil,11,21,"30 ft., fly 30 ft.",7,13,10,9,11,12,,"Perception, Stealth","bludgeoning, fire",,"cold, poison",poisoned,darkvision 60 ft.,"Aquan, Auran",1/2,"Death Burst, False Appearance, Innate Spellcasting",Monster Manual
+Magma Mephit,Mephit,Small,elemental,neutral evil,11,22,"30 ft., fly 30 ft.",8,12,12,7,10,10,,Stealth,cold,,"fire, poison",,darkvision 60 ft.,"Ignan, Terran",1/2,"Death Burst, False Appearance, Innate Spellcasting",Monster Manual
+Mud Mephit,Mephit,Small,elemental,neutral evil,11,27,"20 ft., fly 20 ft., swim 20 ft.",8,12,12,9,11,7,,Stealth,,,poison,poisoned,darkivision 60 ft.,"Aquan, Terran",1/4,"Death Burst, False Appearance",Monster Manual
+Smoke Mephit,Mephit,Small,elemental,neutral evil,12,22,"30 ft., fly 30 ft.",6,14,12,10,10,11,,"Perception, Stealth",,,"fire, poison",poisoned,darkvision 60 ft.,"Auran, Ignan",1/4,"Death Burst, Innate Spellcasting",Monster Manual
+Steam Mephit,Mephit,Small,elemental,neutral evil,10,21,"30 ft., fly 30 ft.",5,11,10,11,10,12,,,,,"fire, poison",poisoned,darkvision 60 ft.,"Aquan, Ignan",1/4,"Death Burst, Innate Spellcasting",Monster Manual
+Merfolk,,Medium,humanoid,neutral,11,11,"10 ft., swim 40 ft.",10,13,12,11,11,12,,Perception,,,,,,"Aquan, Common",1/8,Amphibious,Monster Manual
 Merrow,,Large,monstrosity,chotic evil,13,45,"10 ft., swim 40 ft.",18,10,15,8,10,9,,"Death Burst, Innate Spellcasting",,,,,darkvision 60 ft.,"Abyssal, Aquan",2,Amphibious,Monster Manual
 Mimic,,Medium,monstrosity,neutral,12,58,15 ft.,17,12,15,5,13,8,,Stealth,,,acid,prone,darkvision 60 ft.,,2,"Shapechanger, Adhesive, False Appearance, Grappler",Monster Manual
 Mind Flayer,,Medium,aberration,lawful evil,15,71,30 ft.,11,12,12,19,17,17,"Int, Wis, Cha","Arcana, Deception, Insight, Perception, Persuasion, Stealth",,,,,"darkvision 120, ft.","Deep Speech, Undercommon, telepathy 120",7,"Magic Resistance, Innate Spellcasting (Psionics)",Monster Manual
@@ -443,60 +443,60 @@ Elder Brain,Mind Flayer,Large,aberration,lawful evil,10,210,"5 ft., swim 10 ft."
 Ulitharid,Mind Flayer,Large,aberration,lawful evil,15,127,30 ft.,15,12,15,21,19,21,"Int, Wis, Cha","Arcana, Insight, Perception, Stealth",,,,,darkvision 120 ft.,"Deep Speech, Undercommon, telepathy 2 miles",9,"Creature Sense, Magic Resistance, Psionic Hub, Innate SPellcasting (Psionics)",Volo's Guide to Monsters
 Mindwitness,,Large,aberration,lawful evil,15,75,fly 20 ft.,10,14,14,15,15,10,"Int, Wis",Perception,,,,prone,darkvision 120 ft.,"Deep Speech, Undercommon, telepathy 600",5,Telepathic Hub,Volo's Guide to Monsters
 Minotaur,,Large,monstrosity,chotic evil,14,76,40 ft.,18,11,16,6,16,9,,Perception,,,,,darkvision 60 ft.,Abyssal,3,"Charge, Labyrinthine Recall, Reckless",Monster Manual
-Ape,Misc. Creature,Medium,beast,unaligned,12,19,"30 ft., climb 30 ft.",16,14,14,6,12,7,,"Athletics, Perception",,,,,,,2-Jan,,Monster Manual
+Ape,Misc. Creature,Medium,beast,unaligned,12,19,"30 ft., climb 30 ft.",16,14,14,6,12,7,,"Athletics, Perception",,,,,,,1/2,,Monster Manual
 Awakened Shrub,Misc. Creature,Small,plant,unaligned,9,10,20 ft.,3,8,11,10,10,6,,,fire,piercing,,,,Creator,0,False Appearance,Monster Manual
 Awakened Tree,Misc. Creature,Huge,plant,unaligned,13,59,20 ft.,19,6,15,10,10,7,,,fire,"bludgeoning, piercing",,,,Creator,2,False Appearance,Monster Manual
-Axe Beak,Misc. Creature,Large,beast,unaligned,11,19,50 ft.,14,12,12,2,10,5,,,,,,,,,4-Jan,,Monster Manual
+Axe Beak,Misc. Creature,Large,beast,unaligned,11,19,50 ft.,14,12,12,2,10,5,,,,,,,,,1/4,,Monster Manual
 Baboon,Misc. Creature,Small,beast,unaligned,12,3,"30 ft., climb 30 ft.",8,14,11,4,12,6,,,,,,,,,0,Pack Tactics,Monster Manual
 Badger,Misc. Creature,Tiny,beast,unaligned,10,3,"20 ft., burrow 5 ft.",4,11,12,2,12,5,,,,,,,darkvision 30 ft.,,0,Keen Smell,Monster Manual
 Bat,Misc. Creature,Tiny,beast,unaligned,12,1,"5 ft., fly 30 ft.",2,15,8,2,12,4,,,,,,,blindsight 60 ft.,,0,"Echolocation, Keen Hearing",Monster Manual
-Black Bear,Misc. Creature,Medium,beast,unaligned,11,19,"40 ft., climb 30 ft.",15,10,14,2,12,7,,Perception,,,,,,,2-Jan,Keen Smell,Monster Manual
-Blink Dog,Misc. Creature,Medium,fey,lawful good,13,22,40 ft.,12,17,12,10,13,11,,"Perception, Stealth",,,,,,"Own, Sylvan",4-Jan,"Keen Hearing, Keen Smell, Pack Tactics",Monster Manual
-Blood Hawk,Misc. Creature,Small,beast,unaligned,12,7,"10 ft., fly 60 ft.",6,14,10,3,14,5,,Perception,,,,,,,8-Jan,"Keen Sight, Pack Tactics",Monster Manual
-Boar,Misc. Creature,Medium,beast,unaligned,11,11,40 ft.,13,11,12,2,9,5,,,,,,,,,4-Jan,"Charge, Relentless",Monster Manual
+Black Bear,Misc. Creature,Medium,beast,unaligned,11,19,"40 ft., climb 30 ft.",15,10,14,2,12,7,,Perception,,,,,,,1/2,Keen Smell,Monster Manual
+Blink Dog,Misc. Creature,Medium,fey,lawful good,13,22,40 ft.,12,17,12,10,13,11,,"Perception, Stealth",,,,,,"Own, Sylvan",1/4,"Keen Hearing, Keen Smell, Pack Tactics",Monster Manual
+Blood Hawk,Misc. Creature,Small,beast,unaligned,12,7,"10 ft., fly 60 ft.",6,14,10,3,14,5,,Perception,,,,,,,1/8,"Keen Sight, Pack Tactics",Monster Manual
+Boar,Misc. Creature,Medium,beast,unaligned,11,11,40 ft.,13,11,12,2,9,5,,,,,,,,,1/4,"Charge, Relentless",Monster Manual
 Brown Bear,Misc. Creature,Large,beast,unaligned,11,34,"40 ft., climb 30 ft.",19,10,16,2,13,7,,Perception,,,,,,,1,Keen Smell,Monster Manual
-Camel,Misc. Creature,Large,beast,unaligned,9,15,50 ft.,16,8,14,2,8,5,,,,,,,,,8-Jan,,Monster Manual
+Camel,Misc. Creature,Large,beast,unaligned,9,15,50 ft.,16,8,14,2,8,5,,,,,,,,,1/8,,Monster Manual
 Cat,Misc. Creature,Tiny,beast,unaligned,12,2,"40 ft., climb 30 ft.",3,15,10,3,12,7,,"Perception, Stealth",,,,,,,0,Keen Smell,Monster Manual
-Constrictor Snake,Misc. Creature,large,beast,unaligned,12,13,"30 ft., swim 30 ft.",15,14,12,1,10,3,,,,,,,blindsight 10 ft.,,4-Jan,,Monster Manual
+Constrictor Snake,Misc. Creature,large,beast,unaligned,12,13,"30 ft., swim 30 ft.",15,14,12,1,10,3,,,,,,,blindsight 10 ft.,,1/4,,Monster Manual
 Crab,Misc. Creature,Tiny,beast,unaligned,11,2,"20 ft., swim 20 ft.",2,11,10,1,8,2,,Stealth,,,,,blindsight 30 ft.,,0,Amphibious,Monster Manual
-Crocodile,Misc. Creature,Large,beast,unaligned,12,19,"20 ft., swim 30 ft.",15,10,13,2,10,5,,Stealth,,,,,,,2-Jan,Hold Breath,Monster Manual
+Crocodile,Misc. Creature,Large,beast,unaligned,12,19,"20 ft., swim 30 ft.",15,10,13,2,10,5,,Stealth,,,,,,,1/2,Hold Breath,Monster Manual
 Death Dog,Misc. Creature,Medium,monstrosity,neutral evil,12,39,40 ft.,15,14,14,3,13,6,,"Perception, Stealth",,,,,darkvision 120 ft.,,1,Two-Headed,Monster Manual
 Deer,Misc. Creature,Medium,beast,unaligned,13,4,50 ft.,11,16,11,2,14,5,,,,,,,,,0,,Monster Manual
 Dire Wolf,Misc. Creature,Large,beast,unaligned,14,37,50 ft.,17,15,15,3,12,7,,"Perception, Stealth",,,,,,,1,"Keen Hearing, Keen Smell, Pack Tactics",Monster Manual
-Draft Horse,Misc. Creature,Large,beast,unaligned,10,19,40 ft.,18,10,12,2,11,7,,,,,,,,,4-Jan,,Monster Manual
+Draft Horse,Misc. Creature,Large,beast,unaligned,10,19,40 ft.,18,10,12,2,11,7,,,,,,,,,1/4,,Monster Manual
 Eagle,Misc. Creature,Small,beast,unaligned,12,3,"10 ft., fly 60 ft.",6,15,10,2,14,7,,Perception,,,,,,,0,Keen Sight,Monster Manual
 Elephant,Misc. Creature,Huge,beast,unaligned,12,76,40 ft.,22,9,17,3,11,6,,,,,,,,,4,Trampling Charge,Monster Manual
-Elk,Misc. Creature,Large,beast,unaligned,10,13,50 ft.,16,10,12,2,10,6,,,,,,,,,4-Jan,Charge,Monster Manual
-Flying Snake,Misc. Creature,Tiny,beast,unaligned,14,5,"30 ft., fly 60 ft., swim 30 ft.",4,18,11,2,12,5,,,,,,,blindsight 10 ft.,,8-Jan,Flyby,Monster Manual
+Elk,Misc. Creature,Large,beast,unaligned,10,13,50 ft.,16,10,12,2,10,6,,,,,,,,,1/4,Charge,Monster Manual
+Flying Snake,Misc. Creature,Tiny,beast,unaligned,14,5,"30 ft., fly 60 ft., swim 30 ft.",4,18,11,2,12,5,,,,,,,blindsight 10 ft.,,1/8,Flyby,Monster Manual
 Frog,Misc. Creature,Tiny,beast,unaligned,11,1,"20 ft., swim 20 ft.",1,13,8,1,8,3,,"Perception, Stealth",,,,,darkvision 30 ft.,,0,"Amphibious, Standing Leap",Monster Manual
 Giant Ape,Misc. Creature,Huge,beast,unaligned,12,157,"40 ft., climb 40 ft.",23,14,18,7,12,7,,"Athletics, Perception",,,,,,,7,,Monster Manual
-Giant Badger,Misc. Creature,Medium,beast,unaligned,10,13,"30 ft., burrow 10 ft.",13,10,15,2,12,5,,,,,,,darkvision 30 ft.,,4-Jan,Keen Smell,Monster Manual
-Giant Bat,Misc. Creature,Large,beast,unaligned,13,22,"10 ft., fly 60 ft.",15,16,11,2,12,6,,,,,,,blindsight 60 ft.,,4-Jan,"Echolocation, Keen Hearing",Monster Manual
+Giant Badger,Misc. Creature,Medium,beast,unaligned,10,13,"30 ft., burrow 10 ft.",13,10,15,2,12,5,,,,,,,darkvision 30 ft.,,1/4,Keen Smell,Monster Manual
+Giant Bat,Misc. Creature,Large,beast,unaligned,13,22,"10 ft., fly 60 ft.",15,16,11,2,12,6,,,,,,,blindsight 60 ft.,,1/4,"Echolocation, Keen Hearing",Monster Manual
 Giant Boar,Misc. Creature,Large,beast,unaligned,12,42,40 ft.,17,10,16,2,7,5,,,,,,,,,2,"Charge, Relentless",Monster Manual
-Giant Centipede,Misc. Creature,small,beast,unaligned,13,4,30 ft.,5,14,12,1,7,3,,,,,,,blindsight 30 ft.,,4-Jan,,Monster Manual
+Giant Centipede,Misc. Creature,small,beast,unaligned,13,4,30 ft.,5,14,12,1,7,3,,,,,,,blindsight 30 ft.,,1/4,,Monster Manual
 Giant Constrictor Snake,Misc. Creature,Huge,beast,unaligned,12,60,"30 ft., swim 30 ft.",19,14,12,1,10,3,,Perception,,,,,blindsight 10 ft.,,2,,Monster Manual
-Giant Crab,Misc. Creature,Medium,beast,unaligned,15,13,"30 ft., swim 30 ft.",13,15,11,1,9,3,,Stealth,,,,,blindsight 30 ft.,,8-Jan,Amphibious,Monster Manual
+Giant Crab,Misc. Creature,Medium,beast,unaligned,15,13,"30 ft., swim 30 ft.",13,15,11,1,9,3,,Stealth,,,,,blindsight 30 ft.,,1/8,Amphibious,Monster Manual
 Giant Crocodile,Misc. Creature,Huge,beast,unaligned,14,85,"30 ft., swim 50 ft.",21,9,17,2,10,7,,Stealth,,,,,,,5,Hold Breath,Monster Manual
 Giant Eagle,Misc. Creature,Large,beast,unaligned,13,26,"10 ft., fly 80 ft.",16,17,13,8,14,10,,Perception,,,,,,"Own, Common, Auran",1,Keen Sight,Monster Manual
 Giant Elk,Misc. Creature,Huge,beast,unaligned,14,42,60 ft.,19,16,14,7,14,10,,Perception,,,,,,"Own, Common, Elvish, Sylvan",2,Charge,Monster Manual
 Giant Fire Beetle,Misc. Creature,small,beast,unaligned,13,4,30 ft.,8,10,12,1,7,3,,,,,,,blindsight 30 ft.,,0,Illumination,Monster Manual
-Giant Frog,Misc. Creature,Medium,beast,unaligned,11,18,"30 ft., swim 30 ft.",12,13,11,2,10,3,,"Perception, Stealth",,,,,darkvision 30 ft.,,4-Jan,"Amphibious, Standing Leap",Monster Manual
-Giant Goat,Misc. Creature,Large,beast,unaligned,11,19,40 ft.,17,11,12,3,12,6,,,,,,,,,2-Jan,"Charge, Sure-Footed",Monster Manual
+Giant Frog,Misc. Creature,Medium,beast,unaligned,11,18,"30 ft., swim 30 ft.",12,13,11,2,10,3,,"Perception, Stealth",,,,,darkvision 30 ft.,,1/4,"Amphibious, Standing Leap",Monster Manual
+Giant Goat,Misc. Creature,Large,beast,unaligned,11,19,40 ft.,17,11,12,3,12,6,,,,,,,,,1/2,"Charge, Sure-Footed",Monster Manual
 Giant Hyena,Misc. Creature,Large,beast,unaligned,12,45,50 ft.,16,14,14,2,12,7,,Perception,,,,,,,1,Rampage,Monster Manual
-Giant Lizard,Misc. Creature,Large,beast,unaligned,12,19,"30 ft., climb 30 ft.",15,12,13,2,10,5,,,,,,,darkvision 30 ft.,,4-Jan,,Monster Manual
+Giant Lizard,Misc. Creature,Large,beast,unaligned,12,19,"30 ft., climb 30 ft.",15,12,13,2,10,5,,,,,,,darkvision 30 ft.,,1/4,,Monster Manual
 Giant Octopus,Misc. Creature,Large,beast,unaligned,11,52,"10 ft., swim 60 ft.",17,13,13,4,10,4,,"Perception, Stealth",,,,,darkvision 60 ft.,,1,"Hold Breath, Underwater Camouflage, Water Breathing",Monster Manual
-Giant Owl,Misc. Creature,Large,beast,unaligned,12,19,"5 ft., fly 60 ft.",13,15,12,8,13,10,,"Perception, Stealth",,,,,darkvision 120 ft.,"Own, Common, Elvish, Sylvan",4-Jan,"FLyby, Keen Hearing, Keen Sight",Monster Manual
-Giant Poisonous Snake,Misc. Creature,Medium,beast,unaligned,14,11,"30 ft., swim 30 ft.",10,18,13,2,10,3,,Perception,,,,,blindsight 10 ft.,,4-Jan,,Monster Manual
-Giant Rat,Misc. Creature,Small,beast,unaligned,12,7,30 ft.,7,15,11,2,10,4,,,,,,,darkvision 60 ft.,,8-Jan,"Keen Smell, Pack Tactics",Monster Manual
+Giant Owl,Misc. Creature,Large,beast,unaligned,12,19,"5 ft., fly 60 ft.",13,15,12,8,13,10,,"Perception, Stealth",,,,,darkvision 120 ft.,"Own, Common, Elvish, Sylvan",1/4,"FLyby, Keen Hearing, Keen Sight",Monster Manual
+Giant Poisonous Snake,Misc. Creature,Medium,beast,unaligned,14,11,"30 ft., swim 30 ft.",10,18,13,2,10,3,,Perception,,,,,blindsight 10 ft.,,1/4,,Monster Manual
+Giant Rat,Misc. Creature,Small,beast,unaligned,12,7,30 ft.,7,15,11,2,10,4,,,,,,,darkvision 60 ft.,,1/8,"Keen Smell, Pack Tactics",Monster Manual
 Giant Scorpion,Misc. Creature,Large,beast,unaligned,15,52,40 ft.,15,13,15,1,9,3,,,,,,,blindsight 60 ft.,,3,,Monster Manual
-Giant Sea Horse,Misc. Creature,Large,beast,unaligned,13,16,swim 40 ft.,12,15,11,2,12,5,,,,,,,,,2-Jan,"Charge, Water Breathing",Monster Manual
+Giant Sea Horse,Misc. Creature,Large,beast,unaligned,13,16,swim 40 ft.,12,15,11,2,12,5,,,,,,,,,1/2,"Charge, Water Breathing",Monster Manual
 Giant Shark,Misc. Creature,Huge,beast,unaligned,13,126,swim 50 ft.,23,11,21,1,10,5,,Perception,,,,,blindsight 60 ft.,,5,"Blood Frenzy, Water Breathing",Monster Manual
 Giant Spider,Misc. Creature,Large,beast,unaligned,14,26,"30 ft., climb 30 ft.",14,16,12,2,11,4,,Stealth,,,,,"blindsight 10 ft., darkvision 60 ft.",,1,"Spider Climb, Web Sense, Web Walker",Monster Manual
 Giant Toad,Misc. Creature,Large,beast,unaligned,11,39,"20 ft., swim 40 ft.",15,13,13,2,10,3,,,,,,,darkvision 30 ft.,,1,"Amphibious, Standing Leap",Monster Manual
 Giant Vulture,Misc. Creature,Large,beast,neutral evil,10,22,"10 ft., fly 60 ft.",15,10,15,6,12,7,,Perception,,,,,,Common,1,"Keen Sight, Keen Smell, Pack Tactics",Monster Manual
-Giant Wasp,Misc. Creature,Medium,beast,unaligned,12,13,"10 ft., fly 50 ft.",10,14,10,1,10,3,,,,,,,,,2-Jan,,Monster Manual
-Giant Weasel,Misc. Creature,Medium,beast,unaligned,13,9,40 ft.,11,16,10,4,12,5,,"Perception, Stealth",,,,,darkvision 60 ft.,,8-Jan,"Keen Hearing, Keen Smell",Monster Manual
-Giant Wolf Spider,Misc. Creature,Medium,beast,unaligned,13,11,"40 ft., climb 40 ft.",12,16,13,3,12,4,,"Perception, Stealth",,,,,"blindsight 10 ft., darkvision 60 ft.",,4-Jan,"Spider Climb, Web Sense, Web Walker",Monster Manual
+Giant Wasp,Misc. Creature,Medium,beast,unaligned,12,13,"10 ft., fly 50 ft.",10,14,10,1,10,3,,,,,,,,,1/2,,Monster Manual
+Giant Weasel,Misc. Creature,Medium,beast,unaligned,13,9,40 ft.,11,16,10,4,12,5,,"Perception, Stealth",,,,,darkvision 60 ft.,,1/8,"Keen Hearing, Keen Smell",Monster Manual
+Giant Wolf Spider,Misc. Creature,Medium,beast,unaligned,13,11,"40 ft., climb 40 ft.",12,16,13,3,12,4,,"Perception, Stealth",,,,,"blindsight 10 ft., darkvision 60 ft.",,1/4,"Spider Climb, Web Sense, Web Walker",Monster Manual
 Goat,Misc. Creature,Medium,beast,unaligned,10,4,40 ft.,12,10,11,2,10,5,,,,,,,,,0,"Charge, Sure-Footed",Monster Manual
 Hawk,Misc. Creature,Tiny,beast,unaligned,13,1,"10 ft., fly 60 ft.",5,16,8,2,14,6,,Perception,,,,,,,0,Keen Sight,Monster Manual
 Hunter Shark,Misc. Creature,Large,beast,unaligned,12,45,swim 40 ft.,18,13,15,1,10,4,,Perception,,,,,blindsight 30 ft.,,2,"Blood Frenzy, Water Breathing",Monster Manual
@@ -506,48 +506,48 @@ Killer Whale,Misc. Creature,Huge,beast,unaligned,12,90,swim 60 ft.,19,10,13,3,12
 Lion,Misc. Creature,Large,beast,unaligned,12,26,50 ft.,17,15,13,3,12,8,,"Perception, Stealth",,,,,,,1,"Keen Smell, Pack Tactics, Pounce, Running Leap",Monster Manual
 Lizard,Misc. Creature,Tiny,beast,unaligned,10,2,"20 ft., climb 20 ft.",2,11,10,1,8,3,,,,,,,darkvision 30 ft.,,0,,Monster Manual
 Mammoth,Misc. Creature,Huge,beast,unaligned,13,126,40 ft.,24,9,21,3,11,6,,,,,,,,,6,Trampling Charge,Monster Manual
-Mastiff,Misc. Creature,Medium,beast,unaligned,12,5,40 ft.,13,14,12,3,12,7,,Perception,,,,,,,8-Jan,"Keen Hearing, Keen Smell",Monster Manual
-Mule,Misc. Creature,Medium,beast,unaligned,10,11,40 ft.,14,10,13,2,10,5,,,,,,,,,8-Jan,"Beast of Burden, Sure-Footed",Monster Manual
+Mastiff,Misc. Creature,Medium,beast,unaligned,12,5,40 ft.,13,14,12,3,12,7,,Perception,,,,,,,1/8,"Keen Hearing, Keen Smell",Monster Manual
+Mule,Misc. Creature,Medium,beast,unaligned,10,11,40 ft.,14,10,13,2,10,5,,,,,,,,,1/8,"Beast of Burden, Sure-Footed",Monster Manual
 Octopus,Misc. Creature,Small,beast,unaligned,12,3,"5 ft., swim 30 ft.",4,15,11,3,10,4,,"Perception, Stealth",,,,,darkvision 30 ft.,,0,"Hold Breath, Underwater Camouflage, Water Breathing",Monster Manual
 Owl,Misc. Creature,Tiny,beast,unaligned,11,1,"5 ft., fly 60 ft.",3,13,8,2,12,7,,"Perception, Stealth",,,,,darkvision 120 ft.,,0,"FLyby, Keen Hearing, Keen Sight",Monster Manual
-Panther,Misc. Creature,Medium,beast,unaligned,12,13,"50 ft., climb 40 ft.",14,15,10,3,14,7,,"Perception, Stealth",,,,,,,4-Jan,"Keen Smell, Pounce",Monster Manual
+Panther,Misc. Creature,Medium,beast,unaligned,12,13,"50 ft., climb 40 ft.",14,15,10,3,14,7,,"Perception, Stealth",,,,,,,1/4,"Keen Smell, Pounce",Monster Manual
 Phase Spider,Misc. Creature,Large,monstrosity,unaligned,13,32,"30 ft., climb 30 ft.",15,15,12,6,10,6,,Stealth,,,,,darkvision 60 ft.,,3,"Ethereal Jaunt, Spider Climb, Web Walker",Monster Manual
-Poisonous Snake,Misc. Creature,Tiny,beast,unaligned,13,13,"30 ft., swim 30 ft.",2,16,11,1,10,3,,,,,,,blindsight 10 ft.,,8-Jan,,Monster Manual
+Poisonous Snake,Misc. Creature,Tiny,beast,unaligned,13,13,"30 ft., swim 30 ft.",2,16,11,1,10,3,,,,,,,blindsight 10 ft.,,1/8,,Monster Manual
 Polar Bear,Misc. Creature,Large,beast,unaligned,12,42,"40 ft., swim 30 ft.",20,10,16,2,13,7,,Perception,,,,,,,2,Keen Smell,Monster Manual
-Pony,Misc. Creature,Medium,beast,unaligned,10,11,40 ft.,15,10,13,2,11,7,,,,,,,,,8-Jan,,Monster Manual
+Pony,Misc. Creature,Medium,beast,unaligned,10,11,40 ft.,15,10,13,2,11,7,,,,,,,,,1/8,,Monster Manual
 Quipper,Misc. Creature,Tiny,beast,unaligned,13,1,swim 40 ft.,2,16,9,1,7,2,,,,,,,darkvision 60 ft.,,0,"Blood Frenzy, Water Breathing",Monster Manual
 Rat,Misc. Creature,Tiny,beast,unaligned,10,1,20 ft.,2,11,9,2,10,4,,,,,,,darkvision 30 ft.,,0,Keen Smell,Monster Manual
 Raven,Misc. Creature,Tiny,beast,unaligned,12,1,"10 ft., fly 50 ft.",2,14,8,2,12,6,,Perception,,,,,,,0,Mimicry,Monster Manual
-Reef Shark,Misc. Creature,Medium,beast,unaligned,12,22,swim 40 ft.,14,13,13,1,10,4,,Perception,,,,,blindsight 30 ft.,,2-Jan,"Pack Tactics, Water Breathing",Monster Manual
+Reef Shark,Misc. Creature,Medium,beast,unaligned,12,22,swim 40 ft.,14,13,13,1,10,4,,Perception,,,,,blindsight 30 ft.,,1/2,"Pack Tactics, Water Breathing",Monster Manual
 Rhinoceros,Misc. Creature,Large,beast,unaligned,11,45,40 ft.,21,8,15,2,12,6,,,,,,,,,2,Charge,Monster Manual
-Riding Horse,Misc. Creature,Large,beast,unaligned,10,13,60 ft.,16,10,12,2,11,7,,,,,,,,,4-Jan,,Monster Manual
+Riding Horse,Misc. Creature,Large,beast,unaligned,10,13,60 ft.,16,10,12,2,11,7,,,,,,,,,1/4,,Monster Manual
 Saber-Toothed Tiger,Misc. Creature,Large,beast,unaligned,12,52,40 ft.,18,14,15,3,12,8,,"Perception, Stealth",,,,,,,2,"Keen Smell, Pounce",Monster Manual
 Scorpion,Misc. Creature,Tiny,beast,unaligned,11,1,10 ft.,2,11,8,1,8,2,,,,,,,,,0,,Monster Manual
 Sea Horse,Misc. Creature,Tiny,beast,unaligned,11,1,swim 20 ft.,1,12,8,1,10,2,,,,,,,,,0,Water Breathing,Monster Manual
 Spider,Misc. Creature,Tiny,beast,unaligned,12,1,"20 ft., climb 20 ft.",2,14,8,1,10,2,,Stealth,,,,,darkvision 30 ft.,,0,"Spider Climb, Web Sense, Web Walker",Monster Manual
-Swarm of Bats,Misc. Creature,Medium,beast,unaligned,12,22,fly 30 ft.,5,15,10,2,12,4,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",blindsight 60 ft.,,4-Jan,"Echolocation, Keen Hearing Swarm",Monster Manual
-Swarm of Insects,Misc. Creature,Medium,beast,unaligned,12,22,"20 ft., climb 20 ft.",3,13,10,1,7,1,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",blindsight 10 ft.,,2-Jan,Swarm,Monster Manual
+Swarm of Bats,Misc. Creature,Medium,beast,unaligned,12,22,fly 30 ft.,5,15,10,2,12,4,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",blindsight 60 ft.,,1/4,"Echolocation, Keen Hearing Swarm",Monster Manual
+Swarm of Insects,Misc. Creature,Medium,beast,unaligned,12,22,"20 ft., climb 20 ft.",3,13,10,1,7,1,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",blindsight 10 ft.,,1/2,Swarm,Monster Manual
 Swarm of Poisonous Snakes,Misc. Creature,Medium,beast,unaligned,14,36,"30 ft., swim 30 ft.",8,18,11,1,10,3,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",blindsight 10 ft.,,2,Swarm,Monster Manual
 Swarm of Quippers,Misc. Creature,Medium,beast,unaligned,13,28,swim 40 ft.,13,16,9,1,7,2,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",,,1,"Blood Frenzy, Swarm, Water Breathing",Monster Manual
-Swarm of Rats,Misc. Creature,Medium,beast,unaligned,10,24,30 ft.,9,11,9,2,10,3,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",,,4-Jan,"Keen Smell, Swarm",Monster Manual
-Swarm of Ravens,Misc. Creature,Medium,beast,unaligned,12,24,"10 ft., fly 50 ft.",6,14,8,3,12,6,,Perception,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",,,4-Jan,Swarm,Monster Manual
+Swarm of Rats,Misc. Creature,Medium,beast,unaligned,10,24,30 ft.,9,11,9,2,10,3,,,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",,,1/4,"Keen Smell, Swarm",Monster Manual
+Swarm of Ravens,Misc. Creature,Medium,beast,unaligned,12,24,"10 ft., fly 50 ft.",6,14,8,3,12,6,,Perception,,"bludgeoning, piercing, slashing",,"charmed, frightened, paralyzed, petrified, prone, restrained, stunned",,,1/4,Swarm,Monster Manual
 Tiger,Misc. Creature,Large,beast,unaligned,12,37,40 ft.,17,15,14,3,12,8,,"Perception, Stealth",,,,,darkvision 60 ft.,,1,"Keen Smell, Pounce",Monster Manual
 Vulture,Misc. Creature,Medium,beast,unaligned,10,5,"10 ft., fly 50 ft.",7,10,13,2,12,4,,Perception,,,,,,,0,"Keen Sight, Keen Smell, Pack Tactics",Monster Manual
-Warhorse,Misc. Creature,Large,beast,unaligned,11,19,60 ft.,18,12,13,2,12,7,,,,,,,,,2-Jan,Trampling Charge,Monster Manual
+Warhorse,Misc. Creature,Large,beast,unaligned,11,19,60 ft.,18,12,13,2,12,7,,,,,,,,,1/2,Trampling Charge,Monster Manual
 Weasel,Misc. Creature,Tiny,beast,unaligned,13,1,30 ft.,3,16,8,2,12,3,,"Perception, Stealth",,,,,,,0,"Keen Hearing, Keen Smell",Monster Manual
 Winter Wolf,Misc. Creature,Large,monstrosity,neutral evil,13,75,50 ft.,18,13,14,7,12,8,,"Perception, Stealth",,,cold,,,"Common, Giant, Own",3,"Keen Hearing, Keen Smell, Pack Tactics, Snow Camouflage",Monster Manual
-Wolf,Misc. Creature,Medium,beast,unaligned,13,11,40 ft.,12,15,12,3,12,6,,"Perception, Stealth",,,,,,,4-Jan,"Keen Hearing, Keen Smell, Pack Tactics",Monster Manual
-Worg,Misc. Creature,Large,monstrosity,neutral evil,13,26,50 ft.,16,13,13,7,11,8,,Perception,,,,,darkvision 60 ft.,"Goblin, Own",2-Jan,"Keen Hearing, Keen Smell",Monster Manual
-Duodrone,Modron,Medium,construct,lawful neutral,15,11,30 ft.,11,13,12,6,10,7,,,,,,,truesight 120 ft.,Modron,4-Jan,"Axiomatic Mind, Disintegration",Monster Manual
-Monodrone,Modron,Medium,construct,lawful neutral,15,5,"30 ft., fly 30 ft.",1,13,12,4,10,5,,,,,,,truesight 120 ft.,Modron,8-Jan,"Axiomatic Mind, Disintegration",Monster Manual
+Wolf,Misc. Creature,Medium,beast,unaligned,13,11,40 ft.,12,15,12,3,12,6,,"Perception, Stealth",,,,,,,1/4,"Keen Hearing, Keen Smell, Pack Tactics",Monster Manual
+Worg,Misc. Creature,Large,monstrosity,neutral evil,13,26,50 ft.,16,13,13,7,11,8,,Perception,,,,,darkvision 60 ft.,"Goblin, Own",1/2,"Keen Hearing, Keen Smell",Monster Manual
+Duodrone,Modron,Medium,construct,lawful neutral,15,11,30 ft.,11,13,12,6,10,7,,,,,,,truesight 120 ft.,Modron,1/4,"Axiomatic Mind, Disintegration",Monster Manual
+Monodrone,Modron,Medium,construct,lawful neutral,15,5,"30 ft., fly 30 ft.",1,13,12,4,10,5,,,,,,,truesight 120 ft.,Modron,1/8,"Axiomatic Mind, Disintegration",Monster Manual
 Pentadrone,Modron,Large,construct,lawful neutral,16,32,40 ft.,15,14,12,10,10,13,,Perception,,,,,truesight 120 ft.,Modron,2,"Axiomatic Mind, Disintegration",Monster Manual
 Quadrone,Modron,Medium,construct,lawful neutral,16,22,"30 ft., fly 30 ft.",12,14,12,10,10,11,,Perception,,,,,truesight 120 ft.,Modron,1,"Axiomatic Mind, Disintegration",Monster Manual
-Tridrone,Modron,Medium,construct,lawful neutral,15,16,30 ft.,12,13,12,9,10,9,,,,,,,truesight 120 ft.,Modron,2-Jan,"Axiomatic Mind, Disintegration",Monster Manual
-Mongrelfolk,,Medium,humanoid (mongrelfolk),ANY,11,26,20 ft.,12,9,15,9,10,6,,"Deception, Perception, Stealth",,,,,,Common,4-Jan,Mimicry,Curse of Strahd
+Tridrone,Modron,Medium,construct,lawful neutral,15,16,30 ft.,12,13,12,9,10,9,,,,,,,truesight 120 ft.,Modron,1/2,"Axiomatic Mind, Disintegration",Monster Manual
+Mongrelfolk,,Medium,humanoid (mongrelfolk),ANY,11,26,20 ft.,12,9,15,9,10,6,,"Deception, Perception, Stealth",,,,,,Common,1/4,Mimicry,Curse of Strahd
 Morkoth,,Medium,aberration,chotic evil,17,130,"25 ft., swim 50 ft.",14,14,14,20,15,13,"Dex, Int, Wis","Arcana, History, Perception, Stealth",,nonmagical,,,"blindsight 30 ft., darkvision 120 ft.",Telepathy 120,11,"Amphibious, Normal Spellcasting",Volo's Guide to Monsters
 Mummy,,Medium,undead,lawful evil,11,58,20 ft.,16,8,15,6,10,12,Wis,,fire,nonmagical,"necrotic, poison","charmed, exhaustion, frightened, paralyzed, poisoned",darkvision 60 ft.,Any,3,,Monster Manual
 Mummy Lord,,Medium,undead,lawful evil,17,97,20 ft.,18,10,17,11,18,16,"Con, Int, Wis, Cha","History, Religion",fire,,"necrotic, poison, nonmagical","charmed, exhaustion, frightened, paralyzed, poisoned",darkvision 60 ft.,Any,15,"Magic Resistance, Rejuvenation, Normal Spellcasting, Legendary, Lair",Monster Manual
-Myconid Adult,,Medium,plant,lawful neutral,12,22,20 ft.,10,10,12,10,13,7,,,,,,,darkvision 120 ft.,,2-Jan,"Distress Spores, Sun Sickness",Monster Manual
+Myconid Adult,,Medium,plant,lawful neutral,12,22,20 ft.,10,10,12,10,13,7,,,,,,,darkvision 120 ft.,,1/2,"Distress Spores, Sun Sickness",Monster Manual
 Myconid Sovereign,,Large,plant,lawful neutral,13,60,30 ft.,12,10,14,13,15,10,,,,,,,darkvision 120 ft.,,2,"Distress Spores, Sun Sickness",Monster Manual
 Myconid Sprout,,Small,plant,lawful neutral,10,7,10 ft.,8,10,10,8,11,5,,,,,,,darkvision 120 ft.,,0,"Distress Spores, Sun Sickness",Monster Manual
 Naergoth Bladelord,,Medium,undead,neutral evil,18,135,30 ft.,20,12,16,12,14,16,"Dex, Wis","Perception, Stealth",,"necrotic, nonmagical",poison,"exhaustion, poisoned",darkvision 60 ft.,"Common, Draconic",11,Sunlight Sensitivity,Rise of Tiamat
@@ -556,7 +556,7 @@ Guardian Naga,Naga,Large,monstrosity,lawful good,18,127,40 ft.,19,18,16,16,19,18
 Spirit Naga,Naga,Large,monstrosity,chotic evil,15,75,40 ft.,18,17,14,16,15,16,"Dex, Con, Int, Wis, Cha",,,,poison,"charmed, poisoned",darkvision 60 ft.,Abyssal Common,8,"Rejuvenation, Normal Spellcasting",Monster Manual
 Nagpa,,Medium,humanoid (nagpa),neutral evil,19,187,30 ft.,9,15,12,23,18,21,"Int, Wis, Cha","Arcana, Deception, History, Insight, Perception",,,,,truesight 120 ft.,"Common, Any",17,"Corruption, Paralysis, Normal Spellcasting",Mordenkainen's Tome of Foes
 Neogi,,Small,aberration,lawful evil,15,33,"30 ft., climb 30 ft.",6,16,14,13,12,15,,"Intimidation, Perception",,,,,darkvision 60 ft.,"Common, Deep SPeech, Undercommon",3,"Mental Fortitude, Spider Climb",Volo's Guide to Monsters
-Neogi Hatchling,,Tiny,aberration,lawful evil,11,7,"20 ft., climb 20 ft.",3,13,10,6,10,9,,,,,,,darkvision 60 ft.,,8-Jan,"Mental Fortitude, Spider Climb",Volo's Guide to Monsters
+Neogi Hatchling,,Tiny,aberration,lawful evil,11,7,"20 ft., climb 20 ft.",3,13,10,6,10,9,,,,,,,darkvision 60 ft.,,1/8,"Mental Fortitude, Spider Climb",Volo's Guide to Monsters
 Neogi Master,,Medium,aberration,lawful evil,15,71,"30 ft., climb 30 ft.",6,16,14,16,12,18,Wis,"Arcana, Deception, Intimidation, Perception, Persuasion",,,,,darkvision 120 ft.,"Common, Deep Speech, Undercommon",4,"Mental Fortitude, Normal Spellcasting, Spider Climb",Volo's Guide to Monsters
 Neothelid,,Gargantuan,aberration,chotic evil,16,325,30 ft.,27,7,21,3,16,12,"Int, Wis, Cha",,,,,,blindsight 120 ft.,,13,"Creature Sense, Innate Spellcasting (Psionics), Magic Resistance",Volo's Guide to Monsters
 Nereid,,Medium,fey,ANY CHAOTIC,13,44,"30 ft., swim 60 ft.",10,17,12,13,14,16,,"Acrobatics, Nature, Stealth, Survival",,,,,darkvision 60 ft.,"Aquan, Common, Elvish, Sylvan",2,"Amphibious, Aquatic Invisibility, Mantle Dependent, Shape Water, Speak with Animals",Tales from the Yawning Portal
@@ -565,13 +565,13 @@ Nightwalker,,Huge,undead,chotic evil,14,297,"40 ft., fly 40 ft.",22,19,24,6,9,8,
 Nilbog,,Small,humanoid (goblinoid),chotic evil,13,7,30 ft.,8,14,10,10,8,15,,Stealth,,,,,darkvision 60 ft.,"COmmon, Goblin",1,"Innate Spellcasting, Nilbogism, Nimble Escape",Volo's Guide to Monsters
 Nothic,,Medium,aberration,neutral evil,15,45,30 ft.,14,16,16,13,10,8,,"Arcana, Insight, Perception, Stealth",,,,,truesight 120 ft.,Undercommon,2,Keen Sight,Monster Manual
 Abjurer,NPC,Medium,humanoid (any race),ANY,12,84,30 ft.,9,14,14,18,12,11,"Int, Wis","Arcana, History",,,,,,Any,9,"Normal Spellcasting, Arcane Ward",Volo's Guide to Monsters
-Acolyte,NPC,Medium,humanoid,ANY,10,9,30 ft.,10,10,10,10,14,11,,"Medicine, Religion",,,,,,Any,4-Jan,Normal Spellcasting,Monster Manual
-Apprentice Wizard,NPC,Medium,humanoid (any race),ANY,10,9,30 ft.,10,10,10,14,10,11,,"Arcana, History",,,,,,Any,4-Jan,Normal Spellcasting,Volo's Guide to Monsters
+Acolyte,NPC,Medium,humanoid,ANY,10,9,30 ft.,10,10,10,10,14,11,,"Medicine, Religion",,,,,,Any,1/4,Normal Spellcasting,Monster Manual
+Apprentice Wizard,NPC,Medium,humanoid (any race),ANY,10,9,30 ft.,10,10,10,14,10,11,,"Arcana, History",,,,,,Any,1/4,Normal Spellcasting,Volo's Guide to Monsters
 Archdruid,NPC,Medium,humanoid (any race),ANY,16,132,30 ft.,10,14,12,12,20,11,"Int, Wis","Medicine, Nature, Perception",,,,,,"Druidic, Any",12,Normal Spellcasting,Volo's Guide to Monsters
 Archer,NPC,Medium,humanoid (any race),ANY,16,75,30 ft.,11,18,16,11,13,10,,"Acrobatics, Perception, Stealth",,,,,,Any,3,Archer's Eye,Volo's Guide to Monsters
 Archmage,NPC,Medium,humanoid,ANY,12,99,30 ft.,10,14,12,20,15,16,"Int, Wis","Arcana, History",,"spell, nonmagical",,,,Any,12,"Magic Resistance, Normal Spellcasting",Monster Manual
 Assassin,NPC,Medium,humanoid,NOT GOOD,15,78,30 ft.,11,16,14,13,11,10,"Dex, Int","Acrobatics, Deception, Perception, Stealth",,poison,,,,"Thieves' Cant, Any",8,"Assassinate, Evasion, Sneak Attack",Monster Manual
-Bandit,NPC,Medium,humanoid,NOT LAWFUL,12,11,30 ft.,11,12,12,10,10,10,,,,,,,,Any,8-Jan,,Monster Manual
+Bandit,NPC,Medium,humanoid,NOT LAWFUL,12,11,30 ft.,11,12,12,10,10,10,,,,,,,,Any,1/8,,Monster Manual
 Bandit Captain,NPC,Medium,humanoid,NOT LAWFUL,15,65,30 ft.,15,16,14,14,11,14,"Str, Dex, Wis","Athletics, Deception",,,,,,Any,2,,Monster Manual
 Bard,NPC,Medium,humanoid (any race),ANY,15,44,30 ft.,11,14,12,10,13,14,"Dex, Wis","Acrobatics, Perception, Performance",,,,,,Any,2,"Normal SPellcasting, Song of Rest, Taunt",Volo's Guide to Monsters
 Berserker,NPC,Medium,humanoid,ANY CHAOTIC,13,67,30 ft.,16,12,17,9,11,9,,,,,,,,Any,2,Reckless,Monster Manual
@@ -580,13 +580,13 @@ Champion,NPC,Medium,humanoid (any race),ANY,18,143,30 ft.,20,15,14,10,14,12,"Str
 Commoner,NPC,Medium,humanoid,ANY,10,4,30 ft.,10,10,10,10,10,10,,,,,,,,Any,0,,Monster Manual
 Conjurer,NPC,Medium,humanoid (any race),ANY,12,40,30 ft.,9,14,11,17,12,11,"Int, Wis","Arcana, History",,,,,,Any,6,"Normal Spellcasting, Benign Transportation",Volo's Guide to Monsters
 Cult Fanatic,NPC,Medium,humanoid,NOT GOOD,13,33,30 ft.,11,14,12,10,13,14,,"Deception, Persuasion, Religion",,,,,,Any,2,"Dark Devotion, Normal Spellcasting",Monster Manual
-Cultist,NPC,Medium,humanoid,NOT GOOD,12,9,30 ft.,11,12,10,10,11,10,,"Deception, Religion",,,,,,Any,8-Jan,Dark Devotion,Monster Manual
+Cultist,NPC,Medium,humanoid,NOT GOOD,12,9,30 ft.,11,12,10,10,11,10,,"Deception, Religion",,,,,,Any,1/8,Dark Devotion,Monster Manual
 Diviner,NPC,Medium,humanoid (any race),ANY,12,67,30 ft.,9,14,11,18,12,11,"Int, Wis","Arcana, History",,,,,,Any,8,"Normal Spellcasting, Portent",Volo's Guide to Monsters
 Druid,NPC,Medium,humanoid,ANY,11,27,30 ft.,10,12,13,12,15,11,,"Medicine, Nature, Perception",,,,,,"Druidic, Any",2,Normal Spellcasting,Monster Manual
 Enchanter,NPC,Medium,humanoid (any race),ANY,12,40,30 ft.,9,14,11,17,12,11,"Int, Wis","Arcana, History",,,,,,Any,5,Normal SPellcasting,Volo's Guide to Monsters
 Evoker,NPC,Medium,humanoid (any race),ANY,12,66,30 ft.,9,14,12,17,12,11,"Int, Wis","Arcana, History",,,,,,Any,9,"Normal Spellcasting, Sculpt Spells",Volo's Guide to Monsters
 Gladiator,NPC,Medium,humanoid,ANY,16,112,30 ft.,18,15,16,10,12,15,"Str, Dex, Con, Int, Wis","Athletics, Intimidation",,,,,,Any,5,"Brave, Brute",Monster Manual
-Guard,NPC,Medium,humanoid,ANY,16,11,30 ft.,13,12,12,10,11,10,,Perception,,,,,,Any,8-Jan,,Monster Manual
+Guard,NPC,Medium,humanoid,ANY,16,11,30 ft.,13,12,12,10,11,10,,Perception,,,,,,Any,1/8,,Monster Manual
 Illusionist,NPC,Medium,humanoid (any race),ANY,12,38,30 ft.,9,14,13,16,11,12,"Int, Wis","Arcana, History",,,,,,Any,3,"Normal Spellcasting, Displacement",Volo's Guide to Monsters
 Knight,NPC,Medium,humanoid,ANY,18,52,30 ft.,16,11,14,11,11,15,"Con, Wis",,,,,,,Any,3,Brave,Monster Manual
 Kraken Priest,NPC,Medium,humanoid (any race),ANY,10,75,"30 ft., swim 30 ft.",12,10,16,10,15,14,,Perception,,,,,,Any,5,"Amphibious, Innate Spellcasting",Volo's Guide to Monsters
@@ -594,21 +594,21 @@ Mage,NPC,Medium,humanoid,ANY,12,40,30 ft.,9,14,11,17,12,11,"Int, Wis","Arcana, H
 Martial Arts Adept,NPC,Medium,humanoid (any race),ANY,16,60,40 ft.,11,17,13,11,16,10,,"Acrobatics, Insight, Stealth",,,,,,Any,3,Unarmored Defense,Volo's Guide to Monsters
 Master Thief,NPC,Medium,humanoid (any race),ANY,16,84,30 ft.,11,18,14,11,11,12,"Dex, Int","Acrobatics, Athletics, Perception, Sleight of Hand, Stealth",,,,,,"Any, Thieves' Cant",5,"Cunning ACtion, Evasion, Sneak Attack",Volo's Guide to Monsters
 Necromancer,NPC,Medium,humanoid (any race),ANY,12,66,30 ft.,9,14,12,17,12,11,"Int, Wis","Arcana, History",,necrotic,,,,Any,9,"Normal Spellcasting, Grim Harvest",Volo's Guide to Monsters
-Noble,NPC,Medium,humanoid,ANY,15,9,30 ft.,11,12,11,12,14,16,,"Deception, Insight, Persuasion",,,,,,Any,8-Jan,,Monster Manual
+Noble,NPC,Medium,humanoid,ANY,15,9,30 ft.,11,12,11,12,14,16,,"Deception, Insight, Persuasion",,,,,,Any,1/8,,Monster Manual
 Priest,NPC,Medium,humanoid,ANY,13,27,25 ft.,10,10,12,13,16,13,,"Medicine, Persuasion, Religion",,,,,,Any,2,"Divine Eminence, Spellcasting",Monster Manual
-Scout,NPC,Medium,humanoid,ANY,13,16,30 ft.,11,14,12,11,13,11,,"Nature, Perception, Stealth, Survival",,,,,,Any,2-Jan,"Keen Hearing, Keen Sight",Monster Manual
+Scout,NPC,Medium,humanoid,ANY,13,16,30 ft.,11,14,12,11,13,11,,"Nature, Perception, Stealth, Survival",,,,,,Any,1/2,"Keen Hearing, Keen Sight",Monster Manual
 Spy,NPC,Medium,humanoid,ANY,12,27,30 ft.,10,15,10,12,14,16,,"Deception, Insight, Investigation, Perception, Persuasion, Sleight of Hand, Stealth",,,,,,Any,1,"Cunning Action, Sneak Attack",Monster Manual
 Swashbuckler,NPC,Medium,humanoid (any race),NOT LAWFUL,17,66,30 ft.,12,18,12,14,11,15,,"Acrobatics, Athletics, Persuasion",,,,,,Any,3,"Lightfooted, Suave Defense",Volo's Guide to Monsters
-Thug,NPC,Medium,humanoid,NOT GOOD,11,32,30 ft.,15,11,14,10,10,11,,Intimidation,,,,,,Any,2-Jan,Pack Tactics,Monster Manual
+Thug,NPC,Medium,humanoid,NOT GOOD,11,32,30 ft.,15,11,14,10,10,11,,Intimidation,,,,,,Any,1/2,Pack Tactics,Monster Manual
 Transmuter,NPC,Medium,humanoid (any race),ANY,12,40,30 ft.,9,14,11,17,12,11,"Int, Wis","Arcana, History",,,,,,Any,5,"Normal Spellcasting, Transmuter's Stone",Volo's Guide to Monsters
-Tribal Warrior,NPC,Medium,humanoid,ANY,12,11,30 ft.,13,11,12,8,11,8,,,,,,,,Any,8-Jan,Pack Tactics,Monster Manual
+Tribal Warrior,NPC,Medium,humanoid,ANY,12,11,30 ft.,13,11,12,8,11,8,,,,,,,,Any,1/8,Pack Tactics,Monster Manual
 Veteran,NPC,Medium,humanoid,ANY,17,58,30 ft.,16,13,14,10,11,10,,"Athletics, Perception",,,,,,Any,3,,Monster Manual
 War Priest,NPC,Medium,humanoid (any race),ANY,18,117,30 ft.,16,10,14,11,17,13,"Con, Wis","Intimidation, Religion",,,,,,Any,9,Normal Spellcasting,Volo's Guide to Monsters
 Warlock of the Archfey,NPC,Medium,humanoid (any race),ANY,11,49,30 ft.,9,13,11,11,12,18,"Wis, Cha","Arcana, Deception, nature, Persuasion",,,,charmed,,Any,4,"Innate Spellcasting, Normal Spellcasting",Volo's Guide to Monsters
 Warlock of the Fiend,NPC,Medium,humanoid (any race),ANY,12,78,30 ft.,10,14,15,12,12,18,"Wis, Cha","Arcana, Deception, Persuasion, Religion",,"nonmagical, nonsilvered",,,darkvision 60 ft.,Any,7,"Innate SPellcasting, Normal Spellcasting, Dark One's Own Luck",Volo's Guide to Monsters
 Warlock of the Great Old One,NPC,Medium,humanoid (any race),ANY,12,91,30 ft.,9,14,15,12,12,18,"Wis, Cha","Arcana, History",,psychic,,,darkvision 60 ft.,"Any, telepathy 30",6,"Innate Spellcasting, Normal Spellcasting, Whispering Aura",Volo's Guide to Monsters
 Warlord,NPC,Medium,humanoid (any race),ANY,18,229,30 ft.,20,16,18,12,12,18,"Str, Dex, Con","Athletics, Intimidation, Perception, Persuasion",,,,,,Any,12,"Indomitable, Survivor",Volo's Guide to Monsters
-Oblex Spawn,,Tiny,ooze,lawful evil,13,18,20 ft.,8,16,15,14,11,10,"Int, Cha",,,,,"blinded, charmed, deafened, exhaustion, prone",blindsight 60 ft.,,4-Jan,"Amorphous, Aversion to Fire",Mordenkainen's Tome of Foes
+Oblex Spawn,,Tiny,ooze,lawful evil,13,18,20 ft.,8,16,15,14,11,10,"Int, Cha",,,,,"blinded, charmed, deafened, exhaustion, prone",blindsight 60 ft.,,1/4,"Amorphous, Aversion to Fire",Mordenkainen's Tome of Foes
 Adult Oblex,Oblex,Medium,ooze,lawful evil,14,75,20 ft.,8,19,16,19,12,15,"Int, Cha","Deception, Perception, Arcana, History, Nature, Religion",,,,"blinded, charmed, deafened, exhaustion, prone",blindsight 60 ft.,"Common, Any",5,"Amorphous, Aversion to Fire, Innate Spellcasting, Sulfurous Impersonation",Mordenkainen's Tome of Foes
 Elder Oblex,Oblex,Huge,ooze,lawful evil,16,115,20 ft.,15,16,21,22,13,18,"Int, Cha","Arcana, Deception, History, Nature, Perception, Religion",,,,"blinded, charmed, deafened, exhaustion, prone",blindsight 60 ft.,"Common, Any",10,"Amorphous, Aversion to Fire, Innate Spellcasting, Sulfurous Impersonation",Mordenkainen's Tome of Foes
 Ogre,,Large,giant,chotic evil,11,59,40 ft.,19,8,16,5,7,7,,,,,,,darkvision 60 ft.,"Common, Giant",2,,Monster Manual
@@ -621,14 +621,14 @@ Oni,,Large,giant,lawful evil,16,110,"30 ft., fly 30 ft.",19,11,16,14,12,15,"Dex,
 Ooze Master,,Huge,undead,lawful evil,9,138,"30 ft., climb 30 ft.",16,1,20,17,10,16,"Int, Wis","Arcana, Insight",,"lightning, necrotic, nonmagical","acid, cold, poison","blinded, charmed, deafened, exhaustion, frightened, paralyzed, poisoned, prone",blindsight 120 ft.,"Common, Primordial, Thayan",10,"Corrosive Form, Instinctive Attack, Normal Spellcasting, Spider Climb",Tales from the Yawning Portal
 Black Pudding,Ooze,Large,ooze,unaligned,7,85,"20 ft., climb 20 ft.",16,5,16,1,6,1,,,,,"acid, cold, lightning, slashing","blinded, charmed, deafened, exhaustion, frightened, prone",blindsight 60 ft.,,4,"Amorphous, Corrosive Form, Spider Climb",Monster Manual
 Gelatinous Cube,Ooze,Large,ooze,unaligned,6,84,15 ft.,14,3,20,1,6,1,,,,,,"blinded, charmed, deafened, exhaustion, frightened, prone",blindsight 60 ft.,,2,"Ooze Cube, Transparent",Monster Manual
-Gray,Ooze,Medium,ooze,unaligned,8,22,"10 ft., climb 10 ft.",12,6,16,1,6,2,,Stealth,,"acid, cold, fire",,"blinded, charmed, deafened, exhaustion, frightened, prone",blindsight 60 ft.,,2-Jan,"Amorphous, Corrode Metal, False Appearance",Monster Manual
+Gray,Ooze,Medium,ooze,unaligned,8,22,"10 ft., climb 10 ft.",12,6,16,1,6,2,,Stealth,,"acid, cold, fire",,"blinded, charmed, deafened, exhaustion, frightened, prone",blindsight 60 ft.,,1/2,"Amorphous, Corrode Metal, False Appearance",Monster Manual
 Ochre Jelly,Ooze,Large,ooze,unaligned,8,45,"10 ft., climb 10 ft.",15,6,14,2,6,1,,,,acid,"lightning, slashing","blinded, charmed, deafened, exhaustion, frightened, prone",blindsight 60 ft.,,2,"Amorphous, Spider Climb",Monster Manual
-Orc,,Medium,humanoid,chotic evil,13,15,30 ft.,16,12,16,7,11,10,,Intimidation,,,,,darkvision 60 ft.,"Common, Orc",2-Jan,Aggressive,Monster Manual
+Orc,,Medium,humanoid,chotic evil,13,15,30 ft.,16,12,16,7,11,10,,Intimidation,,,,,darkvision 60 ft.,"Common, Orc",1/2,Aggressive,Monster Manual
 Orc Blade of Ilneval,,Medium,humanoid (orc),chotic evil,18,60,30 ft.,17,11,17,10,12,14,Wis,"Perception, Insight, Intimidation",,,,,darkvision 60 ft.,"Common, Orc",4,"Aggressive, Foe Smiter of Ilneval",Volo's Guide to Monsters
 Orc Claw of Luthic,,Medium,humanoid (orc),chotic evil,14,45,30 ft.,14,15,16,10,15,11,,"Intimidation, Medicine, Survival",,,,,darkvision 60 ft.,"COmmon, Orc",2,"Aggressive, Normal Spellcasting",Volo's Guide to Monsters
 Orc Eye of Gruumsh,,Medium,humanoid,chotic evil,16,45,30 ft.,16,12,16,9,13,12,,"Intimidation, Religion",,,,,darkvision 60 ft.,"Common, Orc",2,"Aggressive, Gruumsh's Fury, Normal Spellcasting",Monster Manual
 Orc Hand of Yurtrus,,Medium,humanoid (orc),chotic evil,12,30,30 ft.,12,11,16,11,14,9,,"Arcana, Intimidation, Medicine, Religion",,,,,darkvision 60 ft.,"Common, Orc",2,"Aggressive, Normal Spellcasting",Volo's Guide to Monsters
-Orc Nurtured One of Yurtrus,,Medium,humanoid (orc),chotic evil,9,30,30 ft.,15,8,16,7,11,7,,,,,,,darkvision 60 ft.,"Common, Orc",2-Jan,"Aggressive, Corrupted Carrier, Nurtured One of Yurtrus",Volo's Guide to Monsters
+Orc Nurtured One of Yurtrus,,Medium,humanoid (orc),chotic evil,9,30,30 ft.,15,8,16,7,11,7,,,,,,,darkvision 60 ft.,"Common, Orc",1/2,"Aggressive, Corrupted Carrier, Nurtured One of Yurtrus",Volo's Guide to Monsters
 Orc Red Fang of Shargaas,,Medium,humanoid (orc),chotic evil,15,52,30 ft.,11,16,15,9,11,9,,"Intimidation, Perception, Stealth",,,,,darkvision 60 ft.,"Common, Orc",3,"Cunning Action, Hand of Shargaas, Shargaas' Sight, Slayer",Volo's Guide to Monsters
 Orc War Chief,,Medium,humanoid,chotic evil,16,93,30 ft.,18,12,18,11,11,16,"Str, Con, Wis",Intimidation,,,,,darkvision 60 ft.,"Common, Orc",4,"Aggressive, Gruumsh's Fury",Monster Manual
 Orog,Orc,Medium,humanoid,chotic evil,18,42,30 ft.,18,12,18,12,11,12,,"Intimidation, Survival",,,,,darkvision 60 ft.,"Common, Orc",2,Aggressive,Monster Manual
@@ -638,13 +638,13 @@ Owlbear,,Large,monstrosity,unaligned,13,59,40 ft.,20,12,17,3,12,7,,Perception,,,
 Pegasus,,Large,celestial,chaotic good,12,59,"60 ft., fly 90 ft.",18,15,16,10,15,13,"Dex, Wis, Cha",Perception,,,,,,"Celestial, Common, Elvish, Sylvan",2,,Monster Manual
 Peryton,,Medium,monstrosity,chotic evil,13,33,"20 ft., fly 60 ft.",16,12,13,9,12,10,,Perception,,nonmagical,,,,"Common, Elvish",2,"Dive Attack, Flyby, Keen Sight, Keen Smell",Monster Manual
 Phantom Warrior,,Medium,undead,ANY,16,45,30 ft.,16,11,16,8,10,15,,"Perception, Stealth",,nonmagical,"cold, necrotic, poison",,darkvision 60 ft.,Any,3,"Ethereal Sight, Incorporeal Movement, Spectral Armor and Shield",Curse of Strahd
-Piercer,,Medium,monstrosity,unaligned,15,22,"5 ft., climb 5 ft.",10,13,16,1,7,3,,Stealth,,,,,"blindsight 30 ft., darkvision 60 ft.",,2-Jan,"False Appearance, Spider Climb",Monster Manual
-Pixie,,Tiny,fey,neutral good,15,1,"10 ft., fly 30 ft.",2,20,8,10,14,15,,"Perception, Stealth",,,,,,Sylvan,4-Jan,"Magic Resistance, Innate Spellcasting (Psionics)",Monster Manual
+Piercer,,Medium,monstrosity,unaligned,15,22,"5 ft., climb 5 ft.",10,13,16,1,7,3,,Stealth,,,,,"blindsight 30 ft., darkvision 60 ft.",,1/2,"False Appearance, Spider Climb",Monster Manual
+Pixie,,Tiny,fey,neutral good,15,1,"10 ft., fly 30 ft.",2,20,8,10,14,15,,"Perception, Stealth",,,,,,Sylvan,1/4,"Magic Resistance, Innate Spellcasting (Psionics)",Monster Manual
 Imix,Prince of Apocalypse,Huge,elemental,neutral evil,17,325,"50 ft., fly 50 ft.",19,24,22,15,16,23,"Dex, Con, Cha",,,nonmagical,"fire, poison","charmed, frightened, paralyzed, petrified, poisoned, prone, restrained",blindsight 120 ft.,"Common, Ignan",19,"Empowered Attacks, Fire Aura, Fire Form, Illumination, Legendary Resistance, Innate Spellcasting, Magic Resistance, Lair",Princes of the Apocalypse
 Ogremoch,Prince of Apocalypse,Gargantuan,elemental,neutral evil,20,526,"50 ft., burrow 50 ft.",26,11,28,11,15,22,"Str, Con, Wis",,,nonmagical,poison,"charmed, frightened, paralyzed, petrified, poisoned, prone","blindsight 120 ft., tremorsense 120 ft.","Common, Terran",20,"Empowered Attacks, Innate Spellcasting, Legendary Resistance, Magic Resistance, Siege Monster, Lair",Princes of the Apocalypse
 Olhydra,Prince of Apocalypse,Huge,elemental,neutral evil,18,324,"50 ft., swim 100 ft.",21,22,24,17,18,23,"Str, Con, Wis",,,"lightning, nonmagical","acid, cold, poison","charmed, frightened, paralyzed, petrified, poisoned, prone, restrained",blindsight 120 ft.,Aquan,18,"Empowered Attacks, Innate Spellcasting, Legendary Resistance, Water Form, Lair",Princes of the Apocalypse
 Yan-C-BIn,Prince of Apocalypse,Huge,elemental,neutral evil,22,283,"50 ft., fly 150 ft.",18,24,24,16,21,23,"Dex, Wis, Cha",,,"cold, fire, nonmagical","lightning, poison, thunder","charmed, frightened, paralyzed, petrified, poisoned, prone, restrained",blindsight 120 ft.,Auran,18,"Air Form, Empowered Attacks, Innate Spellcasting, Legendary Resistance, Magic Resistance, Lair",Princes of the Apocalypse
-Pseudodragon,,Tiny,dragon,neutral good,13,7,"15 ft., fly 60 ft.",6,15,13,10,12,10,,"Perception, Stealth",,,,,"blindsight 10 ft., darkvision 60 ft.","Common, Draconic",4-Jan,"Keen Senses, Magic Resistance, Limited Telepathy",Monster Manual
+Pseudodragon,,Tiny,dragon,neutral good,13,7,"15 ft., fly 60 ft.",6,15,13,10,12,10,,"Perception, Stealth",,,,,"blindsight 10 ft., darkvision 60 ft.","Common, Draconic",1/4,"Keen Senses, Magic Resistance, Limited Telepathy",Monster Manual
 Pterafolk,,Large,monstrosity,neutral evil,12,26,"30 ft., fly 50 ft.",15,13,12,9,10,11,,"Perception, Survival",,,,,,Common,1,Terror Dive,Tomb of Annihilation
 Purple Worm,,Gargantuan,monstrosity,unaligned,18,247,"50 ft., burrow 30 ft.",28,7,22,1,8,4,"Con, Wis",,,,,,"blindsight 30 ft., tremorsense 60 ft.",,15,Tunneler,Monster Manual
 Purple Wormling,Purple Worm,Large,monstrosity,unaligned,12,42,20 ft.,16,7,16,1,6,2,,,,,,,"blindsight 30 ft., tremorsense 30 ft.",,2,,Storm King's Thunder
@@ -658,34 +658,34 @@ Retriever,,Large,construct,lawful evil,19,210,"40 ft., climb 40 ft.",22,16,20,3,
 Revenant,,Medium,undead,neutral,13,136,30 ft.,18,14,18,13,16,18,"Str, Con, Wis, Cha",,,"necrotic, psychic",poison,"charmed, exhaustion, frightened, paralyzed, poisoned, stunned",darkvision 60 ft.,Any,5,"Regeneration, Rejuvenation, Turn Immunity, Vengeful Tracker",Monster Manual
 Roc,,Gargantuan,monstrosity,unaligned,15,248,"20 ft., fly 120 ft.",28,10,20,3,10,9,"Dex, Con, Wis, Cha",Perception,,,,,,,11,Keen Sight,Monster Manual
 Roper,,Large,monstrosity,neutral evil,20,93,"10 ft., climb 10 ft.",18,8,17,7,16,6,,"Perception, Stealth",,,,,darkvision 60 ft.,,5,"False Appearance, Grasping Tendrils, Spider Climb",Monster Manual
-Rust Monster,,Medium,monstrosity,unaligned,14,27,40 ft.,13,12,13,2,13,6,,,,,,,darkvision 60 ft.,,2-Jan,"Iron Scent, Rust Metal",Monster Manual
-Sahuagin,,Medium,humanoid,lawful evil,12,22,"30 ft., swim 40 ft.",13,11,12,12,13,9,,Perception,,,,,darkvision 120 ft.,Own,2-Jan,"Blood Frenzy, Limited Amphibious, Shark Telepathy",Monster Manual
+Rust Monster,,Medium,monstrosity,unaligned,14,27,40 ft.,13,12,13,2,13,6,,,,,,,darkvision 60 ft.,,1/2,"Iron Scent, Rust Metal",Monster Manual
+Sahuagin,,Medium,humanoid,lawful evil,12,22,"30 ft., swim 40 ft.",13,11,12,12,13,9,,Perception,,,,,darkvision 120 ft.,Own,1/2,"Blood Frenzy, Limited Amphibious, Shark Telepathy",Monster Manual
 Sahuagin Baron,,Large,humanoid,lawful evil,16,76,"30 ft., swim 50 ft.",19,15,16,14,13,17,"Dex, Con, Int, Wis",Perception,,,,,darkvision 120 ft.,Own,5,"Blood Frenzy, Limited Amphibious, Shark Telepathy",Monster Manual
 Sahuagin Priestess,,Medium,humanoid,lawful evil,12,33,"30 ft., swim 40 ft.",13,11,12,12,14,13,,"Perception, Religion",,,,,darkvision 120 ft.,Own,2,"Blood Frenzy, Limited Amphibious, Shark Telepathy, Normal Spellcasting",Monster Manual
 Salamander,,Large,elemental,neutral evil,15,90,30 ft.,18,14,15,11,10,12,,,cold,nonmagical,fire,,darkvision 60 ft.,Ignan,5,Heated Body,Monster Manual
 Fire Snake,Salamander,Medium,elemental,neutral evil,14,22,30 ft.,12,14,11,7,10,8,,,cold,nonmagical,fire,,darkvision 60 ft.,Ignan,1,"Heated Body, Heated Weapons",Monster Manual
 Frost,Salamander,Huge,elemental,unaligned,17,168,"60 ft., burrow 40 ft., climb 40 ft.",20,12,18,7,11,7,"Con, Wis",Perception,fire,,cold,,"darkvision 60 ft., tremorsense 60 ft.",Primordial,9,Burning Fury,Mordenkainen's Tome of Foes
-Satyr,,Medium,fey,chaotic neutral,14,31,40 ft.,12,16,11,12,10,14,,"Perception, Performance, Stealth",,,,,,"Common, Elvish, Sylvan",2-Jan,Magic Resistance,Monster Manual
+Satyr,,Medium,fey,chaotic neutral,14,31,40 ft.,12,16,11,12,10,14,,"Perception, Performance, Stealth",,,,,,"Common, Elvish, Sylvan",1/2,Magic Resistance,Monster Manual
 Scarecrow,,Medium,construct,chotic evil,11,36,30 ft.,11,13,11,10,10,13,,,fire,nonmagical,poison,"charmed, exhaustion, frightened, paralyzed, poisoned, unconscious",darkvision 60 ft.,Creator,1,False Appearance,Monster Manual
 Sea Lion,,Large,monstrosity,unaligned,15,90,"10 ft., swim 40 ft.",17,15,15,3,12,8,,"Perception, Stealth",,,,,,,5,"Amphibious, Keen Smell, Pack Tactics, Swimming Leap",Tales from the Yawning Portal
 Sea Spawn,,Medium,humanoid,neutral evil,11,32,"20 ft., swim 30 ft.",15,8,15,6,10,8,,,,,,,darkvision 120 ft.,"Aquan, Common",1,Limited Amphibiousness,Volo's Guide to Monsters
 Shadar-Kai Gloom Weaver,,Medium,humanoid (elf),neutral,14,104,30 ft.,11,18,14,15,12,18,"Dex, Con",,,,necrotic,"charmed, exhaustion",darkvision 60 ft.,"Common, Elvish",9,"Burden of Time, Fey Ancestry, Innate Spellcasting, Normal Spellcasting",Mordenkainen's Tome of Foes
 Shadar-Kai Shadow Dancer,,Medium,humanoid (elf),neutral,15,71,30 ft.,12,16,13,11,12,12,"Dex, Cha",Stealth,,,necrotic,"charmed, exhaustion",darkvision 60 ft.,"Common, Elvish",7,"Fey Ancestry, Shadow Jump",Mordenkainen's Tome of Foes
 Shadar-Kai Soul Monger,,Medium,humanoid (elf),neutral,15,123,30 ft.,8,17,14,19,15,13,"Dex, Wis, Cha",Perception,,,"necrotic, psychic","charmed, exhaustion, frightened",darkvision 60 ft.,"Common, Elvish",11,"Fey Ancestry, Innate Spellcasting, Magic Resistance, Soul Thirst, Weight of Ages",Mordenkainen's Tome of Foes
-Shadow,,Medium,undead,chotic evil,12,16,40 ft.,6,14,13,6,10,8,,Stealth,radiant,"acid, cold, fire, lightning, thunder, nonmagical","necrotic, poison","exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",darkvision 60 ft.,,2-Jan,"Amorphous, Shadow Stealth, Sunlight Weakness",Monster Manual
+Shadow,,Medium,undead,chotic evil,12,16,40 ft.,6,14,13,6,10,8,,Stealth,radiant,"acid, cold, fire, lightning, thunder, nonmagical","necrotic, poison","exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",darkvision 60 ft.,,1/2,"Amorphous, Shadow Stealth, Sunlight Weakness",Monster Manual
 Shadow Dragon Template,,VARIES,dragon,chotic evil,18,TEMP,TEMP ft.,23,10,21,14,11,19,Temp,TEMP,,,,,temp ft.,TEMp,13,TEMP,Monster Manual
 Shadow Mastiff,,Medium,monstrosity,neutral evil,12,33,40 ft.,16,14,13,5,12,5,,"Perception, Stealth",,"nonmagical, darkness",,,darkvision 60 ft.,,2,"Ethereal Awareness, Keen Hearing, Keen Smell, Shadow Blend, Sunlight Weakness",Volo's Guide to Monsters
 Shadow Mastiff Alpha,,Medium,monstrosity,neutral evil,12,48,40 ft.,16,14,13,6,12,5,,"Perception, Stealth",,"nonmagical, darkness",,,darkvision 60 ft.,,2,"Ethereal Awareness, Keen Hearing, Keen Smell, Shadow Blend, Sunlight Weakness",Volo's Guide to Monsters
 Shambling Mound,,Large,plant,unaligned,15,136,"20 ft., swim 20 ft.",18,8,16,5,10,5,,Stealth,,"cold, fire",lightning,"blinded, deafened, exhaustion",blindsight 60 ft.,,5,Lightning Absorption,Monster Manual
 Shield Guardian,,Large,construct,unaligned,17,142,30 ft.,18,8,18,7,1,,,,,,poison,"charmed, exhaustion, frightened, paralyzed, poisoned","blindsight 10 ft., darkvision 60 ft.",Any,7,"Bound, Regeneration, Spell Storing",Monster Manual
 Siren,,Medium,fey,chaotic good,14,38,"30 ft., swim 30 ft.",10,18,12,13,14,16,,"Medicine, Nature, Stealth, Survival",,,,,darkvision 60 ft.,"Common, Elvish, Sylvan",3,"Amphibious, INnate Spellcasting, Magic Resistance",Tales from the Yawning Portal
-Skeleton,,Medium,undead,lawful evil,13,13,30 ft.,10,14,15,6,8,5,,,bludgeoning,,poison,"exhaustion, poisoned",darkvision 60 ft.,Any,4-Jan,,Monster Manual
+Skeleton,,Medium,undead,lawful evil,13,13,30 ft.,10,14,15,6,8,5,,,bludgeoning,,poison,"exhaustion, poisoned",darkvision 60 ft.,Any,1/4,,Monster Manual
 Giant Skeleton,Skeleton,Huge,undead,neutral evil,17,115,30 ft.,21,10,20,4,6,6,,,bludgeoning,,poison,"exhaustion, poisoned",darkvision 60 ft.,Giant,7,"Evasion, Magic Resistance, Turn Immunity",Tales from the Yawning Portal
 Minotaur Skeleton,Skeleton,Large,undead,lawful evil,12,67,40 ft.,18,11,15,6,8,5,,,bludgeoning,,poison,"exhaustion, poisoned",darkvision 60 ft.,Abyssal,2,Charge,Monster Manual
-Warhorse Skeleton,Skeleton,Large,undead,lawful evil,13,22,60 ft.,18,12,15,2,8,5,,,bludgeoning,,poison,"exhaustion, poisoned",darkvision 60 ft.,,2-Jan,,Monster Manual
-Skulk,,Medium,humanoid,chaotic neutral,14,18,30 ft.,6,19,10,10,7,1,Con,Stealth,,,radiant,blinded,darkvision 120 ft.,Common,2-Jan,"Fallible Invisibility, Trackless",Mordenkainen's Tome of Foes
+Warhorse Skeleton,Skeleton,Large,undead,lawful evil,13,22,60 ft.,18,12,15,2,8,5,,,bludgeoning,,poison,"exhaustion, poisoned",darkvision 60 ft.,,1/2,,Monster Manual
+Skulk,,Medium,humanoid,chaotic neutral,14,18,30 ft.,6,19,10,10,7,1,Con,Stealth,,,radiant,blinded,darkvision 120 ft.,Common,1/2,"Fallible Invisibility, Trackless",Mordenkainen's Tome of Foes
 Skull Lord,,Medium,undead,lawful evil,18,105,30 ft.,14,16,17,16,15,21,,"Athletics, History, Perception, Stealth",,"cold, necrotic, nonmagical",poison,"blinded, charmed, deafened, exhaustion, frightened, poisoned, stunned, unconscious",,Any,15,"Legendary Resistance, Master of the Grave, Evasion, Normal Spellcasting",Mordenkainen's Tome of Foes
-Slaad Tadpole,,Tiny,aberration,chaotic neutral,12,10,30 ft.,7,15,10,3,5,3,,Stealth,,"acid, cold, fire, lightning, thunder",,,darkvision 60 ft.,Own,8-Jan,Magic Resistance,Monster Manual
+Slaad Tadpole,,Tiny,aberration,chaotic neutral,12,10,30 ft.,7,15,10,3,5,3,,Stealth,,"acid, cold, fire, lightning, thunder",,,darkvision 60 ft.,Own,1/8,Magic Resistance,Monster Manual
 Blue Slaad,Slaad,Large,aberration,chaotic neutral,15,123,30 ft.,20,15,18,7,7,9,,Perception,,"acid, cold, fire, lightning, thunder",,,darkvision 60 ft.,"Own, telepathy 60",7,"Magic Resistance, Regeneration",Monster Manual
 Death Slaad,Slaad,Medium,aberration,chotic evil,18,170,30 ft.,20,15,19,15,10,16,,"Arcana, Perception",,"acid, cold, fire, lightning, thunder",,,"blindsight 60 ft., darkvision 60 ft.","Own, telepathy 60",10,"Shapechanger, Innate Spellcasting, Magic Resistance, Magic Weapons, Regeneration",Monster Manual
 Gray Slaad,Slaad,Medium,aberration,chaotic neutral,18,127,30 ft.,17,17,16,13,8,14,,"Arcana, Perception",,"acid, cold, fire, lightning, thunder",,,"blindsight 60 ft., darkvision 60 ft.","Own, telepathy 60",9,"Shapechanger, Innate Spellcasting, Magic Resistance, Magic Weapons, Regeneration",Monster Manual
@@ -696,22 +696,22 @@ The Angry,Sorrowsworn,Medium,monstrosity,neutral evil,18,255,30 ft.,17,10,19,8,1
 The Hungry,Sorrowsworn,Medium,monstrosity,neutral evil,17,225,30 ft.,19,10,17,6,11,6,,,,darkness,,,darkvision 60 ft.,Common,11,Life Hunger,Mordenkainen's Tome of Foes
 The Lonely,Sorrowsworn,Medium,monstrosity,neutral evil,16,112,30 ft.,16,12,17,6,11,6,,,,darkness,,,darkvision 60 ft.,Common,9,"Psychic Leech, Thrives on Company",Mordenkainen's Tome of Foes
 The Lost,Sorrowsworn,Medium,monstrosity,neutral evil,15,78,30 ft.,17,12,15,6,7,5,,Athletics,,darkness,,,darkvision 60 ft.,Common,7,,Mordenkainen's Tome of Foes
-The Wretched,Sorrowsworn,Small,monstrosity,neutral evil,15,10,40 ft.,7,12,9,5,6,5,,,,darkness,,,darkvision 60 ft.,,4-Jan,Wretched Pack Tactics,Mordenkainen's Tome of Foes
+The Wretched,Sorrowsworn,Small,monstrosity,neutral evil,15,10,40 ft.,7,12,9,5,6,5,,,,darkness,,,darkvision 60 ft.,,1/4,Wretched Pack Tactics,Mordenkainen's Tome of Foes
 Spawn of Kyuss,,Medium,undead,chotic evil,10,76,30 ft.,16,11,18,5,7,3,Wis,,,,poison,"exhaustion, poisoned",darkvision 60 ft.,Any,5,"Regeneration, Worms",Volo's Guide to Monsters
 Specter,,Medium,undead,chotic evil,12,22,fly 50 ft.,1,14,11,10,10,11,,,,"acid, cold, fire, lightning, thunder, nonmagical","necrotic, poison","charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",darkvision 60 ft.,Any,1,"Incorporeal Movement, Sunlight Sensitivity",Monster Manual
 Androsphinx,Sphinx,Large,monstrosity,lawful neutral,17,199,"40 ft., fly 60 ft.",22,10,20,16,18,23,"Dex, Con, Int, Wis","Arcana, Perception, Religion",,,"psychic, nonmagical","charmed, frightened",truesight 120 ft.,"Common, Own",17,"Inscrutable, Magic Weapons, Normal Spellcasting, Lair, Legendary",Monster Manual
 Gynosphinx,Sphinx,Large,monstrosity,lawful neutral,17,136,"40 ft., fly 60 ft.",18,15,16,18,18,18,,"Arcana, History, Perception, Religion",,nonmagical,psychic,"charmed, frightened",truesight 120 ft.,"Common, Own",11,"Inscrutable, Magic Weapons, Normal Spellcasting, Legendary, Lair",Monster Manual
 Spore Servant Template,,TEMP,plant,unaligned,TEMP,TEMP,TEMP ft.,17,12,16,2,6,1,Temp,TEMP,,,,,temp ft.,TEMP,TEMP,,Monster Manual
-Sprite,,Tiny,fey,neutral good,15,2,"10 ft., fly 40 ft.",3,18,10,14,13,11,,"Perception, Stealth",,,,,,"Common, Elvish, Sylvan",4-Jan,,Monster Manual
-Star Spawn Grue,,Small,aberration,neutral evil,11,17,30 ft.,6,13,10,9,11,6,,,,,psychic,,darkvision 60 ft.,Deep Speech,4-Jan,Aura of Madness,Mordenkainen's Tome of Foes
+Sprite,,Tiny,fey,neutral good,15,2,"10 ft., fly 40 ft.",3,18,10,14,13,11,,"Perception, Stealth",,,,,,"Common, Elvish, Sylvan",1/4,,Monster Manual
+Star Spawn Grue,,Small,aberration,neutral evil,11,17,30 ft.,6,13,10,9,11,6,,,,,psychic,,darkvision 60 ft.,Deep Speech,1/4,Aura of Madness,Mordenkainen's Tome of Foes
 Star Spawn Hulk,,Large,aberration,chotic evil,16,136,30 ft.,20,8,21,7,12,9,"Dex, Wis",Perception,,nonmagical,,"charmed, frightened",darkvision 60 ft.,Deep Speech,10,Psychic Mirror,Mordenkainen's Tome of Foes
 Star Spawn Larva Mage,,Medium,aberration,chotic evil,16,168,30 ft.,17,12,23,18,12,16,"Dex, Wis, Cha",Perception,,"cold, nonmagical",psychic,"charmed, frightened, paralyzed, petrified, poisoned, restrained",darkvision 60 ft.,Deep Speech,16,"Innate Spellcasting, Return to Worms, Legendary",Mordenkainen's Tome of Foes
 Star Spawn Mangler,,Medium,aberration,chotic evil,14,71,"40 ft., climb 40 ft.",8,18,12,11,12,7,"Dex, Con",Stealth,,cold,psychic,"charmed, frightened, prone",darkvision 60 ft.,Deep Speech,5,"Ambusher, Shadow Stealth",Mordenkainen's Tome of Foes
 Star Spawn Seer,,Medium,aberration,neutral evil,17,153,30 ft.,14,12,18,22,19,16,"Dex, Int, Wis, Cha",Perception,,"cold, nonmagical",psychic,"charmed, frightened",darkvision 60 ft.,"Common, Deep Speech, Undercommon",13,Out-of-Phase Movement,Mordenkainen's Tome of Foes
 Female Steeder,Steeder,Large,monstrosity,unaligned,14,30,"30 ft., climb 30 ft.",15,16,14,2,10,3,,"Perception, Stealth",,,,,darkvision 120 ft.,,1,"Spider Climb, Extraordinary Leap",Mordenkainen's Tome of Foes
-Male Steeder,Steeder,Medium,monstrosity,unaligned,12,13,"30 ft., climb 30 ft.",15,12,14,2,10,3,,"Stealth, Perception",,,,,darkvision 120 ft.,,4-Jan,"Spider Climb, Extraordinary Leap",Mordenkainen's Tome of Foes
+Male Steeder,Steeder,Medium,monstrosity,unaligned,12,13,"30 ft., climb 30 ft.",15,12,14,2,10,3,,"Stealth, Perception",,,,,darkvision 120 ft.,,1/4,"Spider Climb, Extraordinary Leap",Mordenkainen's Tome of Foes
 Steel Predator,,Large,construct,lawful evil,20,207,40 ft.,24,17,22,4,14,6,,"Perception, Stealth, Survival",,"cold, lightning, necrotic, thunder","poison, psychic, nonmagical","charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned","blindsight 30 ft., darkvision 60 ft.","Modron, Any",16,"Innate Spellcasting, Magic Resistance, Magic Weapons",Mordenkainen's Tome of Foes
-Stirge,,Tiny,beast,unaligned,14,2,"10 ft., fly 40 ft.",4,16,11,2,8,6,,,,,,,darkvision 60 ft.,,8-Jan,,Monster Manual
+Stirge,,Tiny,beast,unaligned,14,2,"10 ft., fly 40 ft.",4,16,11,2,8,6,,,,,,,darkvision 60 ft.,,1/8,,Monster Manual
 Stone Cursed,,Medium,construct,lawful evil,17,19,10 ft.,16,5,14,5,8,7,,,bludgeoning,,poison,"charmed, exhaustion, frightened, petrified, poisoned",,Any,1,"Cunning Opportunist, False Appearance",Mordenkainen's Tome of Foes
 Stone Juggernaut,,Large,construct,unaligned,15,157,50 ft.,22,1,21,2,11,3,,,,,"poison, nonmagical","blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone",blindsight 120 ft.,,12,"Devastating Roll, Immutable Form, Regeneration, Siege Monster",Tomb of Annihilation
 Strahd's Animated Armor,,Medium,construct,lawful evil,21,112,30 ft.,17,13,16,9,10,9,,Perception,,"cold, fire",poison,"blinded, charmed, deafened, exhaustion, petrified",blindsight 60 ft.,Common,6,,Curse of Strahd
@@ -720,25 +720,25 @@ Succubus/Incubus,,Medium,fiend,neutral evil,15,66,"30 ft., fly 60 ft.",8,17,13,1
 Sword Wraith Commander,,Medium,undead,lawful evil,18,127,30 ft.,18,14,18,11,12,14,,Perception,,"necrotic, nonmagical",poison,"exhaustion, frightened, poisoned, unconscious",darkvision 60 ft.,Any,8,"Martial Fury, Turning Defiance",Mordenkainen's Tome of Foes
 Sword Wraith Warrior,,Medium,undead,lawful evil,16,45,30 ft.,18,12,17,6,9,10,,,,"necrotic, nonmagical",poison,"exhaustion, frightened, poisoned, unconscious",darkvision 60 ft.,Any,3,Martial Fury,Mordenkainen's Tome of Foes
 Tabaxi Hunter,,Medium,humanoid (tabaxi),chaotic good,14,40,"30 ft., climb 20 ft.",10,17,11,13,14,15,,"Athletics, Perception, Stealth, Survival",,,,,darkvision 60 ft.,"Common, Any",1,Feline Agility,Tomb of Annihilation
-Tabaxi Minstrel,,Medium,humanoid (tabaxi),chaotic good,12,22,"30 ft., climb 20 ft.",10,15,11,14,12,16,,"Perception, Performance, Persuasion, Stealth",,,,,darkvision 60 ft.,"COmmon, Any",4-Jan,"Feline Agility, Inspire",Tomb of Annihilation
+Tabaxi Minstrel,,Medium,humanoid (tabaxi),chaotic good,12,22,"30 ft., climb 20 ft.",10,15,11,14,12,16,,"Perception, Performance, Persuasion, Stealth",,,,,darkvision 60 ft.,"COmmon, Any",1/4,"Feline Agility, Inspire",Tomb of Annihilation
 Tarrasque,,Gargantuan,monstrosity,unaligned,25,676,40 ft.,30,11,30,3,11,11,"Int, Wis, Cha",,,,"fire, poison, nonmagical","charmed, frightened, paralyzed, poisoned",blindsight 120 ft.,,30,"Legendary, Magic Resistance, Reflective Carapace, Siege Monster",Monster Manual
 Tecuziztecatl,,Large,monstrosity,neutral,13,102,"30 ft., climb 30 ft.",17,10,16,15,16,13,,"Deception, Stealth",,nonmagical,acid,,blindsight 30 ft.,"Olman, Primal",4,"Amphibious, Glowing, Flexible, Spider Climb",Tales from the Yawning Portal
 Thayan Apprentice,,Medium,humanoid (human),NOT GOOD,12,27,30 ft.,10,14,12,15,13,11,,Arcana,,,,,,"Common, Thayan",2,"Doomvault Devotion, Normal Spellcasting",Tales from the Yawning Portal
 Thayan Warrior,,Medium,humanoid (human),NOT GOOD,16,52,30 ft.,16,13,14,10,11,11,,Perception,,,,,,"Common, Thayan",2,"Doomvault Devotion, Pack Tactics",Tales from the Yawning Portal
-Thorn Slinger,,Large,plant,unaligned,11,32,10 ft.,13,12,12,1,10,1,,,,,,"blinded, deafened, frightened",blindsight 60 ft.,,2-Jan,"Adhesive Blossoms, False Appearance",Tales from the Yawning Portal
+Thorn Slinger,,Large,plant,unaligned,11,32,10 ft.,13,12,12,1,10,1,,,,,,"blinded, deafened, frightened",blindsight 60 ft.,,1/2,"Adhesive Blossoms, False Appearance",Tales from the Yawning Portal
 Thorny,,Medium,plant,neutral,14,27,30 ft.,13,12,13,2,10,6,,"Perception, Stealth",,"lightning, piercing",,,darkvision 60 ft.,Own,1,"Plant Camouflage, Regeneration",Volo's Guide to Monsters
 Thri-Kreen,,Medium,humanoid,chaotic neutral,15,33,40 ft.,12,15,13,8,12,7,,"Perception, Stealth, Survival",,,,,darkvision 60 ft.,Own,1,"Chameleon Carapace, Standing Leap",Monster Manual
 Tiamat,,Gargantuan,fiend,chotic evil,25,615,"60 ft., fly 120 ft.",30,10,30,26,26,28,"Str, Dex, Wis","Arcana, Perception, Religion",,,"acid, cold, fire, lightning, nonmagical","blinded, charmed, deafened, frightened, poisoned, stunned","darkvision 240 ft., truesight 120 ft.","Common, Draconic, Infernal",30,"Discorporation, Innate Spellcasting, Legendary Resistance, Limited Magic immunity, Magic Weapons, Multiple Heads, Regeneration",Rise of Tiamat
 Tiny Servant,,Tiny,construct,unaligned,15,10,"30 ft., climb 30 ft.",4,16,10,2,10,1,,,,,"poison, psychic","blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",blindsight 60 ft.,,1,,Xanathar's Guide to Everything
 Tlincalli,,Large,monstrosity,neutral evil,15,85,40 ft.,16,13,16,8,12,8,,"Perception, Stealth, Survival",,,,,darkvision 60 ft.,Own,5,,Volo's Guide to Monsters
-Topi,,Small,undead,chotic evil,13,13,30 ft.,7,15,12,6,10,5,,,,bludgeoning,poison,poisoned,darkvision 60 ft.,Alive,2-Jan,"Turn Resistance, Undead Fortitude",The Tortle Package
-Tortle,,Medium,humanoid (tortle),lawful good,17,22,30 ft.,15,10,12,11,13,12,,"Athletics, Survival",,,,,,"Aquan, Common",4-Jan,Hold Breath,Mordenkainen's Tome of Foes
+Topi,,Small,undead,chotic evil,13,13,30 ft.,7,15,12,6,10,5,,,,bludgeoning,poison,poisoned,darkvision 60 ft.,Alive,1/2,"Turn Resistance, Undead Fortitude",The Tortle Package
+Tortle,,Medium,humanoid (tortle),lawful good,17,22,30 ft.,15,10,12,11,13,12,,"Athletics, Survival",,,,,,"Aquan, Common",1/4,Hold Breath,Mordenkainen's Tome of Foes
 Tortle Druid,,Medium,humanoid (tortle),lawful neutral,17,33,30 ft.,14,10,12,11,15,12,,"Animal Handling, Nature, Survival",,,,,,"Aquan, Common",2,"Hold Breath, Normal Spellcasting",Mordenkainen's Tome of Foes
 Trapper,,Large,monstrosity,unaligned,13,85,"10 ft., climb 10 ft.",17,10,17,2,13,4,,Stealth,,,,,"blindsight 30 ft., darkvision 60 ft.",,3,"False Appearance, Spider Climb",Volo's Guide to Monsters
 Treant,,Huge,plant,chaotic good,16,138,30 ft.,23,8,21,12,16,12,,,fire,"bludgeoning, piercing",,,,"Common, Druidic, Elvish, Sylvan",9,"False Appearance, Siege Monster",Monster Manual
 Tressym,,Tiny,beast,chaotic neutral,12,5,"40 ft., climb 30 ft., fly 40 ft.",3,15,10,11,12,12,,"Perception, Stealth",,,poison,poisoned,darkvision 60 ft.,Common,0,"Detect Invisibility, Keen Smell, Poison Sense",Storm King's Thunder
-Tri-Flower Frond,,Medium,plant,unaligned,10,11,5 ft.,1,10,12,1,10,1,,,,,,"blinded, deafened, exhaustion, prone",blindsight 30 ft.,,2-Jan,,Tomb of Annihilation
-Troglodyte,,Medium,humanoid,chotic evil,11,13,30 ft.,14,10,14,6,10,6,,Stealth,,,,,darkvision 60 ft.,Own,4-Jan,"Chameleon Skin, Stench, Sunlight Sensitivity",Monster Manual
+Tri-Flower Frond,,Medium,plant,unaligned,10,11,5 ft.,1,10,12,1,10,1,,,,,,"blinded, deafened, exhaustion, prone",blindsight 30 ft.,,1/2,,Tomb of Annihilation
+Troglodyte,,Medium,humanoid,chotic evil,11,13,30 ft.,14,10,14,6,10,6,,Stealth,,,,,darkvision 60 ft.,Own,1/4,"Chameleon Skin, Stench, Sunlight Sensitivity",Monster Manual
 Troglodyte Champion of Laogzed,,Medium,humanoid (troglodyte),chotic evil,14,59,30 ft.,18,12,18,8,12,12,,"Athletics, Intimidation, Stealth",,,,,darkvision 60 ft.,Own,3,"Chameleon Skin, Stench, Sunlight Sensitivity",Out of the Abyss
 Troll,,Large,giant,chotic evil,15,84,30 ft.,18,13,20,7,9,7,,Perception,,,,,darkvision 60 ft.,Giant,5,"Keen Smell, Regeneration",Monster Manual
 Dire Troll,Troll,Huge,giant,chotic evil,15,172,40 ft.,22,15,21,9,11,5,"Wis, Cha",Perception,,nonmagical,,"frightened, poisoned",darkvision 60 ft.,Giant,13,"Keen Smell, Keen Sight, Regeneration",Mordenkainen's Tome of Foes
@@ -752,7 +752,7 @@ Vampire,,Medium,undead,lawful evil,16,144,30 ft.,18,18,18,17,15,18,"Dex, Wis, Ch
 Vampire Spawn,,Medium,undead,neutral evil,15,82,30 ft.,16,16,16,11,10,12,"Dex, Wis","Perception, Stealth",,"necrotic, nonmagical",,,darkvision 60 ft.,Any,5,"Regeneration, Spider Climb, Vampire Weaknesses, Forbiddance, Harmed by Running Water, Stake to the Heart,  Sunlight Hypersensitivity",Monster Manual
 Vampiric Mist,,Medium,undead,chotic evil,13,30,fly 30 ft.,6,16,16,6,12,7,Wis,,,"acid, cold, lightning, necrotic, thunder, nonmagical",poison,"charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",darkvision 60 ft.,,3,"Life Sense, Forbiddance, Misty Form, Sunlight Hypersensitivity",Mordenkainen's Tome of Foes
 Vargouille,,Tiny,fiend,chotic evil,12,13,"5 ft., fly 40 ft.",6,14,14,4,7,2,,,,"cold, fire, lightning",poison,poisoned,darkvision 60 ft.,"Abyssal, Infernal, Any",1,,Volo's Guide to Monsters
-Vegepygmy,,Small,plant,neutral,13,9,30 ft.,7,14,13,6,11,7,,"Perception, Stealth",,"lightning, piercing",,,darkvision 60 ft.,Own,4-Jan,"Plant Camouflage, Regeneration",Volo's Guide to Monsters
+Vegepygmy,,Small,plant,neutral,13,9,30 ft.,7,14,13,6,11,7,,"Perception, Stealth",,"lightning, piercing",,,darkvision 60 ft.,Own,1/4,"Plant Camouflage, Regeneration",Volo's Guide to Monsters
 Vegepygmy Chief,,Small,plant,neutral,14,33,30 ft.,14,14,14,7,12,9,,"Perception, Stealth",,"lightning, piercing",,,darkvision 60 ft.,Own,2,"Plant Camouflage, Regeneration",Volo's Guide to Monsters
 Water Weird,,Large,elemental,neutral,13,58,swim 60 ft.,17,16,13,11,10,10,,,,"fire, nonmagical",poison,"exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious",blindsight 30 ft.,Aquan,3,"Invisible in Water, Water Bound",Monster Manual
 White Maw,,Gargantuan,ooze,chaotic neutral,5,217,10 ft.,18,1,20,12,10,3,,,,"acid, cold, fire",poison,"blinded, charmed, deafened, exhaustion, frightened, poisoned, prone",blindsight 60 ft.,Telepathy 50,10,"Amorphous Form, Corrode Metal, False Appearance, Killer Response",Tales from the Yawning Portal
@@ -762,13 +762,13 @@ Wood Woad,,Medium,plant,lawful neutral,18,75,"30 ft., climb 30 ft.",18,12,16,10,
 Wraith,,Medium,undead,neutral evil,13,67,fly 60 ft.,6,16,16,12,14,15,,,,"acid, cold, fire, lightning, thunder, nonmagical, nonsilvered","necrotic, poison","charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",darkvision 60 ft.,Any,5,"Incorporeal Movement, Sunlight Sensitivity",Monster Manual
 Wyvern,,Large,dragon,unaligned,13,110,"20 ft., fly 80 ft.",19,1,16,5,12,6,,Perception,,,,,darkvision 60 ft.,,6,,Monster Manual
 Xorn,,Medium,elemental,neutral,19,73,"20 ft., burrow 20 ft.",17,10,22,11,10,11,,"Perception, Stealth",,nonadamantine,,,"darkvision 60 ft., tremorsense 60 ft.",Terran,5,"Earth Glide, Stone Camouflage, Treasure Sense",Monster Manual
-Xvart,,Small,humanoid (xvart),chotic evil,13,7,30 ft.,8,14,10,8,7,7,,Stealth,,,,,darkvision 30 ft.,Abyssal,8-Jan,"Low Cunning, Overbearing Pack, Raxivort's Tongue",Volo's Guide to Monsters
-Xvart Speaker,,Small,humanoid (xvart),chotic evil,13,7,30 ft.,8,14,10,13,7,7,,Stealth,,,,,darkvision 30 ft.,"Abyssal, Any",8-Jan,"Low Cunning, Overbearing Pack, Raxivort's Tongue",Volo's Guide to Monsters
+Xvart,,Small,humanoid (xvart),chotic evil,13,7,30 ft.,8,14,10,8,7,7,,Stealth,,,,,darkvision 30 ft.,Abyssal,1/8,"Low Cunning, Overbearing Pack, Raxivort's Tongue",Volo's Guide to Monsters
+Xvart Speaker,,Small,humanoid (xvart),chotic evil,13,7,30 ft.,8,14,10,13,7,7,,Stealth,,,,,darkvision 30 ft.,"Abyssal, Any",1/8,"Low Cunning, Overbearing Pack, Raxivort's Tongue",Volo's Guide to Monsters
 Xvart Warlock of Raxivort,,Small,humanoid (xvart),chotic evil,12,22,30 ft.,8,14,12,8,11,12,,Stealth,,,,,darkvision 30 ft.,Abyssal,1,"Innate Spellcasting, Normal Spellcasting, Low Cunning, Raxivort's Blessing, Raxivort's Tongue",Volo's Guide to Monsters
 Yakfolk Priest,,Large,monstrosity,neutral evil,12,52,30 ft.,16,11,15,14,18,14,,"Deception, Medicine, Survival",,,,,,"Common, Yikaria",4,"Normal Spellcasting, Possession",Storm King's Thunder
 Yakfolk Warrior,,Large,monstrosity,neutral evil,11,60,30 ft.,18,11,15,14,15,14,,"Deception, Survival",,,,,,"Common, Yikaria",3,Possession,Storm King's Thunder
 Yellow Musk Creeper,,Medium,plant,unaligned,6,60,"5 ft., climb 5 ft.",12,3,12,1,10,3,,,,,,"blinded, deafened, exhaustion, prone",blindsight 30 ft.,,2,"False Appearance, Regeneration",Tomb of Annihilation
-Yellow Musk Zombie,,Medium,undead,unaligned,9,33,20 ft.,13,9,12,1,6,3,,,,,,"charmed, exhaustion",blindsight 30 ft.,,4-Jan,Undead Fortitude,Tomb of Annihilation
+Yellow Musk Zombie,,Medium,undead,unaligned,9,33,20 ft.,13,9,12,1,6,3,,,,,,"charmed, exhaustion",blindsight 30 ft.,,1/4,Undead Fortitude,Tomb of Annihilation
 Yeth Hound,,Large,fey,neutral evil,14,51,"40 ft., fly 40 ft.",18,17,16,5,12,7,,,,,"nonmagical, nonsilvered","charmed, exhaustion, frightened",darkvision 60 ft.,"Common, Elvish, Sylvan",4,"Keen Hearing, Keen Smell, Sunlight Banishment, Telepathic Bond",Volo's Guide to Monsters
 Yeti,,Large,monstrosity,chotic evil,12,51,"40 ft., climb 40 ft.",18,13,16,8,12,7,,"Perception, Stealth",,,cold,,darkvision 60 ft.,Own,3,"Fear of Fire, Keen Smell, Snow Camouflage",Monster Manual
 Abominable Yeti,Yeti,Huge,monstrosity,chotic evil,15,137,"40 ft., climb 40 ft.",24,10,22,9,13,9,,"Perception, Stealth",,poison,,,darkvision 60 ft.,Own,9,"Fear of Fire, Keen Smell, Snow Camouflage",Monster Manual
@@ -790,7 +790,7 @@ Nycaloth,Yugoloth,Large,fiend,neutral evil,18,123,"40 ft., fly 60 ft.",20,11,19,
 Oinoloth,Yugoloth,Medium,fiend (yugoloth),neutral evil,17,126,40 ft.,19,17,18,17,16,19,"Con, Wis","Deception, Intimidation, Perception",,"cold, fire, lightning, nonmagical","acid, poison",poisoned,"blindsight 60 ft., darkvision 60 ft.","Abyssal, Infernal, telepathy 60",12,"Bringer of Plagues, Innate Spellcasting, Magic Resistance, Magic Weapons",Mordenkainen's Tome of Foes
 Ultroloth,Yugoloth,Medium,fiend,neutral evil,19,153,"30 ft., fly 60 ft.",16,16,18,18,15,19,,"Intimidation, Perception, Stealth",,"cold, fire, lightning, nonmagical","acid, poison","charmed, frightened, poisoned",truesight 120 ft.,"Abyssal, Infernal, telepathy 120",13,"Innate Spellcasting, Magic Resistance, Magic Weapons",Monster Manual
 Yagnoloth,Yugoloth,Large,fiend (yugoloth),neutral evil,17,147,40 ft.,19,14,21,16,15,18,"Dex, Int, Wis, Cha","Deception, Insight, Perception, Persuasion",,"cold, fire, lightning, nonmagical","acid, poison",poisoned,"blindsight 60 ft., darkvision 60 ft.","Abyssal, Infernal telepathy 60",11,"Innate Spellcasting, Magic Resistance, Magic Weapons",Mordenkainen's Tome of Foes
-Zombie,,Medium,undead,neutral evil,8,22,20 ft.,13,6,16,3,6,5,Wis,,,,poison,poisoned,darkvision 60 ft.,Any,4-Jan,Undead Fortitude,Monster Manual
+Zombie,,Medium,undead,neutral evil,8,22,20 ft.,13,6,16,3,6,5,Wis,,,,poison,poisoned,darkvision 60 ft.,Any,1/4,Undead Fortitude,Monster Manual
 Zombie Ankylosaurus,Zombie,Huge,undead,unaligned,14,68,20 ft.,19,9,15,2,6,3,,,,,poison,poisoned,darkvision 60 ft.,,3,Undead Fortitude,Tomb of Annihilation
 Zombie Beholder,Zombie,Large,undead,neutral evil,15,93,fly 20 ft.,10,8,16,3,8,5,Wis,,,,poison,poisoned,darkvision 60 ft.,"Deep Speech, Undercommon",5,Undead Fortitude,Monster Manual
 Zombie Girallon,Zombie,Large,undead,chotic evil,11,59,"30 ft., climb 30 ft.",18,12,16,3,7,5,,,,,poison,poisoned,darkvision 60 ft.,,3,"Aggressive, Undead Fortitude",Tomb of Annihilation
@@ -798,6 +798,6 @@ Zombie Greater,Zombie,Medium,undead,neutral evil,15,97,30 ft.,18,10,17,4,6,6,Wis
 Zombie Ogre,Zombie,Large,undead,neutral evil,8,93,30 ft.,19,6,18,3,6,5,Wis,,,,poison,poisoned,darkvision 60 ft.,"Common, Giant",2,Undead Fortitude,Monster Manual
 Zombie Strahd,Zombie,Medium,undead,unaligned,8,30,20 ft.,13,6,16,3,6,5,Wis,,,,,,darkvision 60 ft.,Any,1,Loathsome Limbs,Curse of Strahd
 Zombie Tyrannosaurus,Zombie,Huge,undead,unaligned,11,136,40 ft.,25,6,19,1,3,5,,,,,poison,poisoned,darkvision 60 ft.,,8,"Disgorge Zombie, Undead Fortitude",Tomb of Annihilation
-Zorbo,,Small,monstrosity,unaligned,10,27,"30 ft., climb 30 ft.",13,11,13,3,12,7,,Athletics,,,,,,,2-Jan,"Magic Resistance, Natural Armor",Tomb of Annihilation
-Bridesmaid of Zuggtmoy,Zuggtmoy,Medium,plant,chotic evil,13,22,20 ft.,14,11,11,14,8,18,,,,,,,darkvision 60 ft.,Abyssal,8-Jan,Fungus Stride,Out of the Abyss
+Zorbo,,Small,monstrosity,unaligned,10,27,"30 ft., climb 30 ft.",13,11,13,3,12,7,,Athletics,,,,,,,1/2,"Magic Resistance, Natural Armor",Tomb of Annihilation
+Bridesmaid of Zuggtmoy,Zuggtmoy,Medium,plant,chotic evil,13,22,20 ft.,14,11,11,14,8,18,,,,,,,darkvision 60 ft.,Abyssal,1/8,Fungus Stride,Out of the Abyss
 Chamberlain of Zuggtmoy,Zuggtmoy,Large,plant,chotic evil,13,45,20 ft.,17,7,14,11,8,12,,,,"bludgeoning, piercing",,,darkvision 60 ft.,"Abyssal, Undercommon",2,"Mushroom Portal, Poison Spores",Out of the Abyss
