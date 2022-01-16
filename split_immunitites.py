@@ -33,7 +33,7 @@ DAMAGE_TYPES = [
     "psychic",
     "radiant",
     "thunder",
-    "bludgeoning"
+    "bludgeoning",
     "piercing",
     "slashing",
     "nonadamantine",
@@ -45,7 +45,9 @@ DAMAGE_TYPES = [
 with open(DATA_CSV, "r") as file:
     reader = csv.DictReader(file)
     with open("new.csv", "w", newline="") as new_file:
-        writer = csv.DictWriter(new_file, DATA_HEADERS, quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writer = csv.DictWriter(
+            new_file, DATA_HEADERS, quotechar='"', quoting=csv.QUOTE_MINIMAL
+        )
         writer.writeheader()
         for row in reader:
             immunities = row[IMMUNITIES].strip().split(DELIMITER)
@@ -59,8 +61,9 @@ with open(DATA_CSV, "r") as file:
                 elif immunity in DAMAGE_TYPES:
                     damage_immunities.append(immunity)
                 else:
-                    print(f"Weird immunity {immunity} found in row {row[NAME]}, bytes: {immunity.encode()}")
-
+                    print(
+                        f"Weird immunity {immunity} found in row {row[NAME]}, bytes: {immunity.encode()}"
+                    )
 
             del row[IMMUNITIES]
             row[DAMAGE_IMMUNITIES] = DELIMITER.join(damage_immunities)
