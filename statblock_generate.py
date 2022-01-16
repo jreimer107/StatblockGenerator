@@ -7,6 +7,7 @@ import pyperclip
 
 FEATURES_LIST = {}
 
+args = None
 
 def fix_cr(data: dict):
     data[CHALLENGE_RATING] = Fraction(data[CHALLENGE_RATING])
@@ -142,7 +143,7 @@ def format_data(row):
     wisdom = row[WISDOM]
     charisma = row[CHARISMA]
 
-    formatted_string = TEMPLATE % (
+    return TEMPLATE % (
         row[NAME],
         row[SIZE],
         row[TYPE],
@@ -167,10 +168,16 @@ def format_data(row):
         XP_BY_CR[row[CHALLENGE_RATING]],
         get_feature_block(row),
     )
-    return formatted_string
 
 
-def main():
+def preprocess_data(data: dict):
+    fix_cr(data)
+    set_proficiency(data)
+
+
+def parse_args():
+    global args
+
     parser = ArgumentParser(
         prog="Generate Stat Block",
         description="Given a monster/NPC name, generates a GMBinder stat block. Prints the stat block and copies it to clipboard.",
@@ -178,29 +185,42 @@ def main():
     parser.add_argument("monster_name", type=str, help="The monster's name.")
     args = parser.parse_args()
 
+
+def get_target_monster():
+    # Consume arg
     target_monster = args.monster_name
+    args.monster_name = None
+        
     if not target_monster:
         target_monster = input("Enter a monster name: ")
 
-    data_row = None
+    return target_monster
+
+
+def get_monster_data(target_monster: str) -> dict:
     try:
         with open(DATA_CSV, "r") as file:
             reader = csv.DictReader(file)
             for row in reader:
                 if row[NAME] == target_monster:
-                    data_row = row
-                    break
+                    return row
     except FileNotFoundError:
         print("ERROR: CSV not found.")
         return
 
-    if not data_row:
-        print("Monster not found.")
-        return
+    print("Monster not found.")
 
-    fix_cr(row)
-    set_proficiency(row)
-    formatted_string = format_data(row)
+
+def main():
+    parse_args()
+
+    monster_data = None
+    while not monster_data:
+        target_monster = get_target_monster()
+        monster_data = get_monster_data(target_monster)
+
+    preprocess_data(monster_data)
+    formatted_string = format_data(monster_data)
     print(formatted_string)
     pyperclip.copy(formatted_string)
 
